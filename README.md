@@ -1,4 +1,4 @@
-# le-homebrew-france.github.io
+# Le Homebrew France
 Site internet du serveur Discord Le Homebrew France
 
 # Vous recherchez probablement l'une de ces pages :
