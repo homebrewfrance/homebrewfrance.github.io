@@ -6,10 +6,13 @@
 			width:100%;
 		}
 		html {
-			color: black;
+			color: white;
 			font-family: 'Source Sans Pro', sans-serif;
 			padding: 35px;
 			background-color:#002E90;
 			background-image: url(IMAGES/BG.png)
+		}
+		a {
+			color: #C4C4C4;
 		}
                
