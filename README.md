@@ -6,5 +6,5 @@ Site internet du serveur Discord Le Homebrew France
 - [Recrutement Experts](https://github.com/Le-Homebrew-France/le-homebrew-france.github.io/devenir-expert)
 - [Packs](https://github.com/Le-Homebrew-France/le-homebrew-france.github.io/packs)
 #
-##### 2021-2022 - Le Homebrew France
+##### © 2021-2022 - Le Homebrew France
 
