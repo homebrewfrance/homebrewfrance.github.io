@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins&family=Rowdies&display=swap');
+
+
+	  body {
+			width:100%;
+		}
+		html {
+			color: black;
+			text-align:center;
+			font-family: 'Source Sans Pro', sans-serif;
+		}
+               
