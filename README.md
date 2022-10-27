@@ -1,6 +1,6 @@
 # Le Homebrew France
 Un site Internet minimaliste pour le serveur Discord Le Homebrew France.
-*A minimal website for the Homebrew France Discord server.*
+(*A minimal website for the Homebrew France Discord server.*)
 
 # Crédits 
 - [Dhalian.](https://github.com/Dhalian) : conception du site et des packs Nintendo 3DS.
