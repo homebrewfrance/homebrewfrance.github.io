@@ -15,3 +15,11 @@
 		a {
 			color: #C4C4C4;
 		}
+		.menu {
+			font-family: 'MenuTitres';
+		}
+			
+		@font-face {
+    			font-family: MenuTitres;
+    			src: url("LeagueGothicRegular.otf") format("opentype");
+		}
