@@ -15,7 +15,7 @@
             },
             "Download PACK NINTENDO 3DS PICHAXX (2 MiB)": [
                 {
-                    "file": "https://github.com/Universal-Team/Universal-Updater/releases/download/v2.5.1/Universal-Updater.3dsx",
+                    "file": "https://github.com/Le-Homebrew-France/Packs-Homebrew-France/releases/latest/download/PACK_NINTENDO_3DS_PICHAXX.zip",
                     "message": "Downloading PACK_NINTENDO_3DS_PICHAXX.zip...",
                     "output": "sdmc:/",
                     "type": "downloadFile"
