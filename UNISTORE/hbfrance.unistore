@@ -1,1 +1,49 @@
-
+{
+    "storeContent": [
+        {
+            "info": {
+                "title": "PACK Luma3DS",
+                "author": "Le Homebrew France",
+                "description": "Pack contenant les applications de base pour la 3DS.",
+                "category": ["utility"],
+                "console": ["3DS"],
+                "icon_index": 0,
+                "sheet_index": 0,
+                "last_updated": "2022-10-29",
+                "license": "",
+                "version": "v1"
+            },
+            "Download PACK NINTENDO 3DS PICHAXX (2 MiB)": [
+                {
+                    "file": "https://github.com/Universal-Team/Universal-Updater/releases/download/v2.5.1/Universal-Updater.3dsx",
+                    "message": "Downloading PACK_NINTENDO_3DS_PICHAXX.zip...",
+                    "output": "sdmc:/",
+                    "type": "downloadFile"
+                },
+                {
+                    "file": "/PACK_NINTENDO_3DS_PICHAXX.zip",
+                    "message": "Extracting PACK_NINTENDO_3DS_PICHAXX.zip...",
+                    "type": "extractFile"
+                },
+                {
+                    "file": "sdmc:/PACK_NINTENDO_3DS_PICHAXX.zip",
+                    "message": "Deleting PACK_NINTENDO_3DS_PICHAXX.zip.",
+                    "type": "deleteFile"
+                }
+            ]
+        }
+    ],
+    "storeInfo": {
+        "title": "Packs Homebrew France",
+        "author": "Le Homebrew France",
+        "description": "Mettez à jour les packs du Homebrew France",
+        "file": "hbfrance.unistore",
+        "url": "https://homebrewfrance.github.io/UNISTORE/hbfrance.unistore",
+        "sheet": "hbfrance.t3x",
+        "sheetURL": "https://homebrewfrance.github.io/UNISTORE/hbfrance.t3x",
+        "bg_index": 0,
+        "bg_sheet": 0,
+        "version": 1,
+        "revision": 60
+    }
+}
