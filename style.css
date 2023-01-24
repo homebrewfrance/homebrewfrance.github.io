@@ -29,12 +29,14 @@
 		}
 		small {
 			color: white;
+			padding: 35px;
 		{
 		.packs {
 			padding: 35px;
 			}
 		h1, h2, h3, p {
 			color: white;
+			padding: 35px;
 			}
 		.footer {
 			color: black;
