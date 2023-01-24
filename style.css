@@ -2,10 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins&family=Rowdies&display=swap');
 
 
-	  body {
+	  	body {
 			width:100%;
-		  	background-image: url(IMAGES/BG.png);
+		}
+		.page__hero--overlay {
+			background-image: url(IMAGES/BG.png);
 		  	background-color:#002E90;
+		}
+
 		}
 		html {
 			color: white;
