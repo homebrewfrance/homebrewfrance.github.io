@@ -33,3 +33,11 @@
 		.packs {
 			padding: 35px;
 			}
+		h1, h2, h3, p {
+			color: white;
+			}
+		.footer {
+			color: black;
+			}
+		footer {
+			background-color: #000000;
