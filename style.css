@@ -2,19 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins&family=Rowdies&display=swap');
 
 
-	  	body {
+	  body {
 			width:100%;
-		}
-		.page__hero--overlay {
-			background-image: url(IMAGES/BG.png);
-		  	background-color:#002E90;
-		}
-
 		}
 		html {
 			color: white;
 			font-family: 'Source Sans Pro', sans-serif;
 			padding: 35px;
+			background-color:#002E90;
+			background-image: url(IMAGES/BG.png)
 		}
 		a {
 			color: #C4C4C4;
@@ -27,22 +23,3 @@
     			font-family: MenuTitres;
     			src: url("LeagueGothicRegular.otf") format("opentype");
 		}
-		small {
-			color: white;
-			padding: 35px;
-		{
-		.packs {
-			padding: 35px;
-			}
-		h1, h2, h3, p {
-			color: white;
-			padding: 35px;
-			}
-		.footer {
-			color: black;
-			}
-		footer {
-			background-color: #000000;
-		.main {
-			color: white;
-			}
