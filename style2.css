@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand|Source+Sans+Pro&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins&family=Rowdies&display=swap');
 
 		.footer {
 			
@@ -11,15 +10,15 @@
 		body {
 			width:100%;
 		}
-		body, h3, p {
+		body, p {
 			color: white;
 			text-align:center;
 			font-family: 'Source Sans Pro', sans-serif;
 		}
-                h1, h2, h4 {
+                h1, h2, h3, h4 {
                         color: white;
                         text-align: center;
-                        font-family: 'Oswald', sans-serif;
+                        font-family: 'Unbounded', cursive;
 	        }
 		.page__hero--overlay {
 			background-color:#44bbff;
