@@ -16,8 +16,6 @@
 			font-family: 'Source Sans Pro', sans-serif;
 			padding-left: 40px;
 			padding-right: 40px;
-			padding-top: 10px;
-			padding-bottom: 10px;
 		}
                 h1, h2, h3, h4 {
                         color: white;
@@ -25,8 +23,6 @@
                         font-family: 'Unbounded', cursive;
 			padding-left: 40px;
 			padding-right: 40px;
-			padding-top: 10px;
-			padding-bottom: 10px;
 	        }
 		.page__hero--overlay {
 			background-color:#44bbff;
@@ -58,8 +54,8 @@
 		}
 		.about {
   		text-align: justify;
-		padding: 40px;
-		padding-top: 20px;
+		padding-left: 40px;
+		padding-right: 40px;
 		}
 		.nav-link active {
 		padding: 9px;
@@ -78,12 +74,6 @@
 			text-align: justify;
 			padding: 45px;
 			color: black;
-		}
-		.end {
-			padding: 20px;
-			padding-top: 10px;
-            		margin-top: 5px;
-            		background-color:#FFF8F9FB;
 		}
 		small {
 			color: black;
