@@ -52,6 +52,7 @@
 		.about {
   		text-align: justify;
 		padding: 40px;
+		padding-top: 20px;
 		}
 		.nav-link active {
 		padding: 9px;
