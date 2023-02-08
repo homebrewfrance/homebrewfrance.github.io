@@ -10,14 +10,14 @@
 		body {
 			width:100%;
 		}
-		p {
+		p, ul, li, code {
 			color: white;
 			text-align:center;
 			font-family: 'Source Sans Pro', sans-serif;
 			padding-left: 40px;
 			padding-right: 40px;
 		}
-                h1, h2, h3, h4, h5, ul {
+                h1, h2, h3, h4, h5 {
                         color: white;
                         text-align: center;
                         font-family: 'Unbounded', cursive;
