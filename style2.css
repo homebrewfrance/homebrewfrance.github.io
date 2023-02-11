@@ -75,3 +75,8 @@
 		small {
 			color: black;
 		}
+		img {
+    			max-width: 100%;
+    			height: auto;
+		}
+
