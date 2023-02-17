@@ -51,8 +51,8 @@
 		}
 		.about {
   		text-align: justify;
-		padding-left: 70px;
-		padding-right: 70px;
+		padding-left: 85px;
+		padding-right: 85px;
 		}
 		.nav-link active {
 		padding: 9px;
@@ -78,5 +78,8 @@
 		img {
     			max-width: 100%;
     			height: auto;
+		}
+		.navbar-brand {
+			font-family: 'Unbounded', cursive;
 		}
 
