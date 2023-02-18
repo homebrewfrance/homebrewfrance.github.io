@@ -1,25 +1,188 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand|Source+Sans+Pro&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins&family=Rowdies&display=swap');
 
-
-	  body {
-			width:100%;
+		.footer {
+			color:#000000;
 		}
-		html {
-			color: white;
-			font-family: 'Source Sans Pro', sans-serif;
-			padding: 35px;
-			background-color:#002E90;
-			background-image: url(IMAGES/BG.png)
+		.footerhbfl {
+			font-family: 'Unbounded', cursive;
+			color: #000000;
 		}
 		a {
-			color: #C4C4C4;
+			color : #ffffff;
 		}
-		.menu {
-			font-family: 'MenuTitres';
+		body {
+			width:100%;
+			background-color:#0e006d;
 		}
+		p, ul, li, code {
+			color: white;
+			font-family: 'Source Sans Pro', sans-serif;
+		}
+        h1, h2, h3, h4, h5 {
+            color: white;
+            text-align: center;
+            font-family: 'Unbounded', cursive;
+			padding-left: 40px;
+			padding-right: 40px;
+	        }
+		.page {
+			padding-right: 15%;
+			padding-left: 15%;
+			width: 100%;
+		}
+		.navbar navbar-expand-sm navbar-light bg-light {
+			margin-top: 100px;
+    		z-index: 0;
+			position: absolute;
+			background-color:#000000;
+			color:#ffffff;
+		}
+    	footer {
+           	padding: 20px;
+			padding-top: 10px;
+            margin-top: 5px;
+            background-color:#FFF8F9FB;
+		}
+		.about {
+			text-align: justify;
+			padding-left: 150px;
+			padding-right: 150px;
+		}
+		.head {
+			background-color:#ffe600;
+			color:#000000;
+		}
+		head {
+			position: absolute;
+			top: 30px;
+			left: 30px;
+			text-align: justify;
+			padding: 45px;
+			color: black;
+		}
+		small {
+			color: white;
+		}
+		img {
+    			max-width: 100%;
+    			height: auto;
+		}
+		.navbar-brand {
+			font-family: 'Unbounded', cursive;
+		}
+		.hrsmall {
+			width: 315px;
+		}
+		.hrverysmall {
+			width: 85px;
+		}
+		.top {
+			padding-top: 5px;
+		}
+		.indicatortxt {
+			font-family: 'Unbounded', cursive;
+			color: white;
+		}
+		.indicator {
+			color: white;
+			padding-left: 70px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			background-color: #3b3b3b;
+		}
+		div.gallery {
+			margin-left: 35px;
+			margin-right: 35px;
+			margin-top: 3px;
+			margin-bottom: 28px;
+			border: 1px solid #ccc;
+			float: left;
+			width: 180px;
+			background-color: white;
+		}
+
+		div.gallery:hover {
+			border: 1px solid #777;
+		}
+
+		div.gallery img {
+			width: 100%;
+			height: auto;
+			border: 1px solid #000;
+		}	
+
+		div.desc {
+			padding: 15px;
+			text-align: center;
+		}
+		table, td {
+			border: 1px solid #fff;
+			color: white;
+			padding: 10px;
+			text-align: center;
+		}
+
+		thead, tfoot {
+			background-color: #333;
+			color: #fff;
+			text-align: center;
+		}
+		.hekate {
+			margin-top: 25px;
+		}
+		.os {
+			text-align: justify;
+		}
+		.gallery-title {
+			color: black;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		.gallery-small {
+			color: black;
+		}
+		.img-grid {
+			margin-top: 15px;
+			border-radius: 50px;
+			border: 1px solid #000
+		}
+		.grid-title {
+			padding-top: 7px;
 			
-		@font-face {
-    			font-family: MenuTitres;
-    			src: url("LeagueGothicRegular.otf") format("opentype");
+		}
+		.grid {
+			width:335px;
+			height:250px;
+			float: left;
+			border-radius: 10px;
+			border: 1px solid #fff;
+			margin: 8px;		
+		}
+		.grid-desc {
+			color: white;
+			margin: 3px;
+		}
+		.grid-small {
+			color: white;
+		}
+		.grid-bigger {
+			width:335px;
+			height:275px;
+			float: left;
+			border-radius: 10px;
+			border: 1px solid #fff;
+			margin: 8px;	
+		}
+		.credits-name {
+			font-family: 'Unbounded', cursive;
+		}
+		.credits {
+			padding-right: 25%;
+			padding-left: 25%;
+		}
+		body.en :lang(fr) {
+			display: none;
+		}
+		body.fr :lang(en){
+			display: none;
 		}
