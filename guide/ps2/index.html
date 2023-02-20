@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+		<!-- REDIRECTION VERS LA PAGE D'ERREUR -->
+		<!--<meta http-equiv="refresh">-->
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<!-- LES ELEMENTS SUIVANTS SONT UTILISES POUR LES EMBED (type Discord) -->
+		<meta content="Accueil | PS2 Guide" property="og:title"/>
+		<meta content="Un guide complet pour le jailbreak de votre PS2." property="og:description"/>
+		<meta content="https://guide.homebrewfrance.fr/ps2" property="og:url"/>
+		<meta content="https://raw.githubusercontent.com/homebrewfrance/homebrewfrance.github.io/main/IMAGES/favicon.png" property="og:image"/>
+		<!--/-->
+		
+		<title>Accueil | PS2 Guide</title>
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://guide.homebrewfrance.fr/style.css">
+        <link rel="icon" href="https://raw.githubusercontent.com/homebrewfrance/homebrewfrance.github.io/main/IMAGES/favicon.png">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@800&display=swap" rel="stylesheet">
+	</head>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#"><img src="https://hbf-files.github.io/ps_icon.png" width="30" height="30"><strong>&ensp; PS2-Guide</strong></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Guides
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">PS2</a>
+          <a class="dropdown-item" href="#">PS3</a>
+        </div>
+	<li class="nav-item">
+        <a class="nav-link" href="#">Le Homebrew France</a>
+      </li>
+  </div>
+  <div class="btn-group">
+  <button type="button" class="btn btn-secondary"><img src="https://hbf-files.github.io/globe.png" width="25" height="25"></button>
+  <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Français</a>
+    <a class="dropdown-item" href="#">English</a>
+  </div>
+</div>
+</nav>
+		<div class="indicator">
+			<small class="indicatortxt">Le Homebrew France</small><small> > <a class="white-a" href="https://guide.homebrewfrance.fr/ps2"><strong>PS2-Guide</strong></a> > <a class="white-a" href="#">FreeDVDBoot</a></small>
+		</div>
+<body>
+<div class="head">
+	<h1>PS2 Guide</h1>
+	<p>Un guide complet pour jailbreaker votre PlayStation 2.</p>
+</div>
+	<div class="indic">
+		<p class="indic-text">Rejoignez <a href="https://homebrewfrance.fr/discord">Le Homebrew France</a> pour obtenir de l'assistance ou nous aider à développer le guide.</p>
+	</div>
+	<div class="indic">
+		<p class="indic-text">N'oubliez pas de lire l'intégralité des pages avant de procéder pour ne pas prendre le risque de manquer une étape.</p>
+	</div>
+	<h2>Informations avant de commencer</h2>
+	<p class="accueil">Cette manipulation sur la console a de multiples avantages :</p>
+	<ul class="ul-home">
+		<li>Lire vos backups de jeux PlayStation 2 depuis une clé USB ou un disque dur. (plus aucun disque nécessaire)</li>
+		<li>Jouer à des consoles retrogaming à l'aide d'émulateurs.</li>
+		<li>Exécuter des "Homebrew" (logiciels non-approuvés par Sony) qui peuvent avoir toutes sortes d'utilités.</li>
+		<li>Jouer à des jeux qui ne sont pas normalement compatibles avec votre modèle de console (région différente)</li>
+	</ul>
+		<div class="disclaimer">
+		<p class="indic-text"><strong>Avertissement :</strong> Nous ne sommes pas responsables de l'utilisation que vous ferez de ce jailbreak PS2. Vous acceptez l'entière responsabilité de ce que vous faites.</p>
+	</div>
+		<h2>I - Vérifier la compatibilité de sa console avec FreeDVDBoot</h2>
+		<p class="accueil">Dans un premier temps, il s'agira de vérifier le numéro de modèle de votre console.</p>
+		<center><img class="check1" src="https://media.discordapp.net/attachments/962030917495447613/992137901435539558/IMG_20220630_203455.png?width=580&height=480" width="414" height="342">		<img class="check2" src="https://media.discordapp.net/attachments/962030917495447613/992511031723176086/IMG_20220701_125712.png?width=658&height=480" width="470" height="342"></center>
+		<pre></pre>
+		<center><small class="check"><i>Sur le modèle "FAT", le numéro de modèle se trouve à l'arrière, sur le modèle "Slim", il se trouve sous la console.</i></small></center>
+		<pre></pre>
+		<p class="accueil">Prenez connaissance de votre numéro de modèle et gardez-le à portée de main</p>
+		<p class="accueil">A présent, nous allons vérifier la version du lecteur DVD de votre console.</p>
+		<p class="accueil">Pour ce faire :</p>
+		<ul class="ul-home">
+			<li>Allumez votre console PlayStation 2.</li>
+			<li>Appuyez sur le bouton <img class="button" src="https://hbf-files.github.io/triangle.png" width="20" height="20">, un menu contenant plusieurs informations apparaîtra.</li>
+			<li>Votre numéro de version de lecteur DVD figure en bas de l'écran</li>
+		</ul>
+			<pre></pre>
+			<center><img class="check3" src="https://media.discordapp.net/attachments/962030917495447613/993105737108705280/IMG_20220703_124708.png?width=869&height=480" width="620" height="342"></center>
+			<pre></pre>
+			<p class="accueil">A partir de là, vous avez les informations nécessaires pour savoir si votre console est compatible ou non avec la faille FreeDVDBoot.</p>
+			<p class="accueil">Référez vous à ce tableau pour savoir si votre console est compatible :</p>
+			<center><img class="check3" src="https://hbf-files.github.io/comp.png"></center>
+			<pre></pre>
+			<center><i><small class="check">Si votre numéro de modèle ainsi que votre version de lecteur DVD figurent sur ce tableau, votre PS2
+		 est compatible avec la faille FreeDVDBoot</small></i></center>
+		<div class="indic">
+		<p class="indic-text">Si votre PS2 est compatible avec FreeDVDBoot, continuez vers la section <a href="https://guide.homebrewfrance.fr/ps2/freedvdboot.html">FreeDVDBoot</a></p>
+		</div>
+			<div class="indic">
+		<p class="indic-text">Si votre PS2 n'est <strong>PAS</strong> compatible avec FreeDVDBoot, continuez vers la section <a href="https://guide.homebrewfrance.fr/ps2/freemcboot.html">FreeMCBoot</a></p>
+		</div>
+</body>
+	<footer>
+		<p class="footer-p">SOURCE : <a class="white-a" href=""><img src="https://hbf-files.github.io/github.png" width="20" height="20"> <strong>GITHUB</strong></a></p>
+		<p class="footer-p">&copy 2023 - <a class="white-a" href="https://github.com/homebrewfrance">Le Homebrew France</a></p>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</html>
