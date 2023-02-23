@@ -186,3 +186,31 @@
 		body.fr :lang(en){
 			display: none;
 		}
+		input {
+			background-color: #1b1b1b;
+			border-radius: 7px;
+			border: 1px solid #3f3f3f;
+			margin: 0px;
+			height: 60px;
+		}
+		form {  
+			color: white;
+			padding-left: 15%;
+			padding-right: 15%;
+		}
+		.input {
+			color:white;
+			background-color: #1b1b1b;
+		}
+		.submit {
+			color: white;
+		}
+		.xawselect {
+			background-color: #0e006d;
+			border: 1px solid #fff;
+			height: 60px;
+			width: 80px;
+			color: white;
+			text-align: center;
+			border-radius: 7px;
+		}
