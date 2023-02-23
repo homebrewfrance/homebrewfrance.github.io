@@ -187,9 +187,9 @@
 			display: none;
 		}
 		input {
-			background-color: #1b1b1b;
+			background-color: #0e006d;
 			border-radius: 7px;
-			border: 1px solid #3f3f3f;
+			border: 1px solid #fff;
 			margin: 0px;
 			height: 60px;
 		}
@@ -200,7 +200,7 @@
 		}
 		.input {
 			color:white;
-			background-color: #1b1b1b;
+			background-color: #0e006d;
 		}
 		.submit {
 			color: white;
