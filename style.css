@@ -24,10 +24,12 @@
             font-family: 'Unbounded', cursive;
 			padding-left: 40px;
 			padding-right: 40px;
+			margin-left: 7%;
+			margin-right: 7%;
 	        }
 		.page {
-			padding-right: 15%;
-			padding-left: 15%;
+			padding-right: 10%;
+			padding-left: 10%;
 			width: 100%;
 		}
 		.navbar navbar-expand-sm navbar-light bg-light {
@@ -215,8 +217,21 @@
 			border-radius: 7px;
 		}
 		.grid-packs {
-			width:780px;
-			height:256px;
+			width:80%;
+			height:27%;
+			float: left;
+			border-radius: 10px;
+			border: 1px solid #fff;
+			margin: 8px auto;
+		}
+		.container {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+		}
+		.grid-packs-bigger {
+			width:80%;
+			height:35%;
 			float: left;
 			border-radius: 10px;
 			border: 1px solid #fff;
