@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand|Source+Sans+Pro&display=swap');
 
 		.footer {
-			color:#000000;
+			color:#ffffff;
 		}
 		.footerhbfl {
 			font-family: 'Unbounded', cursive;
-			color: #000000;
+			color: #ffffff;
 		}
 		a {
 			color : #ffffff;
 		}
 		body {
 			width:100%;
-			background-color:#0e006d;
+			background-color:#303030;
 		}
 		p, ul, li, code {
 			color: white;
@@ -20,12 +20,8 @@
 		}
         h1, h2, h3, h4, h5 {
             color: white;
-            text-align: center;
             font-family: 'Unbounded', cursive;
-			padding-left: 40px;
-			padding-right: 40px;
-			margin-left: 7%;
-			margin-right: 7%;
+
 	        }
 		.page {
 			padding-right: 10%;
@@ -43,7 +39,7 @@
            	padding: 20px;
 			padding-top: 10px;
             margin-top: 5px;
-            background-color:#FFF8F9FB;
+            background-color:#343a40;
 		}
 		.about {
 			text-align: justify;
@@ -80,6 +76,7 @@
 		}
 		.top {
 			padding-top: 5px;
+			text-shadow: 2px 2px 4px #000000;
 		}
 		.indicatortxt {
 			font-family: 'Unbounded', cursive;
@@ -236,4 +233,17 @@
 			border-radius: 10px;
 			border: 1px solid #fff;
 			margin: 8px auto;
+		}
+		.center {
+			text-shadow: 2px 2px 4px #000000;
+		}
+		.top-img {
+			padding-left: 20%;
+			padding-top: 65px;
+			padding-bottom: 25px;
+			color: white;
+			background-image: url(https://hbf-files.github.io/hbf_bg.png);
+			text-shadow: 2px 2px 4px #000000;
+			background-repeat:no-repeat;
+			background-size:cover;
 		}
