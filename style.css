@@ -171,13 +171,14 @@
 			border-radius: 10px;
 			border: 1px solid #fff;
 			margin: 8px auto;
+			text-shadow: 2px 2px 4px #000000;
 		}
 		.credits-name {
 			font-family: 'Unbounded', cursive;
 		}
 		.credits {
-			padding-right: 25%;
-			padding-left: 25%;
+			padding-right: 15%;
+			padding-left: 15%;
 		}
 		body.en :lang(fr) {
 			display: none;
@@ -242,8 +243,47 @@
 			padding-top: 65px;
 			padding-bottom: 25px;
 			color: white;
-			background-image: url(https://hbf-files.github.io/hbf_bg.png);
+			background-image: url(https://hbf-files.github.io/hb_bg.png);
 			text-shadow: 2px 2px 4px #000000;
 			background-repeat:no-repeat;
 			background-size:cover;
+		}
+		.disbob {
+			border-radius: 15px;
+		}
+		.hr-top {
+			background-image: linear-gradient(90deg, #066ddc, #d8d8d8, #ff5558);
+			height: 8px;
+			padding-top: 0px;
+			margin-top: 0px;
+		}
+		.hr-title {
+			background-color: white;
+			height: 2px;
+			border-radius: 5px;
+			width: 32%;
+			box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+		}
+	.navbar-nav .active {
+			position: relative;
+		}
+	.navbar-nav .active::after {
+			content: "";
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			height: 2px;
+			background: linear-gradient(90deg, #066ddc, #d8d8d8, #ff5558);
+			border-radius: 5px;
+			margin-bottom: 5px;
+		}
+		.warning-2 {
+			background-color: #fff006;
+		}
+		.warn-text {
+			color: black;
+		}
+		.page__footer-follow {
+			color: black;
 		}
