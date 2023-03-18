@@ -1,0 +1,48 @@
+{
+    "storeInfo": {
+        "title": "uwU",
+        "author": "Universal-Team",
+        "description": "Universal-DB - An online database of 3DS and DS homebrew",
+        "url": "https://homebrewfrance.fr/UNISTORE/homebrewfrance.unistore",
+        "file": "homebrewfrance.unistore",
+        "sheetURL": "https://homebrewfrance.fr/UNISTORE/homebrewfrance.t3x",
+        "sheet": "homebrewfrance.t3x",
+        "bg_index": 1,
+        "bg_sheet": 0,
+        "revision": 91,
+        "version": 3
+    },
+    "storeContent": [
+        {
+            "info": {
+                "title": "Pack Super Skater Hax",
+                "author": "Dhalian",
+                "description": "Mettez à jour toutes les applications",
+                "category": ["utility"],
+                "console": ["3DS"],
+                "icon_index": 0,
+                "sheet_index": 0,
+                "last_updated": "2023-03-18 at 14:03 (UTC)",
+                "license": "gpl-3.0",
+                "version": "v1.0"
+            },
+            "FBI.zip": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/Le-Homebrew-France/Packs-Homebrew-France/releases/latest/download/PACK_NINTENDO_3DS_SUPERSKATERHAX.zip",
+                    "output": "sdmc:/PACK_NINTENDO_3DS_SUPERSKATERHAX.zip"
+                },
+                {
+                    "type": "extractZip",
+                    "file": "sdmc:/PACK_NINTENDO_3DS_SUPERSKATERHAX.zip",
+                    "target": "/",
+                    "overwrite": true
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/PACK_NINTENDO_3DS_SUPERSKATERHAX.zip"
+                }
+            ]
+        }
+    ]
+}
