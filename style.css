@@ -90,16 +90,13 @@
 			background-color: #3b3b3b;
 		}
 		div.gallery {
-			margin-left: 35px;
-			margin-right: 35px;
-			margin-top: 3px;
-			margin-bottom: 28px;
+			border-radius: 15px;
 			border: 1px solid #ccc;
-			float: left;
 			width: 180px;
 			background-color: white;
+			margin: 8px auto;
+			float: left;
 		}
-
 		div.gallery:hover {
 			border: 1px solid #777;
 		}
@@ -108,6 +105,7 @@
 			width: 100%;
 			height: auto;
 			border: 1px solid #000;
+			border-radius: 15px;
 		}	
 
 		div.desc {
@@ -187,7 +185,7 @@
 			display: none;
 		}
 		input {
-			background-color: #0e006d;
+			background-color: #303030;
 			border-radius: 7px;
 			border: 1px solid #fff;
 			margin: 0px;
@@ -200,13 +198,13 @@
 		}
 		.input {
 			color:white;
-			background-color: #0e006d;
+			background-color: #303030;
 		}
 		.submit {
 			color: white;
 		}
 		.xawselect {
-			background-color: #0e006d;
+			background-color: #303030;
 			border: 1px solid #fff;
 			height: 60px;
 			width: 80px;
@@ -287,3 +285,9 @@
 		.page__footer-follow {
 			color: black;
 		}
+		.gallery-container {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+		}
+		
