@@ -146,7 +146,6 @@
 		.img-grid-square {
 			margin-top: 15px;
 			border-radius: 15px;
-			border: 1px solid #000
 		}
 		.grid-title {
 			padding-top: 7px;
@@ -169,6 +168,15 @@
 		}
 		.grid-bigger {
 			width:335px;
+			height:275px;
+			float: left;
+			border-radius: 10px;
+			border: 1px solid #fff;
+			margin: 8px auto;
+			text-shadow: 2px 2px 4px #000000;
+		}
+		.grid-presta {
+			width:310px;
 			height:275px;
 			float: left;
 			border-radius: 10px;
