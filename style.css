@@ -300,17 +300,31 @@
             display: none;
 	    border-radius: 15px;
         }
-
+        .btn-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
         #cookie-box p {
             margin: 0;
             padding: 5px 10px;
         }
 
-        #accept-btn, #decline-btn {
-            background-color: #007bff;
-            color: #000000;
+        #accept-btn {
+            background-color: #2ECC71;
+            color: #ffffff;
             border: none;
             padding: 8px 16px;
             cursor: pointer;
 	    margin: 0 5px;
+            border-radius: 10px;
+	}
+        #decline-btn {
+            background-color: #CD5C5C;
+            color: #ffffff;
+            border: none;
+            padding: 8px 16px;
+            cursor: pointer;
+	    margin: 0 5px;
+	    border-radius: 10px;
 	}
