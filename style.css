@@ -289,4 +289,26 @@
 			flex-direction: row;
 			flex-wrap: wrap;
 		}
-		
+        #cookie-box {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            display: none;
+        }
+
+        #cookie-box p {
+            margin: 0;
+            padding: 5px 10px;
+        }
+
+        #accept-btn {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 8px 16px;
+            cursor: pointer;
+        }
