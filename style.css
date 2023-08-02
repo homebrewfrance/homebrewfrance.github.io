@@ -175,6 +175,10 @@
 			margin: 8px auto;
 			text-shadow: 2px 2px 4px #000000;
 		}
+		.grid-social {
+			color: white;
+			margin: 3px;
+		}
 		.grid-presta {
 			width:345px;
 			height:380px;
