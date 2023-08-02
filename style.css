@@ -328,3 +328,60 @@
 	    margin: 0 5px;
 	    border-radius: 10px;
 	}
+
+.banner-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.h1slide {
+  text-align: center;
+  padding: 10px;
+}
+
+
+.slideshow {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slide {
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  padding: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.slide-fade {
+  animation: fade 1s ease;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
