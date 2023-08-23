@@ -367,7 +367,7 @@
 
 .prev, .next {
   position: absolute;
-  top: 50%;
+  top: 35%;
   padding: 4px;
   font-size: 24px;
   cursor: pointer;
