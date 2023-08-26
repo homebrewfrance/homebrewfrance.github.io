@@ -14,19 +14,19 @@ form.addEventListener('submit', (e) => {
             alert("Votre console n'est pas patchée");
         } else if (numberInput > 10074000000 && numberInput <= 10120000000) {
             alert("Votre console est potentiellement patchée");
-        } else if (numberInput > 10120000000) {
+        } else if (numberInput > 10120000000 && numberInput <= 4000000000) {
             alert("Votre console est patchée");
         } else if (numberInput >= 40000000000 && numberInput <= 40011000000) {
             alert("Votre console n'est pas patchée");
         } else if (numberInput > 40011000000 && numberInput <= 40012000000) {
             alert("Votre console est potentiellement patchée");
-        } else if (numberInput > 40012000000) {
+        } else if (numberInput > 40012000000 && numberInput <= 70000000000) {
             alert("Votre console est patchée");
         } else if (numberInput >= 70000000000 && numberInput <= 70017800000) {
             alert("Votre console n'est pas patchée");
         } else if (numberInput > 70017800000 && numberInput <= 70030000000) {
             alert("Votre console est potentiellement patchée");
-        } else if (numberInput > 70030000000) {
+        } else if (numberInput > 70030000000 && numberinput <= 99999999999) {
             alert("Votre console est patchée");
         } else {
             alert("Numéro de série invalide");
@@ -36,19 +36,19 @@ form.addEventListener('submit', (e) => {
             alert("Votre console n'est pas patchée");
         } else if (numberInput > 10020000000 && numberInput <= 10030000000) {
             alert("Votre console est potentiellement patchée");
-        } else if (numberInput > 10030000000) {
+        } else if (numberInput > 10030000000 && numberInput <= 40000000000) {
             alert("Votre console est patchée");
         } else if (numberInput >= 40000000000 && numberInput <= 40046000000) {
             alert("Votre console n'est pas patchée");
         } else if (numberInput > 40046000000 && numberInput <= 40060000000) {
             alert("Votre console est potentiellement patchée");
-        } else if (numberInput > 40060000000) {
+        } else if (numberInput > 40060000000 && numberInput <= 70000000000) {
             alert("Votre console est patchée");
         } else if (numberInput >= 70000000000 && numberInput <= 70040000000) {
             alert("Votre console n'est pas patchée");
         } else if (numberInput > 70040000000 && numberInput <= 70050000000) {
             alert("Votre console est potentiellement patchée");
-        } else if (numberInput > 70050000000) {
+        } else if (numberInput > 70050000000 && numberInput <= 99999999999) {
             alert("Votre console est patchée");
         } else {
             alert("Numéro de série invalide");
