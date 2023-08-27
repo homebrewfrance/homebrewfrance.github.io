@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+  @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@900&display=swap');
+			body {
+				background: linear-gradient(to right, #08088A, #E6E6E6, #B40431);
+				color: #FFF;
+				font-weight: bold;
+			  font-family: 'Unbounded', cursive;
+				text-align: center;
+				text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+				font-size: 14pt;
+			}
+			body > div {
+				background: linear-gradient(to right, #03034D, #808080, #67021E);
+				display: inline-block;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 4em;
+				padding: 30px;
+			}
+			p, h1, h3 {
+				padding-top: 0px;
+				padding-bottom: 0px;
+			}
+			p, h1, h3, .mainpic {
+				margin-top: 10px;
+				margin-bottom: 0px;
+			}
+			h1 {
+				margin-top: 0px;
+			}
+			h3 {
+				margin-top: 5px;
+				margin-bottom: 15px;
+			}
+			.not {
+				color: #FF0000;
+			}
+			.mainpic {
+				border: 4px solid yellow;
+				border-radius: 4px;
+			}
+			.folder {
+				display: inline-block;
+				padding-left: 5px;
+				padding-right: 5px;
+			}
+			.folder img {
+				vertical-align: middle;
+			}
+		</style>
+	</head>
+	<body>
+		<div class"main">
+			<h1>La racine d'une carte SD :</h1>
+			<p>La racine signifie "dans aucun dossier".</p>
+			<img src="theroot.png" class="mainpic" />
+			<h3 style="color: yellow;">Ceci est la racine de votre carte SD.</h2>
+			<p>
+				<div class="folder">
+					Ce n'est <span class="not">pas</span> ici:
+					<img src="nintendo3ds.png" />
+				</div>
+				<div class="folder">
+					Ce n'est pas <span class="not">pas</span> ici:
+					<img src="private.png" />
+				</div>
+			</p>
+			<p>
+				<div class="folder">
+					<span class="not">Pas</span> la:
+					<img src="_nds.png" />
+				</div>
+				<div class="folder">
+					<span class="not">Pas</span> la:
+					<img src="3ds.png" />
+				</div>
+				<div class="folder">
+					Et <span class="not">pas</span> 
+					ici:
+					<img src="root.png" />
+				</div>
+				<br>
+				<small style="text-align: right; display:block; font-size: 0.5em;">(ce dossier ne devrait meme pas exister)</small>
+			</p>
+		</div>
+	</body>
+</html>
