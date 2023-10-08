@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+		<!-- REDIRECTION VERS LA PAGE D'ERREUR -->
+		<!--<meta http-equiv="refresh">-->
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<!-- LES ELEMENTS SUIVANTS SONT UTILISES POUR LES EMBED (type Discord) -->
+		<meta content="NS Serial Checker" property="og:title"/>
+		<meta content="An online tool to check your Nintendo Switch's compatibility with the RCM exploit." property="og:description"/>
+		<meta content="https://homebrewfrance.github.io/guide/serial-checker" property="og:url"/>
+		<meta content="https://raw.githubusercontent.com/homebrewfrance/homebrewfrance.github.io/main/IMAGES/favicon.png" property="og:image"/>
+		<!--/-->
+		
+		<title>Switch | Serial-Checker</title>
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://homebrewfrance.github.io/guide/style.css">
+        	<link rel="icon" href="https://raw.githubusercontent.com/homebrewfrance/homebrewfrance.github.io/main/IMAGES/favicon.png">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@800&display=swap" rel="stylesheet">
+	</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#"><strong>&ensp; Serial-Checker</strong></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Switch <span class="sr-only">(current)</span></a>
+      </li>
+<!--	  <li class="nav-item">
+        <a class="nav-link" href="#">PS2</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="#">PS3</a>
+      </li>
+	<li class="nav-item">
+        <a class="nav-link" href="https://homebrewfrance.fr/">Le Homebrew France</a>
+      </li>-->
+  </div>
+ <!-- <div class="btn-group">
+  <button type="button" class="btn btn-secondary"><img src="https://hbf-files.github.io/globe.png" width="25" height="25"></button>
+  <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="https://homebrewfrance.github.io/guide/serial-checker/fr-FR/">Français</a>
+    <a class="dropdown-item" href="https://homebrewfrance.github.io/guide/serial-checker/en-US/">English</a>
+  </div>-->
+</div>
+</nav>
+		<div class="indicator">
+			<small class="indicatortxt">Le Homebrew France</small><small> > <a class="white-a" href="#"><strong>Serial-Checker</strong></a> > <a class="white-a" href="#">Nintendo Switch</a></small>
+		</div>
+<div class="head_ns">
+	<h1>Nintendo Switch Serial Checker</h1>
+	<p>An online tool to check your Nintendo Switch's compatibility with the RCM exploit.</p>
+</div>
+	<div class="indic">
+		<p class="indic-text">Join <a href="https://homebrewfrance.github.io/nh">Nintendo-Homebrew</a> for further assistance in english. Join <a href="https://homebrewfrance.github.io/discord">Le Homebrew France</a> for helping us maintaining this guide.</p>
+	</div>
+	<pre></pre>
+		<h4>Check your console's serial number under the console and type it below :</h4>
+<center><form>
+      <select class="xawselect" name="xawSelector">
+        <option value="XAW">XAW</option>
+	<option value="XAJ">XAJ</option>
+        <option value="XKW">XKW</option>
+        <option value="XKJ">XKJ</option>
+        <option value="XJW">XJW</option>
+        <option value="XWW">XWW</option>
+      </select>
+      <input class="input" type="number" name="numberInput" required  placeholder="10046000000">
+      <input class="submit" type="submit" value="Go">
+    </form></center>
+<script src="https://homebrewfrance.github.io/scripts/ns-serial-checker-en-us.js"></script>
+	<ul class="ul-home">
+		<li class="li-home">"Your console is not patched" means that your console is compatible with the Tegra RCM exploit, so it can be hacked without installing a chip.</li>
+		<li class="li-home">"Your console is potentially patched" means that your console is supposedly compatible with the Tegra RCM exploit, but is not "hackable" without chip installation.</li>
+		<li class="li-home">"Your console is patched" means that your console is incompatible with the Tegra RCM exploit, so it can't be hacked without installing a chip.</li>
+	</ul>
+	</body>
+	<footer>
+		<p class="footer-p">SOURCE : <a class="white-a" href="https://github.com/homebrewfrance/guide/"><img src="https://hbf-files.github.io/github.png" width="20" height="20"> <strong>GITHUB</strong></a></p>
+		<p class="footer-p">NS Serial Checker &copy 2023 - <a class="white-a" href="https://github.com/homebrewfrance">Le Homebrew France</a></p>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</html>
