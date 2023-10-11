@@ -22,8 +22,6 @@ function nextSlide() {
 prevBtn.addEventListener('click', prevSlide);
 nextBtn.addEventListener('click', nextSlide);
 
-// Défilement automatique toutes les 8 secondes
 setInterval(nextSlide, 8000);
 
-// Afficher la première image au chargement de la page
 showSlide(currentSlide);
