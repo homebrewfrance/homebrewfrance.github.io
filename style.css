@@ -18,33 +18,33 @@
 			color: white;
 			font-family: 'Source Sans Pro', sans-serif;
 		}
-        h1, h2, h3, h4, h5 {
-            color: white;
-            font-family: 'Unbounded', cursive;
+        	h1, h2, h3, h4, h5 {
+            		color: white;
+            		font-family: 'Unbounded', cursive;
 
 	        }
-		.page {
+		div.page {
 			padding-right: 10%;
 			padding-left: 10%;
 			width: 100%;
 		}
-		.page-forms {
+		div.page-forms {
 			padding-right: 7%;
 			padding-left: 7%;
 			width: 100%;
 		}
 		.navbar navbar-expand-sm navbar-light bg-light {
 			margin-top: 100px;
-    		z-index: 0;
+    			z-index: 0;
 			position: absolute;
 			background-color:#000000;
 			color:#ffffff;
 		}
-    	footer {
-           	padding: 20px;
+    		footer {
+           		padding: 20px;
 			padding-top: 10px;
-            margin-top: 5px;
-            background-color:#343a40;
+            		margin-top: 5px;
+            		background-color:#343a40;
 		}
 		.about {
 			text-align: justify;
@@ -192,6 +192,7 @@
 			border: 1px solid #fff;
 			margin: 8px auto;
 			text-shadow: 2px 2px 4px #000000;
+			background-color: #2E2E2E;
 		}
 		.credits-name {
 			font-family: 'Unbounded', cursive;
@@ -398,9 +399,9 @@
     opacity: 1;
   }
     .formulaire {
-      max-width: 100%; /* L'iframe prendra la largeur maximale possible */
-      max-height: 80vh; /* L'iframe prendra 80% de la hauteur de l'écran */
-      width: 100%; /* Pour s'assurer que l'iframe occupe toute la largeur */
-      border: none; /* Supprimer la bordure de l'iframe */
+      max-width: 100%;
+      max-height: 80vh;
+      width: 100%;
+      border: none;
     }
 }
