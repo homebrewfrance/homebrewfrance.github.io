@@ -270,8 +270,6 @@
 			box-shadow: 0px 2px 5px #000;
 		}
 		.packs-github-btn:hover, .packs-dl-btn:hover, .presta-btn:hover {
-			/*background-color: #fff;
-			color: black;*/
 			filter: invert(1);
 		}
 
@@ -357,8 +355,12 @@
 			}
 			.grid-staff {
 				width: 60%;
+				margin-left: 10%;
+				margin-right: 10%;
 			}
-
+			.container-presta {
+				flex-direction: column;
+			}
 		}
 		.img-staff-grid {
 			margin-top: 15px;
