@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
+		<div id="cookie-box">
+			<p>Ce site utilise des cookies de Google afin de vous proposer une meilleure expérience et nous permettre une analyse du trafic.</p>
+			<div id="cookie-btn-container">
+				<button id="accept-btn">Accepter</button>
+				<button id="decline-btn">Décliner</button>
+				<a href="https://policies.google.com/technologies/cookies?hl=fr"><button id="plus-btn">En savoir plus</button></a>
+			</div>
+		</div>
+		<script src="https://homebrewfrance.github.io/scripts/cookies.js"></script>
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-68CMDJM124"></script>
 		<script>
 		  window.dataLayer = window.dataLayer || [];
@@ -27,6 +36,7 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@800&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
 	</head>
 	
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -58,7 +68,7 @@
         				</div>
       				</li>
       				<li class="nav-item mr-1 ml-1">
-        				<a class="nav-link" href="https://homebrewfrance.github.io/prestations">Prestations</a>
+        				<a class="nav-link" href="https://homebrewfrance.github.io/boutique">Boutique</a>
       				</li>
       				<li class="nav-item mr-1 ml-1">
 					<a class="nav-link active" href="https://homebrewfrance.github.io/a-propos">A propos</a>
@@ -67,149 +77,169 @@
   		</div>
 	</nav>
 	<body>
-    		<div id="cookie-box">
-        		<p>Ce site utilise des cookies afin d'améliorer votre expérience. Acceptez pour poursuivre</p>
-        		<button id="accept-btn">Accepter</button>
-			<button id="decline-btn">Décliner</button>
-    		</div>
-		<script src="https://homebrewfrance.github.io/scripts/cookies.js"></script>
 		<div class="indicator">
 			<small class="indicatortxt">Le Homebrew France</small><small> > <a href="#">A propos</a></small>
 		</div>
 		<div class="page">
 			<pre></pre>
-			<center><h2 class="top">Le Staff</h2></center>
-			<hr class="hr-title" color="white" align=center>
+			<h2 class="top">A propos</h2>
+			<hr class="hr-title">
+			<p>Ce site est hébérgé via GitHub-Pages, participez à son développement sur <a href="https://github.com/homebrewfrance">notre GitHub</a>.</br>
+			Rejoignez notre serveur Discord dès aujourd'hui !</p>
+			<center><img class="qr-code" src="https://homebrewfrance.github.io/IMAGES/server_qr.jpg" width="76" height="76"><a href="https://homebrewfrance.github.io/discord"><img class="discord-server-image" src="https://discordapp.com/api/guilds/883623179979984896/widget.png?style=banner2" width="320" height="76"></a></center>
+			<pre></pre>
+			<h4 class="titles">Le Staff</h4>
+			<hr class="hr-title">
 			<pre></pre>
 				
-			<div class="container">
-				<div class="grid-bigger">
-					<center><img class="img-grid" src="https://homebrewfrance.github.io/IMAGES/staff/dhalian.png" width="100" height="100"></center>
-					<center><h4 class="grid-title">Dhalian</h4></center>
-					<center><small class="grid-small"><i>Administrateur et Helper (3DS, DS(i), PS2)</i></small></center>
-					<center><p class="grid-desc">Appelez-moi le goat.</p></center>
-					<center><small class="grid-social"><img src="https://homebrewfrance.github.io/IMAGES/twitter.png" width="15" height="15"><a href="https://x.com/dhalian_/"> @Dhalian_</a></small></center>
-					<center><small class="grid-social"><img src="https://homebrewfrance.github.io/IMAGES/github.png" width="15" height="15"><a href="https://github.com/Dhalian"> Dhalian</a></small></center>
+			<div class="container-staff">
+				<div class="grid-staff">
+					<center><img class="img-staff-grid" src="https://homebrewfrance.github.io/IMAGES/staff/dhalian.png" width="100" height="100"></center>
+					<center><h4 class="grid-staff-title">Dhalian</h4></center>
+					<center><small class="grid-staff-small"><i>Administrateur et Helper (3DS, DS(i), PS2)</i></small></center>
+					<center><p class="grid-staff-desc">Appelez-moi le goat.</p></center>
+					<center><div class="staff-btn-container">
+						<a href="https://github.com/dhalian"><button class="staff-social-btn"><img class="social-medias" src="https://homebrewfrance.github.io/IMAGES/github.png" width="15" height="15">&thinsp;Dhalian</button></a>
+						<a href="https://x.com/dhalian_/"><button class="staff-social-btn"><img class="social-medias" src="https://homebrewfrance.github.io/IMAGES/twitter.png" width="15" height="15">&thinsp;@Dhalian_</button></a>
+					</div></center>
 				</div>
-				<div class="grid-bigger">
-					<center><img class="img-grid" src="https://homebrewfrance.github.io/IMAGES/staff/cooolgamer.png" width="100" height="100"></center>
-					<center><h4 class="grid-title">cooolgamer</h4></center>
-					<center><small class="grid-small"><i>Administrateur et Helper (3DS, DS(i), Wii U)</i></small></center>
-					<center><p class="grid-desc">No Nand, no problems.</p></center>
-					<center><small class="grid-social"><img src="https://homebrewfrance.github.io/IMAGES/youtube.png" width="15" height="15"><a href="https://www.youtube.com/channel/UCy3-B2xuspxYOKrw6x_icBQ"> cooolboy</a></small></center>
-					<center><small class="grid-social"><img src="https://homebrewfrance.github.io/IMAGES/github.png" width="15" height="15"><a href="https://github.com/cooolgamer"> cooolgamer</a></small></center>
+				<div class="grid-staff">
+					<center><img class="img-staff-grid" src="https://homebrewfrance.github.io/IMAGES/staff/cooolgamer.png" width="100" height="100"></center>
+					<center><h4 class="grid-staff-title">cooolgamer</h4></center>
+					<center><small class="grid-staff-small"><i>Administrateur et Helper (3DS, DS(i), Wii U)</i></small></center>
+					<center><p class="grid-staff-desc">No Nand, no problems.</p></center>
+					<center><div class="staff-btn-container">
+						<a href="https://www.youtube.com/channel/UCy3-B2xuspxYOKrw6x_icBQ"><button class="staff-social-btn"><img class="social-medias" src="https://homebrewfrance.github.io/IMAGES/youtube.png" width="15" height="15">&thinsp;cooolboy</button></a>
+						<a href="https://github.com/cooolgamer"><button class="staff-social-btn"><img class="social-medias" src="https://homebrewfrance.github.io/IMAGES/github.png" width="15" height="15">&thinsp;cooolgamer</button></a>
+					</div></center>
 				</div>
-				<div class="grid-bigger">
-					<center><img class="img-grid" src="https://homebrewfrance.github.io/IMAGES/staff/sbk.png" width="100" height="100"></center>
-					<center><h4 class="grid-title">SBK</h4></center>
-					<center><small class="grid-small"><i>Administrateur et Helper (PS3, PSP, PSVita)</i></small></center>
-					<center><p class="grid-desc">SBK c'est pour faire plus court. Très fan de PlayStation (sans faire le suceur). Juste un jeune en avance sur son temps.</p></center>
-					<center><small class="grid-social"><img src="https://homebrewfrance.github.io/IMAGES/twitter.png" width="15" height="15"><a href="https://x.com/sb_kraken"> @sb_kraken</a></small></center>
+				<div class="grid-staff">
+					<center><img class="img-staff-grid" src="https://homebrewfrance.github.io/IMAGES/staff/sbk.png" width="100" height="100"></center>
+					<center><h4 class="grid-staff-title">SBK</h4></center>
+					<center><small class="grid-staff-small"><i>Administrateur et Helper (PS3, PSP, PSVita)</i></small></center>
+					<center><p class="grid-staff-desc">SBK c'est pour faire plus court. Très fan de PlayStation (sans faire le suceur). Juste un jeune en avance sur son temps.</p></center>
+					<center><div class="staff-btn-container">
+						<a href="https://x.com/sb_kraken"><button class="staff-social-btn"><img class="social-medias" src="https://homebrewfrance.github.io/IMAGES/twitter.png" width="15" height="15">&thinsp;@sb_kraken</button></a>
+					</div></center>
 				</div>
-				<div class="grid-bigger">
-					<center><img class="img-grid" src="https://homebrewfrance.github.io/IMAGES/staff/arkomega.png" width="100" height="100"></center>
-					<center><h4 class="grid-title">Arkomega</h4></center>
-					<center><small class="grid-small"><i>ex-Administrateur et ex-Helper (3DS, Wii U)</i></small></center>
-					<center><p class="grid-desc">Certains l'appelent Xavier Dupont-de-Ligonnès.</p></center>
+				<div class="grid-staff">
+					<center><img class="img-staff-grid" src="https://homebrewfrance.github.io/IMAGES/staff/arkomega.png" width="100" height="100"></center>
+					<center><h4 class="grid-staff-title">Arkomega</h4></center>
+					<center><small class="grid-staff-small"><i>ex-Administrateur et ex-Helper (3DS, Wii U)</i></small></center>
+					<center><p class="grid-staff-desc">Certains l'appelent Xavier Dupont-de-Ligonnès.</p></center>
 				</div>
-				<div class="grid-bigger">
-					<center><img class="img-grid" src="https://homebrewfrance.github.io/IMAGES/staff/redhorizon.png" width="100" height="100"></center>
-					<center><h4 class="grid-title">RedHorizon</h4></center>
-					<center><small class="grid-small"><i>Modérateur</i></small></center>
-					<center><p class="grid-desc">Je suis modo mais je suis pas utile sauf pour vous rappeler d'écrire dans le bon salon.</p></center>
+				<div class="grid-staff">
+					<center><img class="img-staff-grid" src="https://homebrewfrance.github.io/IMAGES/staff/redhorizon.png" width="100" height="100"></center>
+					<center><h4 class="grid-staff-title">RedHorizon</h4></center>
+					<center><small class="grid-staff-small"><i>Modérateur</i></small></center>
+					<center><p class="grid-staff-desc">Je suis modo mais je suis pas utile sauf pour vous rappeler d'écrire dans le bon salon.</p></center>
 				</div>
-				<div class="grid-bigger">
-					<center><img class="img-grid" src="https://homebrewfrance.github.io/IMAGES/staff/aelys.png" width="100" height="100"></center>
-					<center><h4 class="grid-title">Aëlys</h4></center>
-					<center><small class="grid-small"><i>Modératrice</i></small></center>
-					<center><p class="grid-desc">Amatrice en hacking Switch, je peux aider de temps en temps.</p></center>
-					<center><small class="grid-social"><img src="https://homebrewfrance.github.io/IMAGES/twitch.png" width="15" height="15"><a href="https://x.com/Cimmerian_Iter"> @aelys_2b</a></small></center>
+				<div class="grid-staff">
+					<center><img class="img-staff-grid" src="https://homebrewfrance.github.io/IMAGES/staff/aelys.png" width="100" height="100"></center>
+					<center><h4 class="grid-staff-title">Aëlys</h4></center>
+					<center><small class="grid-staff-small"><i>Modératrice</i></small></center>
+					<center><p class="grid-staff-desc">Amatrice en hacking Switch, je peux aider de temps en temps.</p></center>
+					<center><div class="staff-btn-container">
+						<a href="https://www.twitch.tv/aelys_2b"><button class="staff-social-btn"><img class="social-medias" src="https://homebrewfrance.github.io/IMAGES/twitch.png" width="15" height="15">&thinsp;@aelys_2b</button></a>
+					</div></center>
 				</div>
-				<div class="grid-bigger">
-					<center><img class="img-grid" src="https://homebrewfrance.github.io/IMAGES/staff/darkpepito.png" width="100" height="100"></center>
-					<center><h4 class="grid-title">Darkpepito_tux</h4></center>
-					<center><small class="grid-small"><i>Modérateur</i></small></center>
-					<center><p class="grid-desc">Utilisez de l'open-source, bon sang !</p></center>
+				<div class="grid-staff">
+					<center><img class="img-staff-grid" src="https://homebrewfrance.github.io/IMAGES/staff/darkpepito.png" width="100" height="100"></center>
+					<center><h4 class="grid-staff-title">Darkpepito_tux</h4></center>
+					<center><small class="grid-staff-small"><i>Modérateur</i></small></center>
+					<center><p class="grid-staff-desc">Utilisez de l'open-source, bon sang !</p></center>
 				</div>
-				<div class="grid-bigger">
-					<center><img class="img-grid" src="https://homebrewfrance.github.io/IMAGES/staff/jeremko.png" width="100" height="100"></center>
-					<center><h4 class="grid-title">JéremKO</h4></center>
-					<center><small class="grid-small"><i>Helper (3DS, Wii, Wii U)</i></small></center>
-					<center><p class="grid-desc">J’aide quand je peux ! Si vous avez un problème avec votre nand je suis (peut-être) la solution !</p></center>
-					<center><small class="grid-social"><img src="https://homebrewfrance.github.io/IMAGES/twitter.png" width="15" height="15"><a href="https://x.com/JeremyKOYTB"> @JeremyKOYTB</a></small></center>
+				<div class="grid-staff">
+					<center><img class="img-staff-grid" src="https://homebrewfrance.github.io/IMAGES/staff/jeremko.png" width="100" height="100"></center>
+					<center><h4 class="grid-staff-title">JéremKO</h4></center>
+					<center><small class="grid-staff-small"><i>Helper (3DS, Wii, Wii U)</i></small></center>
+					<center><p class="grid-staff-desc">J’aide quand je peux ! Si vous avez un problème avec votre nand je suis (peut-être) la solution !</p></center>
+					<center><div class="staff-btn-container">
+						<a href="https://x.com/JeremyKOYTB"><button class="staff-social-btn"><img class="social-medias" src="https://homebrewfrance.github.io/IMAGES/twitter.png" width="15" height="15">&thinsp;@JeremyKOYTB</button></a>
+					</div></center>
 				</div>
-				<div class="grid-bigger">
-					<center><img class="img-grid" src="https://homebrewfrance.github.io/IMAGES/staff/vizir.png" width="100" height="100"></center>
-					<center><h4 class="grid-title">Vizir</h4></center>
-					<center><small class="grid-small"><i>Helper (Switch)</i></small></center>
-					<center><p class="grid-desc">Le savoir est une ressource infinie qui se démultiplie lorsqu'on le transmet.</p></center>
-					<center><small class="grid-social"><img src="https://homebrewfrance.github.io/IMAGES/tiktok.png" width="15" height="15"><a href="https://www.tiktok.com/@fixurphone"> @fixurphone</a></small></center>
+				<div class="grid-staff">
+					<center><img class="img-staff-grid" src="https://homebrewfrance.github.io/IMAGES/staff/vizir.png" width="100" height="100"></center>
+					<center><h4 class="grid-staff-title">Vizir</h4></center>
+					<center><small class="grid-staff-small"><i>Helper (Switch)</i></small></center>
+					<center><p class="grid-staff-desc">Le savoir est une ressource infinie qui se démultiplie lorsqu'on le transmet.</p></center>
+					<center><div class="staff-btn-container">
+						<a href="https://www.tiktok.com/@fixurphone"><button class="staff-social-btn"><img class="social-medias" src="https://homebrewfrance.github.io/IMAGES/tiktok.png" width="15" height="15">&thinsp;@fixurphone</button></a>
+					</div></center>
 				</div>
-				<div class="grid-bigger">
-					<center><img class="img-grid" src="https://homebrewfrance.github.io/IMAGES/staff/zoria.png" width="100" height="100"></center>
-					<center><h4 class="grid-title">Zoria</h4></center>
-					<center><small class="grid-small"><i>Helper (3DS, Switch)</i></small></center>
-					<center><p class="grid-desc">Princesse Humaniste</p></center>
-					<center><small class="grid-social"><img src="https://homebrewfrance.github.io/IMAGES/twitter.png" width="15" height="15"><a href="https://x.com/GamersZoria"> @GamersZoria</a></small></center>
-					<center><small class="grid-social"><img src="https://homebrewfrance.github.io/IMAGES/github.png" width="15" height="15"><a href="https://github.com/THZoria"> THZoria</a></small></center>
+				<div class="grid-staff">
+					<center><img class="img-staff-grid" src="https://homebrewfrance.github.io/IMAGES/staff/zoria.png" width="100" height="100"></center>
+					<center><h4 class="grid-staff-title">Zoria</h4></center>
+					<center><small class="grid-staff-small"><i>Helper (3DS, Switch)</i></small></center>
+					<center><p class="grid-staff-desc">Princesse Humaniste</p></center>
+					<center><div class="staff-btn-container">
+						<a href="https://x.com/GamersZoria"><button class="staff-social-btn"><img class="social-medias" src="https://homebrewfrance.github.io/IMAGES/twitter.png" width="15" height="15">&thinsp;@GamersZoria</button></a>
+						<a href="https://github.com/THZoria"><button class="staff-social-btn"><img class="social-medias" src="https://homebrewfrance.github.io/IMAGES/github.png" width="15" height="15">&thinsp;THZoria</button></a>
+					</div></center>
 				</div>
-				<div class="grid-bigger">
-					<center><img class="img-grid" src="https://homebrewfrance.github.io/IMAGES/staff/elghis.png" width="100" height="100"></center>
-					<center><h4 class="grid-title">ElghisJoestar</h4></center>
-					<center><small class="grid-small"><i>Helper (3DS, DS(i), Wii, Wii U)</i></small></center>
-					<center><p class="grid-desc">Je suis aussi un goat.</p></center>
-					<center><small class="grid-social"><img src="https://homebrewfrance.github.io/IMAGES/github.png" width="15" height="15"><a href="https://github.com/Elghis"> Elghis</a></small></center>
+				<div class="grid-staff">
+					<center><img class="img-staff-grid" src="https://homebrewfrance.github.io/IMAGES/staff/elghis.png" width="100" height="100"></center>
+					<center><h4 class="grid-staff-title">ElghisJoestar</h4></center>
+					<center><small class="grid-staff-small"><i>Helper (3DS, DS(i), Wii, Wii U)</i></small></center>
+					<center><p class="grid-staff-desc">Je suis aussi un goat.</p></center>
+					<center><div class="staff-btn-container">
+						<a href="https://github.com/Elghis"><button class="staff-social-btn"><img class="social-medias" src="https://homebrewfrance.github.io/IMAGES/github.png" width="15" height="15">&thinsp;Elghis</button></a>
+					</div></center>
 				</div>
-				<div class="grid-bigger">
-					<center><img class="img-grid" src="https://homebrewfrance.github.io/IMAGES/staff/benji.png" width="100" height="100"></center>
-					<center><h4 class="grid-title">Benjididas</h4></center>
-					<center><small class="grid-small"><i>Helper (Wii, Wii U)</i></small></center>
-					<center><p class="grid-desc"></p></center>
-					<center><small class="grid-social"><img src="https://homebrewfrance.github.io/IMAGES/youtube.png" width="15" height="15"><a href="https://www.youtube.com/channel/UCcoyEQuAbJ7FRz1y_bU0QXg"> Benjididas</a></small></center>
-					<center><small class="grid-social"><img src="https://homebrewfrance.github.io/IMAGES/twitter.png" width="15" height="15"><a href="https://x.com/benji_didas"> @benji_didas</a></small></center>
+				<div class="grid-staff">
+					<center><img class="img-staff-grid" src="https://homebrewfrance.github.io/IMAGES/staff/benji.png" width="100" height="100"></center>
+					<center><h4 class="grid-staff-title">Benjididas</h4></center>
+					<center><small class="grid-staff-small"><i>Helper (Wii, Wii U)</i></small></center>
+					<center><p class="grid-staff-desc"></p></center>
+					<center><div class="staff-btn-container">
+						<a href="https://www.youtube.com/channel/UCcoyEQuAbJ7FRz1y_bU0QXg"><button class="staff-social-btn"><img class="social-medias" src="https://homebrewfrance.github.io/IMAGES/youtube.png" width="15" height="15">&thinsp;Benjididas</button></a>
+						<a href="https://x.com/benji_didas"><button class="staff-social-btn"><img class="social-medias" src="https://homebrewfrance.github.io/IMAGES/twitter.png" width="15" height="15">&thinsp;@benji_didas</button></a>
+					</div></center>
 				</div>
-				<div class="grid-bigger">
-					<center><img class="img-grid" src="https://homebrewfrance.github.io/IMAGES/staff/samilop.png" width="100" height="100"></center>
-					<center><h4 class="grid-title">Samilop "Cimmerian" Iter</h4></center>
-					<center><small class="grid-small"><i>Helper (PSVita)</i></small></center>
-					<center><p class="grid-desc">PSVita  helper, if you need help dm me.</p></center>
-					<center><small class="grid-social"><img src="https://homebrewfrance.github.io/IMAGES/twitter.png" width="15" height="15"><a href="https://x.com/Cimmerian_Iter"> @Cimmerian_Iter</a></small></center>
-					<center><small class="grid-social"><img src="https://homebrewfrance.github.io/IMAGES/github.png" width="15" height="15"><a href="https://github.com/Cimmerian-Iter"> Samilop Iter</a></small></center>
+				<div class="grid-staff">
+					<center><img class="img-staff-grid" src="https://homebrewfrance.github.io/IMAGES/staff/samilop.png" width="100" height="100"></center>
+					<center><h4 class="grid-staff-title">Samilop "Cimmerian" Iter</h4></center>
+					<center><small class="grid-staff-small"><i>Helper (PSVita)</i></small></center>
+					<center><p class="grid-staff-desc">PSVita  helper, if you need help dm me.</p></center>
+					<center><div class="staff-btn-container">
+						<a href="https://github.com/Cimmerian-Iter"><button class="staff-social-btn"><img class="social-medias" src="https://homebrewfrance.github.io/IMAGES/github.png" width="15" height="15">&thinsp;Samilop Iter</button></a>
+						<a href="https://x.com/Cimmerian_Iter"><button class="staff-social-btn"><img class="social-medias" src="https://homebrewfrance.github.io/IMAGES/twitter.png" width="15" height="15">&thinsp;@Cimmerian_Iter</button></a>
+					</div></center>
 				</div>
-				<div class="grid-bigger">
-					<center><img class="img-grid" src="https://homebrewfrance.github.io/IMAGES/staff/archor.png" width="100" height="100"></center>
-					<center><h4 class="grid-title">Archor</h4></center>
-					<center><small class="grid-small"><i>Helper (3DS, DS(i), Wii, Wii U, Switch, PS3, PSVita, PSP)</i></small></center>
-					<center><p class="grid-desc">Jamais là quand il faut. Je fais des trucs des fois.</p></center>
+				<div class="grid-staff">
+					<center><img class="img-staff-grid" src="https://homebrewfrance.github.io/IMAGES/staff/archor.png" width="100" height="100"></center>
+					<center><h4 class="grid-staff-title">Archor</h4></center>
+					<center><small class="grid-staff-small"><i>Helper (3DS, DS(i), Wii, Wii U, Switch, PS3, PSVita, PSP)</i></small></center>
+					<center><p class="grid-staff-desc">Jamais là quand il faut. Je fais des trucs des fois.</p></center>
 				</div>
-				<div class="grid-bigger">
-					<center><img class="img-grid" src="https://homebrewfrance.github.io/IMAGES/staff/numbersix.png" width="100" height="100"></center>
-					<center><h4 class="grid-title">numbersix</h4></center>
-					<center><small class="grid-small"><i>Helper (Switch, PS4)</i></small></center>
-					<center><p class="grid-desc">Switch Helper, Tutorials Writer et Bidouilleur.</p></center>
+				<div class="grid-staff">
+					<center><img class="img-staff-grid" src="https://homebrewfrance.github.io/IMAGES/staff/numbersix.png" width="100" height="100"></center>
+					<center><h4 class="grid-staff-title">numbersix</h4></center>
+					<center><small class="grid-staff-small"><i>Helper (Switch, PS4)</i></small></center>
+					<center><p class="grid-staff-desc">Switch Helper, Tutorials Writer et Bidouilleur.</p></center>
 				</div>
-				<div class="grid-bigger">
-					<center><img class="img-grid" src="https://homebrewfrance.github.io/IMAGES/staff/ayhan.png" width="100" height="100"></center>
-					<center><h4 class="grid-title">Ayhanblackflag</h4></center>
-					<center><small class="grid-small"><i>Helper (PS4)</i></small></center>
-					<center><p class="grid-desc">Salut, moi c'est Kenan je suis helper PS4 et ceux qui demandent si on peut downgrade ou jailbreak en dernière version, retournez sur PS3.</p></center>
-					<center><small class="grid-social"><img src="https://homebrewfrance.github.io/IMAGES/discord.png" width="15" height="15"><a href="https://discord.gg/6uyKNfZN"> Bandai Mods</a></small></center>
+				<div class="grid-staff">
+					<center><img class="img-staff-grid" src="https://homebrewfrance.github.io/IMAGES/staff/ayhan.png" width="100" height="100"></center>
+					<center><h4 class="grid-staff-title">Ayhanblackflag</h4></center>
+					<center><small class="grid-staff-small"><i>Helper (PS4)</i></small></center>
+					<center><p class="grid-staff-desc">Salut, moi c'est Kenan je suis helper PS4 et ceux qui demandent si on peut downgrade ou jailbreak en dernière version, retournez sur PS3.</p></center>
+					<center><div class="staff-btn-container">
+						<a href="https://discord.gg/6uyKNfZN"><button class="staff-social-btn"><img class="social-medias" src="https://homebrewfrance.github.io/IMAGES/discord.png" width="15" height="15">&thinsp;Bandai Mods</button></a>
+					</div></center>
 				</div>	
 			</div>
 			<pre></pre>
-			<center><h2 class="top">Devenir Helper</h2></center>
-			<hr class="hr-title" color="white" align=center>
+			<h4 class="titles">Devenir Helper</h4>
+			<hr class="hr-title">
 			<p>Vous souhaitez contribuer au serveur Discord ? Devenez Helper ! Un Helper est une personne qui a pour objectif de guider les membres dans le jailbreak de leurs consoles ou la résolution des problèmes liés à ce dernier. Pour poster votre candidature de Helper, remplissez le formulaire Google Forms ci-dessous.</p>
-			<a href="https://homebrewfrance.github.io/devenir-expert/"><center><button type="button" class="btn btn-outline-light btn-lg">Formulaire</button></center></a>
-			<pre></pre>
-			<pre></pre>
-			<center><h2 class="top">Devenir Modérateur</h2></center>
-			<hr class="hr-title" color="white" align=center>
+			<a href="https://homebrewfrance.github.io/devenir-expert/"><center><button class="forms-btn">Formulaire</button></center></a>
+			<!--h4 class="titles">Devenir Modérateur</h4>
+			<hr class="hr-title">
 			<p>Devenez modérateur sur le serveur Discord Le Homebrew France ! Déposez votre candidature dès maintenant sur le formulaire ci-dessous !</p>
-			<a href="https://homebrewfrance.github.io/devenir-modo/"><center><button type="button" class="btn btn-outline-light btn-lg disabled">Formulaire</button></center></a>
+			<a href="#"><center><button class="forms-btn-disabled">Formulaire</button></center></a-->
 			<pre></pre>
-			<center><h2 class="top">Crédits</h2></center>
-			<hr class="hr-title" color="white" align=center>
+			<h4 class="titles">Crédits</h4>
+			<hr class="hr-title">
 			<div class="credits">
 				<p><a class="credits-name" href="https://github.com/Dhalian">Dhalian</a> : développement du site, création des packs 3DS et DSi, ajouts et compléments et mise en page sur le site du guide PS2, ajouts et compléments et mise en page sur le site du guide PS3 et mise en page sur le site de la documentation Nintendo Switch.</p>
 				<p><a class="credits-name" href="https://github.com/THZoria">Zoria</a> : création du Atmopack, rédaction de la documentation Nintendo Switch, guide PS2 original utilisé comme référence.</p>
