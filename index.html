@@ -1,8 +1,15 @@
 <!DOCTYPE html>
 <html lang="fr">
-		<!-- REDIRECTION VERS LA PAGE D'ERREUR -->
-		<!--<meta http-equiv="refresh" content="0; URL='https://cauet-burger.github.io/404'" />-->
 	<head>
+		<div id="cookie-box">
+			<p>Ce site utilise des cookies de Google afin de vous proposer une meilleure expérience et nous permettre une analyse du trafic.</p>
+			<div id="cookie-btn-container">
+				<button id="accept-btn">Accepter</button>
+				<button id="decline-btn">Décliner</button>
+				<a href="https://policies.google.com/technologies/cookies?hl=fr"><button id="plus-btn">En savoir plus</button></a>
+			</div>
+		</div>
+		<script src="https://homebrewfrance.github.io/scripts/cookies.js"></script>
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-68CMDJM124"></script>
 		<script>
 		  window.dataLayer = window.dataLayer || [];
@@ -19,16 +26,15 @@
 		<meta content="https://homebrewfrance.github.io/" property="og:url"/>
 		<meta content="https://raw.githubusercontent.com/homebrewfrance/homebrewfrance.github.io/main/IMAGES/favicon.png" property="og:image"/>
 		<!--/-->
-		
 		<title>Le Homebrew France</title>
-		
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-		<link rel="stylesheet" href="style.css">
-                <link rel="icon" href="https://raw.githubusercontent.com/homebrewfrance/homebrewfrance.github.io/main/IMAGES/favicon.png">
+		<link rel="stylesheet" href="https://homebrewfrance.github.io/style.css">
+        <link rel="icon" href="https://raw.githubusercontent.com/homebrewfrance/homebrewfrance.github.io/main/IMAGES/favicon.png">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@800&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
 	</head>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 		<a class="navbar-brand" href="https://homebrewfrance.github.io/"><img src="https://raw.githubusercontent.com/homebrewfrance/homebrewfrance.github.io/main/IMAGES/favicon.png" width="45" height="45"></a>
@@ -57,93 +63,89 @@
           						<a class="dropdown-item" href="https://homebrewfrance.github.io/serial-checker/switch">Nintendo Switch</a>
           						<a class="dropdown-item" href="https://homebrewfrance.github.io/serial-checker/ps3">PlayStation 3</a>
         				</div>
-      				</li>
-      				<li class="nav-item mr-1 ml-1">
-        				<a class="nav-link" href="https://homebrewfrance.github.io/prestations">Prestations</a>
-      				</li>
-      				<li class="nav-item mr-1 ml-1">
+      			</li>
+      			<li class="nav-item mr-1 ml-1">
+        			<a class="nav-link" href="https://homebrewfrance.github.io/boutique">Boutique</a>
+      			</li>
+      			<li class="nav-item mr-1 ml-1">
 					<a class="nav-link" href="https://homebrewfrance.github.io/a-propos">A propos</a>
-      				</li>
-    			</ul>
+      			</li>
+    		</ul>
   		</div>
 	</nav>
-<div class="banner-container">
-  <div class="slideshow">
-  <button class="prev">&#10094;</button>
-  <button class="next">&#10095;</button>
-    <a href="https://homebrewfrance.github.io/prestations" class="slide">
-      <img src="https://homebrewfrance.github.io/IMAGES/actus/hwfly-alt1.png" alt="Installation HWFLY Switch">
-    </a>
-    <a href="https://homebrewfrance.github.io/docu/switch" class="slide">
-      <img src="https://homebrewfrance.github.io/IMAGES/actus/docu-switch.png" alt="Documentation Switch">
-    </a>
-    <a href="https://homebrewfrance.github.io/manuel" class="slide">
-      <img src="https://homebrewfrance.github.io/IMAGES/actus/manuel.png" alt="Manuel d'utilisation">
-    </a>
-    <a href="https://homebrewfrance.github.io/devenir-expert" class="slide">
-      <img src="https://homebrewfrance.github.io/IMAGES/actus/devenir-expert.png" alt="Devenir Expert">
-    </a>
-    <a href="#" class="slide">
-      <img src="https://homebrewfrance.github.io/IMAGES/actus/nitro.png" alt="Giveaway">
-    </a>
-    <a href="https://homebrewfrance.github.io/disboard" class="slide">
-      <img src="https://homebrewfrance.github.io/IMAGES/actus/disboard.png" alt="Disboard">
-    </a>
-    <!--<a href="https://homebrewfrance.github.io/devenir-modo" class="slide">
-      <img src="https://homebrewfrance.github.io/IMAGES/actus/devenir-modo.png" alt="Modo">
-    </a>-->
-  </div>
-</div>
-<script src="https://homebrewfrance.github.io/scripts/banner.js"></script>
+	<div class="banner-container">
+		<div class="prev-btn">
+			<button class="prev">&#10094;</button>
+		</div>
+		<div class="slideshow">
+			<a href="https://homebrewfrance.github.io/prestations" class="slide">
+				<img src="https://homebrewfrance.github.io/IMAGES/actus/hwfly-alt1.png" alt="Installation HWFLY Switch">
+			</a>
+			<a href="https://homebrewfrance.github.io/docu/switch" class="slide">
+				<img src="https://homebrewfrance.github.io/IMAGES/actus/docu-switch.png" alt="Documentation Switch">
+			</a>
+			<a href="https://homebrewfrance.github.io/manuel" class="slide">
+				<img src="https://homebrewfrance.github.io/IMAGES/actus/manuel.png" alt="Manuel d'utilisation">
+			</a>
+			<a href="https://homebrewfrance.github.io/devenir-expert" class="slide">
+				<img src="https://homebrewfrance.github.io/IMAGES/actus/devenir-expert.png" alt="Devenir Expert">
+			</a>
+			<a href="#" class="slide">
+				<img src="https://homebrewfrance.github.io/IMAGES/actus/nitro.png" alt="Giveaway">
+			</a>
+			<a href="https://homebrewfrance.github.io/disboard" class="slide">
+				<img src="https://homebrewfrance.github.io/IMAGES/actus/disboard.png" alt="Disboard">
+			</a>
+			<!--a href="https://homebrewfrance.github.io/devenir-modo" class="slide">
+				<img src="https://homebrewfrance.github.io/IMAGES/actus/devenir-modo.png" alt="Modo">
+			</a-->
+		</div>
+  		<div class="next-btn">
+			<button class="next">&#10095;</button>
+  		</div>
+	</div>
+	<script src="https://homebrewfrance.github.io/scripts/banner.js"></script>
+	<hr class="hr-top">
 
-						<hr class="hr-top">
-		<body>
-    <div id="cookie-box">
-        <p>Ce site utilise des cookies afin d'améliorer votre expérience. Acceptez pour poursuivre</p>
-        <button id="accept-btn">Accepter</button>
-	<button id="decline-btn">Décliner</button>
-    </div>
-<script src="https://homebrewfrance.github.io/scripts/cookies.js"></script>
-			<div class="page">
-				<pre></pre>
-		<h3 class="top">Qui sommes-nous ?</h3>
-		<hr class="hr-title">
-				<pre></pre>
-		<p>Nous sommes une communauté autour du modding de consoles et de l'informatique de manière générale. Le serveur Discord "Le Homebrew France" est le premier serveur français
-				polyvalent dédié à l'assistance pour le "hacking" de vos consoles (PS2, PS3, PS4, PSP, PSVita, Wii/Wii U, Nintendo Switch, DS(i), 3DS, et bien d'autres). Vous serez aidé par
-			une équipe d'experts qui saura vous guider soit en cas de problème soit simplement pour vous lancer dans la modification de votre console.</p>
-				<pre></pre>
-		<center><h3 class="center">Que vais-je trouver ici ?</h3></center>
-		<hr class="hr-title" color="white" align=center>
-				<pre></pre>
-		<p>Vous trouverez principalement ici des liens vers nos ressources les plus utiles, des informations sur le serveur Discord ainsi que des projets.</p>
+	<body>
+		<div class="page">
 			<pre></pre>
-				<center><h3 class="center">Informations</h3></center>
-				<hr class="hr-title" color="white" align=center>
-				<pre></pre>
-				<p>Nous condamnons le piratage de contenus protégés par droits d'auteurs tels que des jeux, des logiciels développeurs (SDK), leaks de jeux, etc, nous aidons uniquement
-					pour le hack de vos consoles, pour savoir la différence entre "hacking" et "piratage", vous référer à <a href="https://homebrewfrance.github.io/piratage">cet article</a>.</p>
-				<p>Ce serveur a pour but premier l'entraide, cependant si vos connaissances sont jugées insuffisantes pour aider les autres, nous pouvons vous demander de laisser 
-					faire les personnes qualifiées.</p>
-				<pre></pre>
-				<center><h3 class="center">Rejoindre le serveur Discord</h3></center>
-				<hr class="hr-title" color="white" align=center>
-				<pre></pre>
-				<center><a href="https://homebrewfrance.github.io/discord"><img class="disbob" src="https://discordapp.com/api/guilds/883623179979984896/widget.png?style=banner2" width="320" height="76"></a></center>
-				<pre></pre>
+			<h2 class="top">Le Homebrew France</h2>
+			<hr class="hr-top-title">
+			<p>Le Homebrew France est une communauté créée le 4 septembre 2021. Le but premier était d'apporter un support français pour le jailbreak de consoles. Depuis cette date nous aidons des milliers de personnes dans tous les problèmes liés au jailbreak, tout en assurant une mise à disposition des guides intégralement traduits en français. Notre communauté a vu le jour sur Discord, notre objectif est aujourd'hui de s'étendre et proposer nos propres guides de jailbreak ainsi que des outils pour simplifier la procédure du hack d'une console qui peut parfois s'averer difficile pour les personnes ne prédisposant pas des connaissances basiques en informatique.</p>
+			<pre></pre>
+			<h2 class="titles">Contenu du site</h2>
+			<hr class="hr-title">
+			<p>Sur ce site web, vous trouverez des guides de jailbreak (Switch, PS2..), des "Serial-Checker" permettant de vérifier la compatibilité de vos consoles avec certaines failles par simple vérification du numéro de série ou numéro de modèle. Vous trouverez aussi des packs AIO pour la Nintendo 3DS, DSi, Switch.. </p>
+			<pre></pre>
+			<h2 class="titles">Informations</h2>
+			<hr class="hr-title">
+			<p>Nous condamnons le piratage de contenus protégés par droits d'auteurs tels que des jeux, des logiciels développeurs (SDK), leaks de jeux, etc, nous aidons uniquement
+			pour le hack de vos consoles, pour savoir la différence entre "hacking" et "piratage", vous référer à <a href="https://homebrewfrance.github.io/piratage">cet article</a>.</p>
+			<p>Ce serveur a pour but premier l'entraide, cependant si vos connaissances sont jugées insuffisantes pour aider les autres, nous pouvons vous demander de laisser 
+			faire les personnes qualifiées.</p>
+			<pre></pre>
+			<h2 class="titles">Rejoindre le serveur Discord</h2>
+			<hr class="hr-title">
+			<div class="discord-server-link">
+				<div class="discord-server-text">
+					<p>Rejoignez le serveur Discord Le Homebrew France dès maintenant en scannant le QR code ou en cliquant sur le lien d'invitation. Veillez à bien lire le règlement avant de commencer à discuter.</p>
+				</div>
 			</div>
-		</body>			
-					<footer>
-					<small>
-						<div class="footer">
-										<center>&copy 2021 - 2023 - <a class="footerhbfl" href="https://github.com/homebrewfrance" title="Le Homebrew France sur Github">Le Homebrew France</a> - Tous droits réservés - <a href="https://homebrewfrance.github.io/legal.html">Mentions légales</a></center>
-						</div>
-					</small>
-	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9864634157908409" crossorigin="anonymous"></script>
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+			<center><img class="qr-code" src="server_qr.jpg" width="76" height="76"><a href="https://homebrewfrance.github.io/discord"><img class="discord-server-image" src="https://discordapp.com/api/guilds/883623179979984896/widget.png?style=banner2" width="320" height="76"></a></center>					
+		</div>
+	</body>			
+	<footer>
+		<small>
+			<div class="footer">
+				<center>&copy 2021 - 2023 - <a class="footerhbfl" href="https://github.com/homebrewfrance" title="Le Homebrew France sur Github">Le Homebrew France</a> - Tous droits réservés - <a href="https://homebrewfrance.github.io/legal.html">Mentions légales</a></center>
+			</div>
+		</small>
+		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9864634157908409" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	
-					</footer>
-	</html>
+	</footer>
+</html>
 			
