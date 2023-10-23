@@ -308,7 +308,7 @@
 			margin-top: 15px;
 		}
 		.grid-presta {
-			width:30%;
+			width:300px;
 			height:auto;
 			border-radius: 10px;
 			border: 1px solid #fff;
@@ -354,12 +354,15 @@
 				align-items: center;
 			}
 			.grid-staff {
-				width: 60%;
+				width: 270px;
 				margin-left: 10%;
 				margin-right: 10%;
 			}
 			.container-presta {
 				flex-direction: column;
+			}
+			.grid-presta {
+				width: 270px;
 			}
 		}
 		.img-staff-grid {
