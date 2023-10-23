@@ -1,8 +1,15 @@
 <!DOCTYPE html>
 <html lang="fr">
-		<!-- REDIRECTION VERS LA PAGE D'ERREUR -->
-		<!--<meta http-equiv="refresh">-->
 	<head>
+		<div id="cookie-box">
+			<p>Ce site utilise des cookies de Google afin de vous proposer une meilleure expérience et nous permettre une analyse du trafic.</p>
+			<div id="cookie-btn-container">
+				<button id="accept-btn">Accepter</button>
+				<button id="decline-btn">Décliner</button>
+				<a href="https://policies.google.com/technologies/cookies?hl=fr"><button id="plus-btn">En savoir plus</button></a>
+			</div>
+		</div>
+		<script src="https://homebrewfrance.github.io/scripts/cookies.js"></script>
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-68CMDJM124"></script>
 		<script>
 		  window.dataLayer = window.dataLayer || [];
@@ -19,16 +26,15 @@
 		<meta content="https://homebrewfrance.github.io/manuel" property="og:url"/>
 		<meta content="https://raw.githubusercontent.com/homebrewfrance/homebrewfrance.github.io/main/IMAGES/pack.png" property="og:image"/>
 		<!--/-->
-		
 		<title>Manuels</title>
-		
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://homebrewfrance.github.io/style.css">
-        <link rel="icon" href="https://raw.githubusercontent.com/homebrewfrance/homebrewfrance.github.io/main/IMAGES/favicon.png">
+        	<link rel="icon" href="https://raw.githubusercontent.com/homebrewfrance/homebrewfrance.github.io/main/IMAGES/favicon.png">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@800&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
 	</head>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 		<a class="navbar-brand" href="https://homebrewfrance.github.io/"><img src="https://raw.githubusercontent.com/homebrewfrance/homebrewfrance.github.io/main/IMAGES/favicon.png" width="45" height="45"></a>
@@ -67,43 +73,38 @@
     			</ul>
   		</div>
 	</nav>
-		<body>
-    <div id="cookie-box">
-        <p>Ce site utilise des cookies afin d'améliorer votre expérience. Acceptez pour poursuivre</p>
-        <button id="accept-btn">Accepter</button>
-	<button id="decline-btn">Décliner</button>
-    </div>
-<script src="https://homebrewfrance.github.io/scripts/cookies.js"></script>
+	<body>
 		<div class="indicator">
 			<small class="indicatortxt">Le Homebrew France</small><small> > <a href="#">Manuels</a></small>
 		</div>
-			<div class="page">
-				<pre></pre>
-		<center><h2 class="top">Manuels d'utilisation</h2></center>
-		<hr class="hr-title" color="white" align=center>
-				<pre></pre>
-	<div class="container">
-		<div class="grid-packs">
+		<div class="page">
 			<pre></pre>
-			<center><h3 class="grid-title">Manuel d'utilisation N3DS Luma3DS</h3></center>
-			<center><h4 class="grid-title">Dernière édition : n°1 rev: 1</h4></center>
+			<h2 class="top">Manuels d'utilisation</h2>
+			<hr class="hr-title">
 			<pre></pre>
-			<center><a href="https://hbf-files.github.io/download/HBFDOCE1R13DS.pdf"><button type="button" class="btn btn-outline-light btn-lg">Version dématérialisée</button></a></center>
-			<pre></pre>
-      			<center><a href="https://hbf-files.github.io/download/HBFDOCE1R13DS-PRNTABLE.pdf"><button type="button" class="btn btn-outline-light btn-lg">Version imprimable</button></a></center>
-			<pre></pre>
-		</div>
-	</div>
+	
+			<div class="container-packs">
+				<div class="grid-packs">
+					<pre></pre>
+					<center><h3 class="grid-title">Manuel d'utilisation N3DS Luma3DS</h3></center>
+					<center><h4 class="grid-title">Dernière édition : n°1 rev: 1</h4></center>
+					<pre></pre>
+					<center><a href="https://hbf-files.github.io/download/HBFDOCE1R13DS.pdf"><button class="packs-dl-btn">Version dématérialisée</button></a></center>
+					<pre></pre>
+      				<center><a href="https://hbf-files.github.io/download/HBFDOCE1R13DS-PRNTABLE.pdf"><button class="packs-dl-btn">Version imprimable</button></a></center>
+					<pre></pre>
+				</div>
 			</div>
-		</body>			
-					<footer>
-					<small>
-						<div class="footer">
-										<center>&copy 2021 - 2023 - <a class="footerhbfl" href="https://github.com/homebrewfrance" title="Le Homebrew France sur Github">Le Homebrew France</a> - Tous droits réservés - <a href="https://homebrewfrance.github.io/legal.html">Mentions légales</a></center>
-						</div>
-					</small>
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-					</footer>
-	</html>
+		</div>
+	</body>			
+	<footer class="footer-0">
+		<small>
+		<div class="footer">
+			<center>&copy 2021 - 2023 - <a class="footerhbfl" href="https://github.com/homebrewfrance" title="Le Homebrew France sur Github">Le Homebrew France</a> - Tous droits réservés - <a href="https://homebrewfrance.github.io/legal.html">Mentions légales</a></center>
+		</div>
+		</small>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	</footer>
+</html>
