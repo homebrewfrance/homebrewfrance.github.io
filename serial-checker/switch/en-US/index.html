@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-		<!-- REDIRECTION VERS LA PAGE D'ERREUR -->
-		<!--<meta http-equiv="refresh">-->
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="utf-8">
@@ -11,67 +9,89 @@
 		<meta content="https://homebrewfrance.github.io/serial-checker/switch" property="og:url"/>
 		<meta content="https://raw.githubusercontent.com/homebrewfrance/homebrewfrance.github.io/main/IMAGES/favicon.png" property="og:image"/>
 		<!--/-->
-		
 		<title>Switch | Serial-Checker</title>
-		
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://homebrewfrance.github.io/guide/style.css">
-        	<link rel="icon" href="https://hbf-files.github.io/lumia-guides.png">
+		<link rel="icon" href="https://raw.githubusercontent.com/homebrewfrance/homebrewfrance.github.io/main/IMAGES/favicon.png">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@800&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
 	</head>
-<body class="body-serial">
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#"><strong>&ensp; Multi Checker</strong></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<a class="navbar-brand" href="https://homebrewfrance.github.io/"><img src="https://raw.githubusercontent.com/homebrewfrance/homebrewfrance.github.io/main/IMAGES/favicon.png" width="45" height="45"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Switch <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-	      <a class="nav-link" href="https://homebrewfrance.github.io/guide/serial-checker/ps3">PS3 (beta) <span class="sr-only"></span></a>
-      </li>
-  </div>
-</div>
-</nav>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item mr-1 ml-1">
+					<a class="nav-link" href="https://homebrewfrance.github.io/">Accueil<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item mr-1 ml-1">
+					<a class="nav-link" href="https://homebrewfrance.github.io/packs">Packs</a>
+				</li>
+				<li class="nav-item mr-1 ml-1 dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Documentations</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="https://homebrewfrance.github.io/docu/switch">Nintendo Switch</a>
+								<a class="dropdown-item disabled" href="https://homebrewfrance.github.io/docu/3ds">Nintendo 3DS</a>
+						</div>
+					</li>
+				<li class="nav-item mr-1 ml-1 dropdown">
+					<a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Multi-Checker</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="https://homebrewfrance.github.io/serial-checker/switch">Nintendo Switch</a>
+								<a class="dropdown-item" href="https://homebrewfrance.github.io/serial-checker/ps3">PlayStation 3</a>
+						</div>
+				</li>
+				<li class="nav-item mr-1 ml-1">
+					<a class="nav-link" href="https://homebrewfrance.github.io/boutique">Boutique</a>
+				</li>
+				<li class="nav-item mr-1 ml-1">
+					<a class="nav-link" href="https://homebrewfrance.github.io/a-propos">A propos</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<body>
 		<div class="indicator">
 			<small class="indicatortxt">Le Homebrew France</small><small> > <a class="white-a" href="#"><strong>Multi-Checker</strong></a> > <a class="white-a" href="#">Nintendo Switch</a></small>
 		</div>
-<div class="head_ns">
-	<h1>Nintendo Switch Serial Checker</h1>
-	<p>An online tool to check your Nintendo Switch's compatibility with the RCM exploit.</p>
-</div>
-	<div class="indic">
-		<p class="indic-text">Join <a href="https://homebrewfrance.github.io/nh">Nintendo-Homebrew</a> for further assistance in english. Join <a href="https://homebrewfrance.github.io/discord">Le Homebrew France</a> for helping us maintaining this guide.</p>
-	</div>
-	<pre></pre>
-		<h4>Check your console's serial number under the console and type it below :</h4>
-<center><form>
-      <select class="xawselect" name="xawSelector">
-        <option value="XAW">XAW</option>
-	<option value="XAJ">XAJ</option>
-        <option value="XKW">XKW</option>
-        <option value="XKJ">XKJ</option>
-        <option value="XJW">XJW</option>
-        <option value="XWW">XWW</option>
-      </select>
-      <input class="input" type="number" name="numberInput" required  placeholder="10046000000">
-      <input class="submit" type="submit" value="Go">
-    </form></center>
-<script src="https://homebrewfrance.github.io/scripts/ns-serial-checker-en-us.js"></script>
-	<ul class="ul-home">
-		<li class="li-home">"Your console is not patched" means that your console is compatible with the Tegra RCM exploit, so it can be hacked without installing a chip.</li>
-		<li class="li-home">"Your console is potentially patched" means that your console is supposedly compatible with the Tegra RCM exploit, but is not "hackable" without chip installation.</li>
-		<li class="li-home">"Your console is patched" means that your console is incompatible with the Tegra RCM exploit, so it can't be hacked without installing a chip.</li>
-	</ul>
+		<div class="head_ns">
+			<h1>Nintendo Switch Serial Checker</h1>
+			<p>An online tool to check your Nintendo Switch's compatibility with the RCM exploit.</p>
+		</div>
+		<div class="indic">
+			<p class="indic-text">Join <a href="https://homebrewfrance.github.io/nh">Nintendo-Homebrew</a> for further assistance in english. Join <a href="https://homebrewfrance.github.io/discord">Le Homebrew France</a> for helping us maintaining this guide.</p>
+		</div>
+		<div class="page">
+			<pre></pre>
+			<h4>Check your console's serial number under the console and type it below :</h4>
+			<p>Type your console's serial number below to check if it's compatible with the RCM exploit.</p>
+			<center><form>
+				<select class="xawselect" name="xawSelector">
+					<option value="XAW">XAW</option>
+					<option value="XAJ">XAJ</option>
+					<option value="XKW">XKW</option>
+					<option value="XKJ">XKJ</option>
+					<option value="XJW">XJW</option>
+					<option value="XWW">XWW</option>
+				</select>
+				<input class="input" type="number" name="numberInput" required  placeholder="10046000000">
+				<input class="submit" type="submit" value="Go">
+			</form></center>
+			<script src="https://homebrewfrance.github.io/scripts/ns-serial-checker-en-us.js"></script>
+			<ul class="ul-home">
+				<li class="li-home">"Your console is not patched" means that your console is compatible with the Tegra RCM exploit, so it can be hacked without installing a chip.</li>
+				<li class="li-home">"Your console is potentially patched" means that your console is supposedly compatible with the Tegra RCM exploit, but is not "hackable" without chip installation.</li>
+				<li class="li-home">"Your console is patched" means that your console is incompatible with the Tegra RCM exploit, so it can't be hacked without installing a chip.</li>
+			</ul>
+		</div>
 	</body>
-	<footer>
+	<footer class="footer-0">
 		<p class="footer-p">SOURCE : <a class="white-a" href="https://github.com/homebrewfrance/guide/"><img src="https://hbf-files.github.io/github.png" width="20" height="20"> <strong>GITHUB</strong></a></p>
 		<p class="footer-p">Lumia Multi Checker &copy 2023 - <a class="white-a" href="https://github.com/homebrewfrance">Le Homebrew France</a></p>
 	</footer>
