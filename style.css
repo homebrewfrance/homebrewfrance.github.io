@@ -1,12 +1,36 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand|Source+Sans+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Gabarito&family=Geologica:wght@900&display=swap');
+		
+@media only screen and (max-width: 800px) {
+	.container-staff {
+		flex-direction: column;
+		display: flex;
+		align-items: center;
+	}
+	.grid-staff {
+		width: 270px;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	.container-presta {
+		flex-direction: column;
+	}
+	.grid-presta {
+		width: 270px;
+	}
+	.partner-container {
+		display: flex;
+		flex-direction: column;
+	}
+}
 		html {
 			scroll-behavior: smooth;
 		}
-		.footer {
+		footer.footer {
 			color:#ffffff;
 		}
-		.footer-0 {
+		footer.footer-0 {
 			bottom: 0;
 			position: fixed;
 			width: 100%;
@@ -25,13 +49,12 @@
 		}
 		p, ul, li, code {
 			color: white;
-			/*font-family: 'Source Sans Pro', sans-serif;*/
 			font-family: 'Gabarito', sans-serif;
 			font-size: 17px;
 		}
         h1, h2, h3, h4, h5 {
             color: white;
-            font-family: 'Unbounded', cursive;
+			font-family: 'Dela Gothic One', sans-serif;
 	        }
 		div.page {
 			padding-right: 10%;
@@ -45,17 +68,31 @@
 		}
 		.navbar navbar-expand-sm navbar-light bg-light {
 			margin-top: 100px;
-    			z-index: 0;
+    		z-index: 0;
 			position: absolute;
 			background-color:#000000;
 			color:#ffffff;
 		}
-    		footer {
+    		/*footer {
            		padding: 20px;
 			padding-top: 10px;
             		margin-top: 5px;
             		background-color:#343a40;
+		}*/
+		footer {
+			background-color: #343a40;
+			padding-top: 10px;
+			padding-bottom: 7px;
+			width: 100%;
+			padding: 10px 0; 
+			margin-top: 2%;
 		}
+		.footer-p {
+			text-align: left;
+			margin-left: 10%;
+			color: white;
+		}
+		
 		.about {
 			text-align: justify;
 			padding-left: 150px;
@@ -350,24 +387,7 @@
 			flex-wrap: wrap;
 		}
 
-		@media only screen and (max-width: 800px) {
-			.container-staff {
-				flex-direction: column;
-				display: flex;
-				align-items: center;
-			}
-			.grid-staff {
-				width: 270px;
-				margin-left: 10%;
-				margin-right: 10%;
-			}
-			.container-presta {
-				flex-direction: column;
-			}
-			.grid-presta {
-				width: 270px;
-			}
-		}
+
 		.img-staff-grid {
 			margin-top: 15px;
 			margin-bottom: 15px;
@@ -665,7 +685,6 @@
   height: 100%;
   font-size: 24px;
   cursor: pointer;
-  /*border-radius: 6px;*/
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0.5);
   opacity: 0.6;
