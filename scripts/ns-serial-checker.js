@@ -5,7 +5,7 @@ form.addEventListener('submit', (e) => {
     const xawSelector = document.querySelector('select[name="xawSelector"]').value;
     var resultat = document.getElementById("resultat");
 
-    compatible = '<div class="compatible-container"><div class="compatible">&nbsp;<strong>Console non patchée</strong></div><div class="infos"><p>Votre console est compatible avec la faille RCM.</br>Vous pouvez continuer à <a href="#simuler-jig">l’étape suivante</a>.</p></div></div>';
+    compatible = '<div class="compatible-container"><div class="compatible">&nbsp;<strong>Console non patchée</strong></div><div class="infos"><p>Votre console est compatible avec la faille RCM.</br>Vous pouvez continuer à <a href="https://homebrewfrance.github.io/docs/switch/#simuler-jig">l’étape suivante</a>.</p></div></div>';
     maybecompatible = '<div class="maybe-compatible-container"><div class="maybe-compatible">&nbsp;<strong>Console potentiellement patchée</strong></div><div class="infos"><p>Votre console est supposée compatible avec la faille RCM.</br>Votre console nécessite l’installation d’une puce.</br><a href="https://homebrewfrance.github.io/boutique">Plus d’infos</a></p></div></div>';
     incompatible = '<div class="incompatible-container"><div class="incompatible">&nbsp;<strong>Console patchée</strong></div><div class="infos"><p>Votre console est incompatible avec la faille RCM.</br>Votre console nécessite l’installation d’une puce.</br><a href="https://homebrewfrance.github.io/boutique">Plus d’infos</a></p></div></div>';
 
