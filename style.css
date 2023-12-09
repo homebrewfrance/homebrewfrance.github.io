@@ -41,6 +41,7 @@
 		}
 		a {
 			color : #ffffff;
+			transition: 0.3s;
 		}
 		body {
 			width:100%;
@@ -332,7 +333,7 @@
 			border: 4px;
 		}
 		.presta-btn {
-			border-radius: 5px;
+			border-radius: 50px;
 			background-color: #303030;
 			padding: 6px;
 			margin: 3px;
@@ -415,7 +416,7 @@
 		}
 		
 		.forms-btn-hover {
-			border-radius: 5px;
+			border-radius: 50px;
 			background-color: #303030;
 			padding: 6px;
 			margin: 3px;
@@ -425,7 +426,7 @@
 			border: 1px solid #fff;
 			font-size: 19px;
 			font-family: 'Gabarito', sans-serif;
-			transition: 0.3s;
+			transition: 0.5s;
 			box-shadow: 0px 2px 5px #000;
 		}
 		
@@ -511,7 +512,7 @@
 			bottom: 4px;
 		}
 		.staff-social-btn {
-			border-radius: 5px;
+			border-radius: 50px;
 			background-color: #303030;
 			padding: 6px;
 			margin: 5px;
@@ -567,78 +568,94 @@
 			color: white;
 		}
 
-        #cookie-box {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-			right: 0;
-			width: 100%;
-            padding: 10px;
-            border-top: 1px solid #fff;
-  	    	background-color: #353535;
-			z-index: 9999;
-        }
-
-		#cookie-btn-container {
-			flex-direction: row;
-			display: flex;
-			align-items: center;
-		}
-        .btn-container {
-            display: flex;
-            justify-content: center;
-            margin-top: 10px;
-        }
-        #cookie-box p {
-            margin: 0;
-            padding: 5px 10px;
-        }
-
-        #accept-btn {
-            background-color: #2ECC71;
-            color: #ffffff;
-            border: none;
-            padding: 8px 16px;
-            cursor: pointer;
-	    	margin: 0 5px;
-            border-radius: 10px;
-			opacity: 0.8;
-			transition: 0.3s;
+		#cookie-box p {
+			margin: 0;
+			padding: 5px 10px;
 	}
-        #decline-btn {
-            background-color: #CD5C5C;
-            color: #ffffff;
-            border: none;
-            padding: 8px 16px;
-            cursor: pointer;
-	    	margin: 0 5px;
-	    	border-radius: 10px;
-			opacity: 0.8;
-			transition: 0.3s;
+	
+	#accept-btn {
+		background-color: #2ECC71;
+		color: #ffffff;
+		border: none;
+		padding: 8px 16px;
+		cursor: pointer;
+		margin: 0 5px;
+		border-radius: 45px;
+		transition: 0.3s;
+		box-shadow: 0px 2px 5px #000;
 	}
-		#plus-btn {
-			background-color: #929292;
-			color: #ffffff;
-			border: none;
-			padding: 8px 16px;
-			cursor: pointer;
-			margin: 0 5px;
-			border-radius: 10px;
-			opacity: 0.8;
-			transition: 0.3s;
-}
+	
+	#accept-btn:hover {
+		background-color: #239352;
+	}
+	
+	#decline-btn {
+		background-color: #CD5C5C;
+		color: #ffffff;
+		border: none;
+		padding: 8px 16px;
+		cursor: pointer;
+		margin: 0 5px;
+		border-radius: 45px;
+		transition: 0.3s;
+		box-shadow: 0px 2px 5px #000;
+	}
+	
+	#decline-btn:hover {
+		background-color: #974545;
+	}
+	
+	#plus-btn {
+		background-color: #929292;
+		color: #ffffff;
+		border: none;
+		padding: 8px 16px;
+		cursor: pointer;
+		margin: 0 5px;
+		border-radius: 45px;
+		transition: 0.3s;
+		box-shadow: 0px 2px 5px #000;
+	}
+	
+	#plus-btn:hover {
+		background-color: #5e5e5e;
+	}
+	
+	#decline-btn:hover {
+		opacity: 1;
+	}
+	
+	#accept-btn:hover {
+		opacity: 1;
+	}
+	
+	#plus-btn:hover {
+		opacity: 1;
+	}
 
-#decline-btn:hover {
-	opacity: 1;
-}
-
-#accept-btn:hover {
-	opacity: 1;
-}
-
-#plus-btn:hover {
-	opacity: 1;
-}
+	#cookie-box {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		width: auto;
+		padding: 10px;
+		margin-top: 9px;
+		margin-bottom: 9px;
+		margin-left: 15px;
+		margin-right: 15px;
+		border-radius: 25px;
+		border: 1px solid #fff;
+		  background-color: #353535;
+		z-index: 9950;
+		box-shadow: 0px 2px 5px #000;
+		opacity: 0.9;
+	}
+	
+	#cookie-btn-container {
+		flex-direction: row;
+		display: flex;
+		align-items: center;
+	}
 
 .banner-container {
   position: relative;
