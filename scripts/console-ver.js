@@ -1,21 +1,17 @@
-switchFWVer = "17.0.0"
-switchFWName = "1700"
+var switchFWVer = "17.0.1";
+var switchFWName = "1701";
 
-var switchVer = document.getElementById("switchVer");
-var switchVer1 = document.getElementById("switchVer1");
-var switchVer2 = document.getElementById("switchVer2");
-var switchVer3 = document.getElementById("switchVer3");
-var switchVer4 = document.getElementById("switchVer4");
-var switchFirmName = document.getElementById("switchFirmName");
-var switchFirmName1 = document.getElementById("switchFirmName1");
-var switchFirmName2 = document.getElementById("switchFirmName2");
+var switchVer = document.getElementsByClassName("switchVer");
+var switchFirmName = document.getElementsByClassName("switchFirmName");
 
-switchVer.innerHTML = switchFWVer;
-switchVer1.innerHTML = switchFWVer;
-switchVer2.innerHTML = switchFWVer;
-switchVer3.innerHTML = switchFWVer;
-switchVer4.innerHTML = switchFWVer;
-switchFirmName.innerHTML = switchFWName;
-switchFirmName1.innerHTML = switchFWName;
-switchFirmName2.innerHTML = switchFWName;
+document.addEventListener("DOMContentLoaded", function() {
+  for (var i = 0; i < switchVer.length; i++) {
+    switchVer[i].innerHTML = switchFWVer;
+    console.log("switchVer chargé");
+  }
 
+  for (var j = 0; j < switchFirmName.length; j++) {
+    switchFirmName[j].innerHTML = switchFWName;
+    console.log("switchFirmName chargé");
+  }
+});
