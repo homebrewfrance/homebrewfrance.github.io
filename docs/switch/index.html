@@ -13,7 +13,7 @@
 			</div>
 		</div>
 		<script src="https://homebrewfrance.github.io/scripts/cookies.js"></script>
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-68CMDJM124"></script>
+		<script id="googletag-script" async src="https://www.googletagmanager.com/gtag/js?id=G-68CMDJM124"></script>
 		<script>
 		  window.dataLayer = window.dataLayer || [];
 		  function gtag(){dataLayer.push(arguments);}
@@ -58,7 +58,7 @@
         				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
           						<a class="dropdown-item" href="https://homebrewfrance.github.io/docs/switch">Nintendo Switch</a>
 								<a class="dropdown-item" href="https://homebrewfrance.github.io/docs/dsi">Nintendo DSi</a>
-          						<a class="dropdown-item disabled" href="https://homebrewfrance.github.io/docs/3ds">Nintendo 3DS</a>
+          						<a cl ss="dropdown-item disabled" href="https://homebrewfrance.github.io/docs/3ds">Nintendo 3DS</a>
 								<a class="dropdown-item" href="https://homebrewfrance.github.io/docs/ps2">PlayStation 2</a>
         				</div>
       				</li>
@@ -221,8 +221,8 @@
 						<li>Ne pas monter la micro SD, il faudra transférer le firmware par FTP avec FileZilla par exemple pour éviter les erreurs Daybreak.</li>
 						<li>Désinstaller son thème avant de faire la mise à jour du firmware sinon le CFW risque de ne pas démarrer par la suite.</li>
 					</ul>
-					<p><strong>1.</strong> Télécharger et extraire sur le PC le dernier firmware disponible <a href="https://darthsternie.net/switch-firmwares/">ici</a>.</br><i>La dernière version du firmware est <label id="switchVer3">X.X.X</label></i>.</p>
-					<p><strong>2.</strong> Monter la carte microSD sur le PC, créer un dossier à la racine de la carte SD et le nommer par exemple <code>Firmware<label id="switchFirmName">XXX</label>R</code>.</p>
+					<p><strong>1.</strong> Télécharger et extraire sur le PC le dernier firmware disponible <a href="https://darthsternie.net/switch-firmwares/">ici</a>.</br><i>La dernière version du firmware est <label class="switchVer">X.X.X</label></i>.</p>
+					<p><strong>2.</strong> Monter la carte microSD sur le PC, créer un dossier à la racine de la carte SD et le nommer par exemple <code>Firmware<label class="switchFirmName">XXX</label>R</code>.</p>
 					<p><strong>3.</strong> Copier/Coller tous les fichiers <code>.nca</code> dans le dossier précédemment créé sur la carte SD.</p>
 					<h5><img src="https://hbf-files.github.io/windows.png" width="20" height="20" class="os"><strong>&ensp;Windows</strong></h5>
 					<ul style="list-style-type:none;">
@@ -235,7 +235,7 @@
 						<li>Attendre le temps que "DayBreak" vérifie l'intégralité du firmware en <code>.nca</code>.</li>
 					</ul>
 					<p><strong>6.</strong> "DayBreak" va installer votre mise à jour, cliquer sur "Reboot" pour démarrer votre console en CFW emuNAND via "Launch" d'Hekate.</p>
-					<p><strong>7.</strong> Aller dans "Paramètres" &#10140; "Mise à jour" pour vérifier que le console est bien en <label id="switchVer">X.X.X</label> avec un <strong>E</strong> ou un <strong>S</strong> à la fin.</p>
+					<p><strong>7.</strong> Aller dans "Paramètres" &#10140; "Mise à jour" pour vérifier que le console est bien en <label class="switchVer">X.X.X</label> avec un <strong>E</strong> ou un <strong>S</strong> à la fin.</p>
 					<center><img src="https://hbf-files.github.io/ns_2.png" width="797" height="339"></center>
 									<pre></pre>
 					<h2 id="reset-emunand"><strong>IV. Réinitialiser son emuNAND via Daybreak</strong></h2>
@@ -245,15 +245,15 @@
 						<p class="indic-text"><strong>Attention :</strong>&nbsp;cette étape supprimera les jeux et sauvegardes présents sur l'emuNAND mais cela permet de repartir sur une base saine.</p>
 					</div>
 					<p><strong>1.</strong> Récupérer les sauvegardes de son emuNAND (via DBI ou JKSV) que l'on pourra restaurer dans l'emuNAND par la suite.</p>
-					<p><strong>2.</strong> Télécharger et extraire sur le PC le dernier firmware disponible <a href="https://darthsternie.net/switch-firmwares/">ici</a>.</br><i>La dernière version du firmware est <label id="switchVer4">X.X.X</label></i>.</p>
-					<p><strong>3.</strong> Monter la carte microSD sur le PC, créer un dossier à la racine de la carte SD et le nommer par exemple <code>Firmware<label id="switchFirmName2">XXX</label>R</code>.</p>
+					<p><strong>2.</strong> Télécharger et extraire sur le PC le dernier firmware disponible <a href="https://darthsternie.net/switch-firmwares/">ici</a>.</br><i>La dernière version du firmware est <label class="switchVer">X.X.X</label></i>.</p>
+					<p><strong>3.</strong> Monter la carte microSD sur le PC, créer un dossier à la racine de la carte SD et le nommer par exemple <code>Firmware<label class="switchFirmName">XXX</label>R</code>.</p>
 					<p><strong>4.</strong> Copier/Coller tous les fichiers <code>.nca</code> dans le dossier précédemment créé sur la carte SD.</p>
 					<h5><img src="https://hbf-files.github.io/windows.png" width="20" height="20" class="os"><strong>&ensp;Windows</strong></h5>
 					<ul style="list-style-type:none;">
 						<li>Ejecter "proprement" votre carte microSD, sur Hekate faire "Close" et démarrer votre console en CFW via "Launch" (emuNAND de préférence)</li>
 					</ul>
 					<ul>
-						<li>Aller dans "Paramètres" &#10140; "Console" &#10140; "Mise à jour" pour vérifier que la Switch est bien en firmware <label id="switchVer1">X.X.X</label> mais avec un <strong>E</strong> à la fin.</li>
+						<li>Aller dans "Paramètres" &#10140; "Console" &#10140; "Mise à jour" pour vérifier que la Switch est bien en firmware <label class="switchVer">X.X.X</label> mais avec un <strong>E</strong> à la fin.</li>
 					</ul>
 					<center><img src="https://hbf-files.github.io/ns_1.png" width="797" height="339"></center>
 					<pre></pre>
@@ -268,7 +268,7 @@
 					<ul>
 						<li>Créer un (ou des) utilisateur(s), faire <img src="https://homebrewfrance.github.io/IMAGES/buttons/switch_x_button.png" width="18" height="18"> pour passer la connexion et mettre un thème sombre pour différencier emuNAND et sysNAND.</li>
 					</ul>
-					<p><strong>8.</strong> Aller dans "Paramètres" &#10140; "Console" &#10140; "Mise à jour" pour vérifier que la Switch est bien en <label id="switchVer2">X.X.X</label> avec <strong>E</strong> à la fin.
+					<p><strong>8.</strong> Aller dans "Paramètres" &#10140; "Console" &#10140; "Mise à jour" pour vérifier que la Switch est bien en <label class="switchVer">X.X.X</label> avec <strong>E</strong> à la fin.
 					<center><img src="https://hbf-files.github.io/ns_3.png" width="797" height="339"></center>
 					<pre></pre>
 					<h2 id="saves-dbi"><strong>V. Gestion des sauvegardes via DBI</strong></h2>
@@ -314,7 +314,7 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-	<script src="https://homebrewfrance.github.io/scripts/ns-serial-checker.js"></script>
-	<script src="https://homebrewfrance.github.io/scripts/console-ver.js"></script>
+	<script src="ns-serial-checker.js"></script>
+	<script src="console-ver.js"></script>
 	</html>
 
