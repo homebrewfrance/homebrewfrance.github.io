@@ -1,80 +1,34 @@
+<!-- CONTRIBUTE TO THIS WEBSITE ON OUR GITHUB https://github.com/homebrewfrance/homebrewfrance.github.io/ -->
+<!-- LAST-EDITED : 16/12/2023 by Dhalian -->
 <!DOCTYPE html>
+<span id="page_name">shop</span>
+<span id="footer_type">1</span>
 <html lang="fr">
 	<head>
-		<div id="cookie-box">
-			<p>Ce site utilise des cookies de Google afin de vous proposer une meilleure expérience et nous permettre une analyse du trafic.</p>
-			<div id="cookie-btn-container">
-				<button id="accept-btn">Accepter</button>
-				<button id="decline-btn">Décliner</button>
-				<a href="https://policies.google.com/technologies/cookies?hl=fr"><button id="plus-btn">En savoir plus</button></a>
-			</div>
-		</div>
-		<script src="https://homebrewfrance.github.io/scripts/cookies.js"></script>
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-68CMDJM124"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-
-		  gtag('config', 'G-68CMDJM124');
-		</script>
+		<!-- COOKIES MANAGEMENT -->
+		<span id="cookieBoxGen"></span>
+		
+		<!-- META -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="utf-8">
-		<!-- LES ELEMENTS SUIVANTS SONT UTILISES POUR LES EMBED (type Discord) -->
 		<meta content="Boutique | Le Homebrew France" property="og:title"/>
 		<meta content="La boutique du serveur Discord par FIXurPHONE" property="og:description"/>
 		<meta content="https://homebrewfrance.github.io/boutique" property="og:url"/>
 		<meta content="https://raw.githubusercontent.com/homebrewfrance/homebrewfrance.github.io/main/IMAGES/favicon.png" property="og:image"/>
-		<!--/-->
+
 		<title>Boutique</title>
+
+		<!-- LINKS -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://homebrewfrance.github.io/style.css">
-        	<link rel="icon" type="image/png" href="https://raw.githubusercontent.com/homebrewfrance/homebrewfrance.github.io/main/IMAGES/favicon.png">
+        <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/homebrewfrance/homebrewfrance.github.io/main/IMAGES/favicon.png">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@800&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
 	</head>
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-		<a class="navbar-brand" href="https://homebrewfrance.github.io/"><img src="https://raw.githubusercontent.com/homebrewfrance/homebrewfrance.github.io/main/IMAGES/favicon.png" width="45" height="45"></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav mr-auto">
-				<li class="nav-item mr-1 ml-1">
-					<a class="nav-link" href="https://homebrewfrance.github.io/">Accueil<span class="sr-only">(current)</span></a>
-				</li>
-				<li class="nav-item mr-1 ml-1">
-					<a class="nav-link" href="https://homebrewfrance.github.io/packs">Packs</a>
-				</li>
-				<li class="nav-item mr-1 ml-1 dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Docs</a>
-        				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          						<a class="dropdown-item" href="https://homebrewfrance.github.io/docs/switch">Nintendo Switch</a>
-								<a class="dropdown-item" href="https://homebrewfrance.github.io/docs/dsi">Nintendo DSi</a>
-          						<a class="dropdown-item disabled" href="https://homebrewfrance.github.io/docs/3ds">Nintendo 3DS</a>
-								<a class="dropdown-item" href="https://homebrewfrance.github.io/docs/ps2">PlayStation 2</a>
-        				</div>
-      				</li>
-				<li class="nav-item mr-1 ml-1 dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Multi-Checker</a>
-        				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          						<a class="dropdown-item" href="https://homebrewfrance.github.io/serial-checker/switch">Nintendo Switch</a>
-          						<a class="dropdown-item" href="https://homebrewfrance.github.io/serial-checker/ps3">PlayStation 3</a>
-        				</div>
-      				</li>
-      				<li class="nav-item mr-1 ml-1">
-        				<a class="nav-link active" href="https://homebrewfrance.github.io/boutique">Boutique</a>
-      				</li>
-      				<li class="nav-item mr-1 ml-1">
-					<a class="nav-link" href="https://homebrewfrance.github.io/a-propos">A propos</a>
-      				</li>
-    			</ul>
-  		</div>
-	</nav>
+	<span id="navGen"></span>
 	<body>
 		<div class="indicator">
 			<small class="indicatortxt">Le Homebrew France</small><small> > <a href="#">Boutique</a></small>
@@ -140,12 +94,10 @@
 			</div>
 		</div>
 	</body>
-	<footer>
-		<p class="footer-p">&copy; 2021 - 2023 <a class="footerhbfl" href="https://github.com/homebrewfrance">Le Homebrew France</a></br>
-		<a href="https://homebrewfrance.github.io/nav.html">Navigation</a> - <a href="https://homebrewfrance.github.io/legal.html">Mentions légales</a></p>
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-	</footer>
+	<span id="footerGen"></span>
+	<script src="https://homebrewfrance.github.io/scripts/navbar__f.js"></script>
+	<script src="https://homebrewfrance.github.io/scripts/cookies.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </html>
-			
