@@ -1,3 +1,6 @@
+/* CONTRIBUTE TO THIS WEBSITE ON OUR GITHUB : https://github.com/homebrewfrance/homebrewfrance.github.io */
+/* LAST-EDITED : 16/12/2023 by Dhalian */
+
 @import url('https://fonts.googleapis.com/css?family=Quicksand|Source+Sans+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Gabarito&family=Geologica:wght@900&display=swap');
@@ -24,6 +27,22 @@
 		flex-direction: column;
 	}
 }
+		#author {
+			font-family: 'Unbounded', cursive;
+		}
+		#page_name, #footer_type {
+			display: none;
+		}
+		.button-man {
+			border: 1px solid white;
+			background-color: #607d8b;
+			color: white;
+			padding: 4px;
+			margin: 5px;
+		}
+		.button-man:hover {
+			background-color: #37474f;
+		}
 		html {
 			scroll-behavior: smooth;
 		}
@@ -74,12 +93,6 @@
 			background-color:#000000;
 			color:#ffffff;
 		}
-    		/*footer {
-           		padding: 20px;
-			padding-top: 10px;
-            		margin-top: 5px;
-            		background-color:#343a40;
-		}*/
 		footer {
 			background-color: #343a40;
 			padding-top: 10px;
@@ -268,14 +281,17 @@
 
 		/* PACKS */
 		.grid-packs {
-			width:80%;
+			width:auto;
 			height:auto;
 			float: left;
 			border-radius: 10px;
 			border: 1px solid #fff;
 			margin: 8px auto;
 			background-color: #1C1C1C;
-			padding: 5px;
+			padding-left: 15px;
+			padding-right: 15px;
+			padding-top: 5px;
+			padding-bottom: 5px;
 			box-shadow: 0px 2px 5px #000;
 		}
 		.container-packs {
@@ -287,7 +303,7 @@
 			flex-direction: row;
 		}
 		.packs-dl-btn {
-			border-radius: 5px;
+			border-radius: 50px;
 			background-color: #303030;
 			padding: 6px;
 			margin: 5px;
@@ -298,8 +314,20 @@
 			transition: 0.3s;
 			box-shadow: 0px 2px 5px #000;
 		}
+		.packs-dl-btn-disabled {
+			border-radius: 50px;
+			background-color: #1C1C1C;
+			padding: 6px;
+			margin: 5px;
+			color: rgb(108, 108, 108);
+			border: 1px solid rgb(108, 108, 108);
+			font-size: 19px;
+			font-family: 'Gabarito', sans-serif;
+			transition: 0.3s;
+			box-shadow: 0px 2px 5px #000;
+		}
 		.packs-github-btn {
-			border-radius: 5px;
+			border-radius: 50px;
 			background-color: #303030;
 			padding: 6px;
 			margin: 5px;
@@ -657,120 +685,120 @@
 		align-items: center;
 	}
 
-.banner-container {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-}
-
-.h1slide {
-  text-align: center;
-  padding: 10px;
-}
-
-
-.slideshow {
-  display: flex;
-  width: 100%;
-  overflow: hidden;
-}
-
-.slide {
-  flex-shrink: 0;
-  width: 100%;
-}
-
-.slide img {
-  width: 100%;
-  height: auto;
-}
-
-
-.discord-server-link {
+	.banner-container {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
 	display: flex;
 	flex-direction: row;
-}
+	}
 
-.discord-server-image {
-	border-radius: 15px;
-	opacity: 0.8;
-	transition: 0.3s;
-	margin: 5px;
-}
+	.h1slide {
+	text-align: center;
+	padding: 10px;
+	}
 
-.discord-server-image:hover {
-	opacity: 1;
-}
 
-.discord-server-image-container {
+	.slideshow {
 	display: flex;
-}
-
-.qr-code {
-	border-radius: 10px;
-	opacity: 0.8;
-	transition: 0.3s;
-	margin: 5px;
-}
-
-.qr-code:hover {
-	opacity: 1;
-}
-
-.prev, .next {
-  padding: 4px;
-  height: 100%;
-  font-size: 24px;
-  cursor: pointer;
-  color: #ffffff;
-  background-color: rgba(0, 0, 0, 0.5);
-  opacity: 0.6;
-  transition: 0.3s;
-  border:none;
-}
-
-.prev:hover, .next:hover {
-	opacity:1;
-}
-
-.prev {
-  left: 0;
-}
-
-.next {
-  right: 0;
-}
-
-.nav-link, .dropdown-menu {
-	transition: 0.3s
-}
-
-.dropdown-item:hover {
-	background-color: #E0E0E0;
-}
-
-.dropdown-item {
-	transition: 0.3s;
-}
-
-.slide-fade {
-  animation: fade 4s ease;
-}
-
-.formulaire {
-	max-width: 100%;
-	max-height: 80vh;
 	width: 100%;
-	border: none;
-}
+	overflow: hidden;
+	}
 
-@keyframes fade {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
+	.slide {
+	flex-shrink: 0;
+	width: 100%;
+	}
+
+	.slide img {
+	width: 100%;
+	height: auto;
+	}
+
+
+	.discord-server-link {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.discord-server-image {
+		border-radius: 15px;
+		opacity: 0.8;
+		transition: 0.3s;
+		margin: 5px;
+	}
+
+	.discord-server-image:hover {
+		opacity: 1;
+	}
+
+	.discord-server-image-container {
+		display: flex;
+	}
+
+	.qr-code {
+		border-radius: 10px;
+		opacity: 0.8;
+		transition: 0.3s;
+		margin: 5px;
+	}
+
+	.qr-code:hover {
+		opacity: 1;
+	}
+
+	.prev, .next {
+	padding: 4px;
+	height: 100%;
+	font-size: 24px;
+	cursor: pointer;
+	color: #ffffff;
+	background-color: rgba(0, 0, 0, 0.5);
+	opacity: 0.6;
+	transition: 0.3s;
+	border:none;
+	}
+
+	.prev:hover, .next:hover {
+		opacity:1;
+	}
+
+	.prev {
+	left: 0;
+	}
+
+	.next {
+	right: 0;
+	}
+
+	.nav-link, .dropdown-menu {
+		transition: 0.3s
+	}
+
+	.dropdown-item:hover {
+		background-color: #E0E0E0;
+	}
+
+	.dropdown-item {
+		transition: 0.3s;
+	}
+
+	.slide-fade {
+	animation: fade 4s ease;
+	}
+
+	.formulaire {
+		max-width: 100%;
+		max-height: 80vh;
+		width: 100%;
+		border: none;
+	}
+
+	@keyframes fade {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+	}
