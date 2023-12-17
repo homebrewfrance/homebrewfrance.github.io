@@ -1,3 +1,6 @@
+/* CONTRIBUTE TO THIS WEBSITE ON OUR GITHUB https://github.com/homebrewfrance/homebrewfrance.github.io */
+/* LAST-EDITED : 17/12/2023 by Dhalian */
+
 var navGen = document.getElementById("navGen");
 var footerGen = document.getElementById("footerGen");
 var cookieBoxGen = document.getElementById("cookieBoxGen");
@@ -20,12 +23,12 @@ var cookieContentEN = '<div id="cookie-box"><p>This website use Google❜s cooki
 
 function pageGeneration() {
 	navGen.innerHTML = navContent;
-	/*if (htmlLang == "fr") {
+	if (htmlLang == "fr") {
 		cookieBoxGen.innerHTML = cookieContentFR;
 	}
 	else {
 		cookieBoxGen.innerHTML = cookieContentEN;
-	}*/
+	}
 
 	if (footerType.innerHTML == "0") { // Small pages (footer with bottom:0 attribute)
 		footerGen.innerHTML = footerContent0;
