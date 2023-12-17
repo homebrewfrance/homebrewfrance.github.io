@@ -23,12 +23,12 @@ var cookieContentEN = '<div id="cookie-box"><p>This website use Google❜s cooki
 
 function pageGeneration() {
 	navGen.innerHTML = navContent;
-	if (htmlLang == "fr") {
+	/* if (htmlLang == "fr") {
 		cookieBoxGen.innerHTML = cookieContentFR;
 	}
 	else {
 		cookieBoxGen.innerHTML = cookieContentEN;
-	}
+	} */
 
 	if (footerType.innerHTML == "0") { // Small pages (footer with bottom:0 attribute)
 		footerGen.innerHTML = footerContent0;
