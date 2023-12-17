@@ -1,4 +1,12 @@
+/* CONTRIBUTE TO THIS WEBSITE ON OUR GITHUB https://github.com/homebrewfrance/homebrewfrance.github.io */
+/* LAST-EDITED : 17/12/2023 by Dhalian */
+
 const userDecision = localStorage.getItem('cookieConsent');
+var cookieBox = document.getElementById('cookieBoxGen');
+
+document.addEventListener('DOMContentLoaded', function() {
+	buttonsListener();
+});
 
 function loadGoogleAnalytics() {
 	const script = document.createElement('script');
@@ -12,15 +20,21 @@ function loadGoogleAnalytics() {
     gtag('config', 'G-68CMDJM124');
 }
 
-if (userDecision === 'accepted') {
-	loadGoogleAnalytics();
+function buttonsListener() {
+	document.getElementById('accept-btn').addEventListener('click', function() {
+		localStorage.setItem('cookieConsent', 'accepted');
+		loadGoogleAnalytics();
+		hideCookieBox();
+		console.log(userDecision);
+	});
+
+	document.getElementById('decline-btn').addEventListener('click', function() {
+		localStorage.setItem('cookieConsent', 'declined');
+		hideCookieBox();
+		console.log(userDecision);
+	});
 }
 
-document.getElementById('accept-btn').addEventListener('click', function() {
-	localStorage.setItem('cookieConsent', 'accepted');
-	loadGoogleAnalytics();
-});
-
-document.getElementById('decline-btn').addEventListener('click', function() {
-	localStorage.setItem('cookieConsent', 'declined');
-});
+function hideCookieBox() {
+	cookieBox.style.display = "none";
+}
