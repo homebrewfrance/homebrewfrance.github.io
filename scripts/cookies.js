@@ -5,7 +5,12 @@ const userDecision = localStorage.getItem('cookieConsent');
 var cookieBox = document.getElementById('cookieBoxGen');
 
 document.addEventListener('DOMContentLoaded', function() {
-	buttonsListener();
+    if (userDecision === 'accepted') {
+        hideCookieBox();
+        loadGoogleAnalytics();
+    } else {
+        buttonsListener();
+    }
 });
 
 function loadGoogleAnalytics() {
@@ -21,20 +26,18 @@ function loadGoogleAnalytics() {
 }
 
 function buttonsListener() {
-	document.getElementById('accept-btn').addEventListener('click', function() {
-		localStorage.setItem('cookieConsent', 'accepted');
-		loadGoogleAnalytics();
-		hideCookieBox();
-		console.log(userDecision);
-	});
+    document.getElementById('accept-btn').addEventListener('click', function() {
+        localStorage.setItem('cookieConsent', 'accepted');
+        loadGoogleAnalytics();
+        hideCookieBox();
+    });
 
-	document.getElementById('decline-btn').addEventListener('click', function() {
-		localStorage.setItem('cookieConsent', 'declined');
-		hideCookieBox();
-		console.log(userDecision);
-	});
+    document.getElementById('decline-btn').addEventListener('click', function() {
+        localStorage.setItem('cookieConsent', 'declined');
+        hideCookieBox();
+    });
 }
 
 function hideCookieBox() {
-	cookieBox.style.display = "none";
+    cookieBox.style.display = "none";
 }
