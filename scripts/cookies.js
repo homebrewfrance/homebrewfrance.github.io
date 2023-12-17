@@ -1,60 +1,36 @@
 /* CONTRIBUTE TO THIS WEBSITE ON OUR GITHUB https://github.com/homebrewfrance/homebrewfrance.github.io */
 /* LAST-EDITED : 17/12/2023 by Dhalian */
 
-const userDecision = localStorage.getItem('cookieConsent');
-var cookieBox = document.getElementById('cookieBoxGen');
+document.addEventListener("DOMContentLoaded", function() {
+    var cookieBox = document.getElementById("cookieBoxGen");
+    var acceptButton = document.getElementById("accept-btn");
+    var declineButton = document.getElementById("decline-btn");
 
-document.addEventListener('DOMContentLoaded', function() {
-    if (userDecision === 'accepted' && isNotExpired()) {
-        hideCookieBox();
-        loadGoogleAnalytics();
+    var userDecision = document.cookie.replace(/(?:(?:^|.*;\s*)userCookieDecision\s*=\s*([^;]*).*$)|^.*$/, "$1");
+
+    if (userDecision === "accepted") {
+      cookieBox.style.display = "none";
+    } else if (userDecision === "declined") {
+      var gtmScript = document.querySelector('script[src="https://www.googletagmanager.com/gtag/js?id=G-68CMDJM124"]');
+      if (gtmScript) {
+        gtmScript.parentNode.removeChild(gtmScript);
+      }
+      cookieBox.style.display = "none";
     } else {
-        buttonsListener();
+      cookieBox.style.display = "block";
     }
-});
-function loadGoogleAnalytics() {
-	const script = document.createElement('script');
-	script.async = true;
-	script.src = 'https://www.googletagmanager.com/gtag/js?id=G-68CMDJM124';
-	document.head.appendChild(script);
 
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-68CMDJM124');
-}
-
-function buttonsListener() {
-    document.getElementById('accept-btn').addEventListener('click', function() {
-        localStorage.setItem('cookieConsent', JSON.stringify({ decision: 'accepted', expiration: getExpirationDate() }));
-        loadGoogleAnalytics();
-        hideCookieBox();
+    acceptButton.addEventListener("click", function() {
+      document.cookie = "userCookieDecision=accepted; expires=Thu, 01 Jan 2099 00:00:00 UTC; path=/";
+      cookieBox.style.display = "none";
     });
 
-    document.getElementById('decline-btn').addEventListener('click', function() {
-        localStorage.setItem('cookieConsent', JSON.stringify({ decision: 'declined', expiration: getExpirationDate() }));
-        hideCookieBox();
+    declineButton.addEventListener("click", function() {
+      document.cookie = "userCookieDecision=declined; expires=Thu, 01 Jan 2099 00:00:00 UTC; path=/";
+      cookieBox.style.display = "none";
+      var gtmScript = document.querySelector('script[src="https://www.googletagmanager.com/gtag/js?id=G-68CMDJM124"]');
+      if (gtmScript) {
+        gtmScript.parentNode.removeChild(gtmScript);
+      }
     });
-}
-
-function hideCookieBox() {
-    cookieBox.style.display = "none";
-}
-
-function getExpirationDate() {
-    const expirationDate = new Date();
-    expirationDate.setFullYear(2099);
-    return expirationDate.getTime();
-}
-
-function isNotExpired() {
-    const storedData = localStorage.getItem('cookieConsent');
-    if (storedData) {
-        const parsedData = JSON.parse(storedData);
-        if (parsedData.expiration) {
-            const currentDate = new Date().getTime();
-            return currentDate < parsedData.expiration;
-        }
-    }
-    return false;
-}
+  });
