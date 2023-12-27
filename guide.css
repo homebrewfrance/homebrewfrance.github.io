@@ -24,6 +24,10 @@
 	#fat-check {
 		margin-bottom: 10px;
 	}
+	.warning {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
 }
 
 @media only screen and (min-width: 1041px) {
@@ -56,6 +60,21 @@
 		margin-left: 15px;
 		right: 5px;
 	}
+	.warning {
+		padding-left: 70px;
+	}
+
+}
+.warning {
+	color: black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: rgb(252,252,138);
+	background: linear-gradient(128deg, rgba(252,252,138,1) 0%, rgb(233, 205, 0) 35%);
+	border-radius: 9px;
+	margin: 5px;
+	font-size: 19px;
+	font-family: 'Unbounded', sans-serif;
 }
 .navbar-toggler-icon {
 	filter: invert(1);
