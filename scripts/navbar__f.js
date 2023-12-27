@@ -64,7 +64,8 @@ function loadGoogleTagManager() {
 	gtag('config', 'G-68CMDJM124');
 }
 
-function loadGoogleAdSense() {
+// SCRIPT APPLIED DIRECTLY IN HTML CODE
+/*function loadGoogleAdSense() {
 	var adScript = document.createElement('script');
 	adScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9864634157908409';
 	adScript.async = true;
@@ -72,7 +73,7 @@ function loadGoogleAdSense() {
 
 	var head = document.head || document.getElementByTagName('head')[0];
 	head.appendChild(adScript);
-}
+}*/
 
 // UNUSED WITH NEW UI
 /*function activeLinks() {
