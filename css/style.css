@@ -178,13 +178,6 @@
 			padding-left: 7%;
 			width: 100%;
 		}
-		.navbar navbar-expand-sm navbar-light bg-light {
-			margin-top: 100px;
-    		z-index: 0;
-			position: absolute;
-			background-color:#000000;
-			color:#ffffff;
-		}
 		footer {
 			background-color: #202837;
 			padding-top: 10px;
@@ -245,9 +238,6 @@
 			margin: 5px;
 			font-size: 19px;
 			font-family: 'Unbounded', sans-serif;
-		}
-		.navbar-toggler-icon {
-			filter: invert(1);
 		}
 		div.gallery {
 			border-radius: 15px;
@@ -671,17 +661,6 @@
 			flex-direction: row;
 			
 		}
-		.dropdown-menu {
-			background-color: #202837;
-			border-radius: 10px;
-			border: none;
-			transition: 0.3s;
-			font-family: 'Montserrat', sans-serif;
-			padding: 3px;
-		}
-		.dropdown-item {
-			color: white;
-		}
 
 	.banner-container {
 	width: 100%;
@@ -782,25 +761,6 @@
 	.next-btn {
 	right: 0;
 	}
-
-	.nav-link, .dropdown-menu {
-		transition: 0.3s
-	}
-
-	.dropdown-item:hover {
-		background: rgb(32,40,55);
-		background: linear-gradient(324deg, rgba(32,40,55,1) 0%, rgba(47,56,74,1) 58%, rgba(80,89,107,1) 100%);
-		margin: 2px;
-		border-radius: 10px;
-		border: none;
-		color: white;
-		box-shadow: 0px 2px 5px #ffffff;
-	}
-
-	.dropdown-item {
-		transition: 0.3s;
-	}
-
 	.formulaire {
 		max-width: 100%;
 		max-height: 80vh;

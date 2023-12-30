@@ -1,0 +1,93 @@
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    border-radius: 9px;
+    border: 0px;
+    margin: 5px;
+    background: rgb(32,40,55);
+    background: linear-gradient(324deg, rgba(32,40,55,1) 0%, rgba(47,56,74,1) 58%, rgba(80,89,107,1) 100%);
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+.nav-link, .dropdown-menu {
+    transition: 0.3s
+}
+
+.dropdown-item:hover {
+    background: rgb(32,40,55);
+    background: linear-gradient(324deg, rgba(32,40,55,1) 0%, rgba(47,56,74,1) 58%, rgba(80,89,107,1) 100%);
+    margin: 2px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    box-shadow: 0px 2px 5px #ffffff;
+}
+
+.dropdown-item {
+    transition: 0.3s;
+}
+
+.dropdown-menu {
+    background-color: #202837;
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s;
+    font-family: 'Montserrat', sans-serif;
+    padding: 3px;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.cookie-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(32,40,55);
+    background: linear-gradient(324deg, rgba(32,40,55,1) 0%, rgba(47,56,74,1) 58%, rgba(80,89,107,1) 100%);
+    color: #fff;
+    z-index: 9999;
+    width: auto;
+    border: none;
+    margin: 5px;
+    border-radius: 9px;
+    padding: 10px;
+}
+
+.cookie-banner p {
+    font-size: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+
+.cookie-banner-button {
+    border: none;
+    background-color: #005020;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 7px;
+    padding: 2px;
+    margin-left: 6px;
+    transition: 0.4s;
+    text-align: center;
+}
+
+.cookie-banner-button:hover {
+    box-shadow: 0px 2px 5px #ffffff;
+    background: #005020;
+    background: linear-gradient(324deg, #005020 0%, #007f33 58%, #3a9e62 100%);
+}
+    
