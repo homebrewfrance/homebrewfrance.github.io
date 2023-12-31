@@ -6,6 +6,7 @@ NHLink = 'https://discord.gg/C29hYvh';
 DisboardLink = 'https://disboard.org/fr/server/883623179979984896';
 FormulaireHelperLink = 'https://docs.google.com/forms/d/e/1FAIpQLSdJU768w8SPF459GyieS6plnWkbxLyJ1BBEMcclDSz6xI8Ykw/viewform?usp=pp_url';
 WebsiteLink = 'https://homebrewfrance.github.io/'
+FRDomainSRC = ['https://homebrewfrance.fr/', 'http://homebrewfrance.fr/'];
 
 document.addEventListener('DOMContentLoaded', function() {
 	redirection();
@@ -30,7 +31,6 @@ function redirection() {
 		window.location.href = FormulaireHelperLink;
 		redirectLink.href = FormulaireHelperLink;
 	}
-	FRDomainSRC = ['https://homebrewfrance.fr/', 'http://homebrewfrance.fr/'];
 	if (pageSource.includes(FRDomainSRC[0] || FRDomainSRC[1])) {
 		window.location.href = WebsiteLink;
 		redirectLink.href = WebsiteLink;
