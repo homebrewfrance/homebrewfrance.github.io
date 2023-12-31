@@ -1,10 +1,11 @@
 /* CONTRIBUTE TO THIS WEBSITE ON OUR GITHUB https://github.com/homebrewfrance/homebrewfrance.github.io */
-/* LAST-EDITED : 29/12/2023 by Dhalian */
+/* LAST-EDITED : 31/12/2023 by Dhalian */
 
 DiscordLink = 'https://discord.gg/le-homebrew-france-883623179979984896';
 NHLink = 'https://discord.gg/C29hYvh';
 DisboardLink = 'https://disboard.org/fr/server/883623179979984896';
 FormulaireHelperLink = 'https://docs.google.com/forms/d/e/1FAIpQLSdJU768w8SPF459GyieS6plnWkbxLyJ1BBEMcclDSz6xI8Ykw/viewform?usp=pp_url';
+WebsiteLink = 'https://homebrewfrance.github.io/'
 
 document.addEventListener('DOMContentLoaded', function() {
 	redirection();
@@ -28,6 +29,11 @@ function redirection() {
 	else if (pageSource.includes('https://homebrewfrance.github.io/devenir-expert')) {
 		window.location.href = FormulaireHelperLink;
 		redirectLink.href = FormulaireHelperLink;
+	}
+	FRDomainSRC = ['https://homebrewfrance.fr/', 'http://homebrewfrance.fr/'];
+	if (pageSource.includes(FRDomainSRC[0] || FRDomainSRC[1])) {
+		window.location.href = WebsiteLink;
+		redirectLink.href = WebsiteLink;
 	}
 }
 	
