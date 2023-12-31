@@ -31,7 +31,7 @@ function redirection() {
 		window.location.href = FormulaireHelperLink;
 		redirectLink.href = FormulaireHelperLink;
 	}
-	if (pageSource.includes(FRDomainSRC[0] || FRDomainSRC[1])) {
+	else if (pageSource.includes(FRDomainSRC[0] || FRDomainSRC[1])) {
 		window.location.href = WebsiteLink;
 		redirectLink.href = WebsiteLink;
 	}
