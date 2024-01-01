@@ -1,27 +1,38 @@
 /* CONTRIBUTE TO THIS WEBSITE ON OUR GITHUB https://github.com/homebrewfrance/homebrewfrance.github.io */
-/* LAST-EDITED : 27/12/2023 by Dhalian */
+/* LAST-EDITED : 01/01/2024 by Dhalian */
 
-/* PRIX DE LA NINTENDO SWITCH CLASSIQUE NEUVE MODIFIEE A L'ACHAT : */
-prixSwitchClConsole = '379'; // LAISSER LES GUILLEMETS, NE PAS METTRE LE SYMBOLE EURO
+/* ------------------------------------------------------------------------------------ */
+
+/* MODIFICATION DE CONSOLES */
 
 /* PRIX MODIFICATION NINTENDO SWITCH CLASSIQUE : */
 prixSwitchClModif = '99'; // LAISSER LES GUILLEMETS, NE PAS METTRE LE SYMBOLE EURO
-
-
-
-/* PRIX DE LA NINTENDO SWITCH LITE NEUVE MODIFIEE A L'ACHAT : */
-prixSwitchLiteConsole = '319'; // LAISSER LES GUILLEMETS, NE PAS METTRE LE SYMBOLE EURO
+// https://www.fixurphone.fr/nos-tarifs/installation-de-picofly-sur-switch-v1-v2
 
 /* PRIX MODIFICATION NINTENDO SWITCH LITE : */
 prixSwitchLiteModif = '99'; // LAISSER LES GUILLEMETS, NE PAS METTRE LE SYMBOLE EURO
-
-
-
-/* PRIX DE LA NINTENDO SWITCH OLED NEUVE MODIFIEE A L'ACHAT : */
-prixSwitchOLEDConsole = '479'; // LAISSER LES GUILLEMETS, NE PAS METTRE LE SYMBOLE EURO
+// https://www.fixurphone.fr/nos-tarifs/installation-de-picofly-sur-switch-lite
 
 /* PRIX MODIFICATION NINTENDO SWITCH OLED : */
 prixSwitchOLEDModif = '139'; // LAISSER LES GUILLEMETS, NE PAS METTRE LE SYMBOLE EURO
+// https://www.fixurphone.fr/nos-tarifs/installation-de-picofly-sur-switch-oled
+
+/* ------------------------------------------------------------------------------------ */
+
+/* CONSOLES MODIFIEES NEUVES */
+
+/* PRIX DE LA NINTENDO SWITCH CLASSIQUE NEUVE MODIFIEE A L'ACHAT : */
+prixSwitchClConsole = '379'; // LAISSER LES GUILLEMETS, NE PAS METTRE LE SYMBOLE EURO
+// https://www.fixurphone.fr/nos-tarifs/nintendo-switch-classique-modifi%C3%A9e
+
+/* PRIX DE LA NINTENDO SWITCH LITE NEUVE MODIFIEE A L'ACHAT : */
+prixSwitchLiteConsole = '319'; // LAISSER LES GUILLEMETS, NE PAS METTRE LE SYMBOLE EURO
+// https://www.fixurphone.fr/nos-tarifs/nintendo-switch-lite-modifi%C3%A9e
+
+/* PRIX DE LA NINTENDO SWITCH OLED NEUVE MODIFIEE A L'ACHAT : */
+prixSwitchOLEDConsole = '479'; // LAISSER LES GUILLEMETS, NE PAS METTRE LE SYMBOLE EURO
+// https://www.fixurphone.fr/nos-tarifs/nintendo-switch-oled-modifi%C3%A9e
+
 
 /* NE PAS TOUCHER AU RESTE DU CODE */
 
