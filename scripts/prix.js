@@ -83,5 +83,4 @@ function appliquerPrix() {
     document.getElementById('oled-oldprice-modif').innerHTML = prixOriginalOLEDModif;
     
     document.getElementById('max-reduc').innerHTML = Math.min(reducClConsole, reducLiteConsole, reducOLEDConsole, reducClModif, reducLiteModif, reducOLEDModif);
-    console.log('prix modif');
 }
