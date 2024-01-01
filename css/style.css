@@ -1,5 +1,5 @@
 /* CONTRIBUTE TO THIS WEBSITE ON OUR GITHUB : https://github.com/homebrewfrance/homebrewfrance.github.io */
-/* LAST-EDITED : 28/12/2023 by Dhalian */
+/* LAST-EDITED : 01/01/2024 by Dhalian */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap&family=Unbounded:wght@800&display=swap&family=Montserrat:wght@700&display=swap&family=Gabarito&display=swap');
 
 @media only screen and (max-width: 800px) {
@@ -55,7 +55,12 @@
 	.warning {
 		padding-left: 70px;
 	}
-
+	.grid-presta:hover {
+			transform: scale(1.05);
+		}
+	.grid-packs:hover {
+			transform: scale(1.02); 
+		}
 }
 		.cookie-container {
 			display: flex;
