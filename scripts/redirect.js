@@ -1,5 +1,5 @@
 /* CONTRIBUTE TO THIS WEBSITE ON OUR GITHUB https://github.com/homebrewfrance/homebrewfrance.github.io */
-/* LAST-EDITED : 31/12/2023 by Dhalian */
+/* LAST-EDITED : 03/01/2024 by Dhalian */
 
 DiscordLink = 'https://discord.gg/le-homebrew-france-883623179979984896';
 NHLink = 'https://discord.gg/C29hYvh';
@@ -39,5 +39,10 @@ function redirection() {
 		window.location.href = WebsiteLink;
 		redirectLink.href = WebsiteLink;
 	}
+	else if (pageSource.includes('http://homebrewfrance.fr/discord')) {
+		window.location.href = DiscordLink;
+		redirectLink.href = DiscordLink;
+	}
+
 }
 	
