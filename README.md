@@ -7,10 +7,12 @@ Il s'agit d'un site minimaliste pour la communauté francophone "Le Homebrew Fra
 ## Navigation
 - [Accueil](https://homebrewfrance.github.io/)
 - [Téléchargements](https://homebrewfrance.github.io/telechargements/)\
+  
 *Docs*
 - [Nintendo Switch](https://homebrewfrance.github.io/docs/switch/)
 - [Nintendo DSi](https://homebrewfrance.github.io/docs/dsi/)
 - [PlayStation 2](https://homebrewfrance.github.io/docs/ps2/)\
+  
 *Multi-Checker*
 - [Nintendo Switch](https://homebrewfrance.github.io/mutli-checker/switch/)
 - [PlayStation 3](https://homebrewfrance.github.io/multi-checker/ps3/)
@@ -36,9 +38,14 @@ Il s'agit d'un site minimaliste pour la communauté francophone "Le Homebrew Fra
 ### Multi-Checker : 
 - [Dhalian](https://github.com/Dhalian) : Développement du Multi-Checker.
 
+# Contenu de la boutique FIXurPHONE
+L'intégralité du contenu de la boutique est proposé par l'entreprise FIXurPHONE, au même titre que les prestations de réparation de consoles.\
+Le Homebrew France n'est pas responsable des transactions et ne perçoit aucun revenu à la vente de ces consoles et à la vente de ces services.
+
 # Copyrights
 Le contenu de ce site est soumis à des droits d'auteur.\
-© 2021 - 2024 | Le Homebrew France
+© 2021 - 2024 - Le Homebrew France
+© 2024 - FIXurPHONE
 
 # Légal
 L'intégralité du contenu de ce site respecte la loi française et le Code de la Propriété Intelectuelle.
