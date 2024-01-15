@@ -1,5 +1,5 @@
 /* CONTRIBUTE TO THIS WEBSITE ON OUR GITHUB https://github.com/homebrewfrance/homebrewfrance.github.io */
-/* LAST-EDITED : 01/01/2024 by Dhalian */
+/* LAST-EDITED : 15/01/2024 by Dhalian */
 
 /* ------------------------------------------------------------------------------------ */
 
