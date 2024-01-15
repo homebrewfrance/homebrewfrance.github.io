@@ -17,28 +17,28 @@ Il s'agit d'un site minimaliste pour la communauté francophone "Le Homebrew Fra
 
 # Crédits 
 ### Général : 
-[Dhalian](https://github.com/Dhalian) : Dévéloppement et maintenance du site.
-[FIXurPHONE](https://fixurphone.fr/) : Logo FIXurPHONE.
+- [Dhalian](https://github.com/Dhalian) : Dévéloppement et maintenance du site.
+- [FIXurPHONE](https://fixurphone.fr/) : Logo FIXurPHONE.
 
 ### Documentation :
 #### Switch :
-[Zoria](https://github.com/THZoria) : Rédaction de la documentation originale, utilisée comme référence.
-[numbersix]() : Compléments sur la documentation.
-[Dhalian](https://github.com/Dhalian) : Portage de la documentation en version web, image d'illustration des joy-con. Intégration du Multi-Checker.
-[Luigi31]() : Image d'illustration des partitions.
+- [Zoria](https://github.com/THZoria) : Rédaction de la documentation originale, utilisée comme référence.
+- [numbersix]() : Compléments sur la documentation.
+- [Dhalian](https://github.com/Dhalian) : Portage de la documentation en version web, image d'illustration des joy-con. Intégration du Multi-Checker.
+- [Luigi31]() : Image d'illustration des partitions.
 
 #### DSi :
-[Dhalian](https://github.com/Dhalian) : Rédaction de la documentation, images d'illustration.
+- [Dhalian](https://github.com/Dhalian) : Rédaction de la documentation, images d'illustration.
 
 #### PlayStation 2 : 
-[Dhalian](https://github.com/Dhalian) : Rédaction de la documentation.
+- [Dhalian](https://github.com/Dhalian) : Rédaction de la documentation.
 
 ### Multi-Checker : 
-[Dhalian](https://github.com/Dhalian) : Développement du Multi-Checker.
+- [Dhalian](https://github.com/Dhalian) : Développement du Multi-Checker.
 
 # Copyrights
-Le contenu de ce site est soumis à des droits d'auteur.
-© 2021 - 2024 | Le Homebrew France
+Le contenu de ce site est soumis à des droits d'auteur.\
+© 2021 - 2024 | Le Homebrew France\
 
 # Légal
 L'intégralité du contenu de ce site respecte la loi française et le Code de la Propriété Intelectuelle.
