@@ -7,11 +7,11 @@ Il s'agit d'un site minimaliste pour la communauté francophone "Le Homebrew Fra
 ## Navigation
 - [Accueil](https://homebrewfrance.github.io/)
 - [Téléchargements](https://homebrewfrance.github.io/telechargements/)
-- *Docs*
+*Docs*
 - [Nintendo Switch](https://homebrewfrance.github.io/docs/switch/)
 - [Nintendo DSi](https://homebrewfrance.github.io/docs/dsi/)
 - [PlayStation 2](https://homebrewfrance.github.io/docs/ps2/)
-- *Multi-Checker*
+*Multi-Checker*
 - [Nintendo Switch](https://homebrewfrance.github.io/mutli-checker/switch/)
 - [PlayStation 3](https://homebrewfrance.github.io/multi-checker/ps3/)
 
@@ -24,7 +24,7 @@ Il s'agit d'un site minimaliste pour la communauté francophone "Le Homebrew Fra
 #### Switch :
 - [Zoria](https://github.com/THZoria) : Rédaction de la documentation originale, utilisée comme référence.
 - [numbersix]() : Compléments sur la documentation.
-- [Dhalian](https://github.com/Dhalian) : Portage de la documentation en version web, image d'illustration des joy-con. Intégration du Multi-Checker.
+- [Dhalian](https://github.com/Dhalian) : Portage de la documentation en version web, images d'illustration des joy-con. Intégration du Multi-Checker.
 - [Luigi31]() : Image d'illustration des partitions.
 
 #### DSi :
