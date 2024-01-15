@@ -22,7 +22,7 @@ prixSwitchOLEDModif = '139'; // LAISSER LES GUILLEMETS, NE PAS METTRE LE SYMBOLE
 /* CONSOLES MODIFIEES NEUVES */
 
 /* PRIX DE LA NINTENDO SWITCH CLASSIQUE NEUVE MODIFIEE A L'ACHAT : */
-prixSwitchClConsole = '379'; // LAISSER LES GUILLEMETS, NE PAS METTRE LE SYMBOLE EURO
+prixSwitchClConsole = '369'; // LAISSER LES GUILLEMETS, NE PAS METTRE LE SYMBOLE EURO
 // https://www.fixurphone.fr/nos-tarifs/nintendo-switch-classique-modifi%C3%A9e
 
 /* PRIX DE LA NINTENDO SWITCH LITE NEUVE MODIFIEE A L'ACHAT : */
@@ -30,7 +30,7 @@ prixSwitchLiteConsole = '319'; // LAISSER LES GUILLEMETS, NE PAS METTRE LE SYMBO
 // https://www.fixurphone.fr/nos-tarifs/nintendo-switch-lite-modifi%C3%A9e
 
 /* PRIX DE LA NINTENDO SWITCH OLED NEUVE MODIFIEE A L'ACHAT : */
-prixSwitchOLEDConsole = '479'; // LAISSER LES GUILLEMETS, NE PAS METTRE LE SYMBOLE EURO
+prixSwitchOLEDConsole = '459'; // LAISSER LES GUILLEMETS, NE PAS METTRE LE SYMBOLE EURO
 // https://www.fixurphone.fr/nos-tarifs/nintendo-switch-oled-modifi%C3%A9e
 
 
