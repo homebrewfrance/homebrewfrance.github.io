@@ -38,7 +38,7 @@ Il s'agit d'un site minimaliste pour la communauté francophone "Le Homebrew Fra
 
 # Copyrights
 Le contenu de ce site est soumis à des droits d'auteur.\
-© 2021 - 2024 | Le Homebrew France\
+© 2021 - 2024 | Le Homebrew France
 
 # Légal
 L'intégralité du contenu de ce site respecte la loi française et le Code de la Propriété Intelectuelle.
