@@ -17,6 +17,8 @@ Il s'agit d'un site minimaliste pour la communauté francophone "Le Homebrew Fra
 - [Nintendo Switch](https://homebrewfrance.github.io/mutli-checker/switch/)
 - [PlayStation 3](https://homebrewfrance.github.io/multi-checker/ps3/)
 
+- [A propos](https://homebrewfrance.github.io/a-propos/)
+
 # Crédits 
 ### Général : 
 - [Dhalian](https://github.com/Dhalian) : Dévéloppement et maintenance du site.
