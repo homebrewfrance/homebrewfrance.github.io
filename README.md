@@ -9,13 +9,13 @@ Il s'agit d'un site minimaliste pour la communauté francophone "Le Homebrew Fra
 - [Téléchargements](https://homebrewfrance.github.io/telechargements/)
   
 *Docs*
-- [Nintendo Switch](https://homebrewfrance.github.io/docs/switch/)
-- [Nintendo DSi](https://homebrewfrance.github.io/docs/dsi/)
-- [PlayStation 2](https://homebrewfrance.github.io/docs/ps2/)
+> - [Nintendo Switch](https://homebrewfrance.github.io/docs/switch/)
+> - [Nintendo DSi](https://homebrewfrance.github.io/docs/dsi/)
+> - [PlayStation 2](https://homebrewfrance.github.io/docs/ps2/)
   
 *Multi-Checker*
-- [Nintendo Switch](https://homebrewfrance.github.io/mutli-checker/switch/)
-- [PlayStation 3](https://homebrewfrance.github.io/multi-checker/ps3/)
+> - [Nintendo Switch](https://homebrewfrance.github.io/mutli-checker/switch/)
+> - [PlayStation 3](https://homebrewfrance.github.io/multi-checker/ps3/)
 
 - [A propos](https://homebrewfrance.github.io/a-propos/)
 
