@@ -44,7 +44,7 @@ Le Homebrew France n'est pas responsable des transactions et ne perçoit aucun r
 
 # Copyrights
 Le contenu de ce site est soumis à des droits d'auteur.\
-© 2021 - 2024 - Le Homebrew France
+© 2021 - 2024 - Le Homebrew France\
 © 2024 - FIXurPHONE
 
 # Légal
