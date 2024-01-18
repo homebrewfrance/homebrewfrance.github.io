@@ -31,11 +31,11 @@ function redirection() {
 		window.location.href = FormulaireHelperLink;
 		redirectLink.href = FormulaireHelperLink;
 	}
-	else if (pageSource.includes('https://homebrewfrance.fr/')) {
+	else if (pageSource.includes('https://homebrewfrance.fr/index.html')) {
 		window.location.href = WebsiteLink;
 		redirectLink.href = WebsiteLink;
 	}
-	else if (pageSource.includes('http://homebrewfrance.fr/')) {
+	else if (pageSource.includes('http://homebrewfrance.fr/index.html')) {
 		window.location.href = WebsiteLink;
 		redirectLink.href = WebsiteLink;
 	}
