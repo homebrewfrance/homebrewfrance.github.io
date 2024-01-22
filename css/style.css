@@ -1,5 +1,5 @@
 /* CONTRIBUTE TO THIS WEBSITE ON OUR GITHUB : https://github.com/homebrewfrance/homebrewfrance.github.io */
-/* LAST-EDITED : 01/01/2024 by Dhalian */
+/* LAST-EDITED : 22/01/2024 by Dhalian */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap&family=Unbounded:wght@800&display=swap&family=Montserrat:wght@700&display=swap&family=Gabarito&display=swap');
 
 @media only screen and (max-width: 800px) {
@@ -61,7 +61,47 @@
 	.grid-packs:hover {
 			transform: scale(1.02); 
 		}
-}
+}		
+		.time {
+			border-radius: 5px;
+			border: none;
+			background: rgb(32,40,55);
+			padding: 7px;
+			transition: 0.3s;
+			color: white;
+		}
+		.time:focus {
+			background: linear-gradient(324deg, rgba(32,40,55,1) 0%, rgba(47,56,74,1) 58%, rgba(80,89,107,1) 100%);
+			box-shadow: 0px 2px 5px #fff;			
+		}
+		#pseudo, #autres-rep, #autres-rep2, #motivation, #date-naissance {
+			border-radius: 5px;
+			border: none;
+			background: rgb(32,40,55);
+			padding: 7px;
+			transition: 0.3s;
+			color: white;
+		}
+		#pseudo:focus, #autres-rep:focus, #autres-rep2:focus, #motivation:focus, #date-naissance:focus, #time:focus, #time2:focus {
+			background: linear-gradient(324deg, rgba(32,40,55,1) 0%, rgba(47,56,74,1) 58%, rgba(80,89,107,1) 100%);
+			box-shadow: 0px 2px 5px #fff;
+		}
+		.checkbox-container {
+			margin-left: 3%;
+		}
+		.formulaire-helper {
+			width: 450px;
+			height: auto;
+			padding: 5px;
+			margin: 9px;
+		}
+		input[type="checkbox"] {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			width: 16px;
+			height: 16px;
+		}
 		.cookie-container {
 			display: flex;
 			flex-direction: row;
@@ -129,7 +169,6 @@
 			padding-right: 15px;
 			padding-top: 5px;
 			padding-bottom: 5px;
-			
 			transition: 0.5s;
 		}
 		#author {
@@ -216,9 +255,6 @@
 			padding: 45px;
 			color: black;
 		}
-		/*small {
-			color: white;
-		}*/
 		img {
     			max-width: 100%;
     			height: auto;
@@ -337,8 +373,7 @@
 		.credits-name {
 			font-family: 'Unbounded', cursive;
 		}
-
-		input {
+		input-checker {
 			background-color: #303030;
 			border-radius: 7px;
 			border: 1px solid #fff;
@@ -348,10 +383,8 @@
 		}
 		form {  
 			color: white;
-			padding-left: 15%;
-			padding-right: 15%;
 		}
-		.input {
+		.input-checker {
 			color:white;
 			background-color: #303030;
 		}
@@ -409,7 +442,7 @@
 			font-family: 'Unbounded', sans-serif;
 			transition: 0.3s;
 		}
-		.packs-dl-btn, .packs-github-btn, .presta-btn, .staff-social-btn {
+		.packs-dl-btn, .packs-github-btn, .presta-btn, .staff-social-btn, .formulaire-helper-btn {
 			border-radius: 10px;
 			background-color: #060b1c;
 			padding: 6px;
@@ -432,7 +465,7 @@
 			font-family: 'Unbounded', sans-serif;
 			transition: 0.8s;
 		}
-		.packs-github-btn:hover, .packs-dl-btn:hover, .presta-btn:hover, .staff-social-btn:hover {
+		.packs-github-btn:hover, .packs-dl-btn:hover, .presta-btn:hover, .staff-social-btn:hover, .formulaire-helper-btn:hover {
 			background: rgb(6,11,28);
 			background: linear-gradient(300deg, rgba(6,11,28,1) 0%, rgba(44,45,74,1) 35%, rgba(94,103,120,1) 100%);
 			box-shadow: 0px 2px 5px #fff;
