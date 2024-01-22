@@ -1,0 +1,94 @@
+<script src="../scripts/cookies.js"></script>
+<!-- CONTRIBUTE TO THIS WEBSITE ON OUR GITHUB https://github.com/homebrewfrance/homebrewfrance.github.io/ -->
+<!-- LAST-EDITED : 22/01/2024 by Dhalian -->
+<!DOCTYPE html>
+<span style="display: none;" id="page_name">about</span>
+<span style="display: none;" id="footer_type">1</span>
+<html lang="fr">
+	<head>
+		<!-- COOKIES MANAGEMENT -->
+		<span id="cookieBoxGen"></span>
+		
+		<!-- META -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<meta content="Devenir Helper | Le Homebrew France" property="og:title"/>
+		<meta content="Formulaire pour postuler en tant que Helper" property="og:description"/>
+		<meta content="https://homebrewfrance.github.io/devenir-helper" property="og:url"/>
+		<meta content="https://raw.githubusercontent.com/homebrewfrance/homebrewfrance.github.io/main/IMAGES/favicon.png" property="og:image"/>
+
+		<title>A propos</title>
+
+		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9864634157908409" crossorigin="anonymous"></script>
+
+		<!-- LINKS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="../css/style.css">
+		<link rel="stylesheet" href="../css/navbar__f.css">
+        <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/homebrewfrance/homebrewfrance.github.io/main/IMAGES/favicon.png">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	</head>
+	<span id="navGen"></span>
+	<body>
+		<div class="indicator">
+			<small class="indicatortxt"><i>&#10095;&#10095; DEVENIR HELPER</i></small>
+		</div>
+		<div class="page">
+			<pre></pre>
+            <h3 class="titles"><strong><i>FORMULAIRE &#10095;&#10095;</i></strong></h3>
+            <p>Veuillez remplir le formulaire de candidature ci-dessous. N'oubliez pas cliquer sur "Envoyer".</p>
+            <form action="https://formspree.io/f/mpzvwjke" method="POST" style="margin-left: 0;">
+                <h4 style="margin-bottom: 5px; font-family: Unbounded, cusrive;"><i>PSEUDO DISCORD :</i></h4>
+                <input name="Pseudo" id="pseudo"></br>
+                </br>
+                <h4 style="margin-bottom: 5px; font-family: Unbounded, cusrive;"><i>DOMAINES D'AIDE :</i></h4>
+                <div class="checkbox-container">
+                    <input type="checkbox" name="consoles[]" value="PSP" class="formulaire-helper"> PlayStation Portable (PSP)</br>
+                    <input type="checkbox" name="consoles[]" value="PS4" class="formulaire-helper"> PlayStation 4</br>
+                    <input type="checkbox" name="consoles[]" value="Xbox-OG" class="formulaire-helper"> Xbox (1 ère génération)</br>
+                    <input type="checkbox" name="consoles[]" value="Xbox-360" class="formulaire-helper"> Xbox 360</br>
+                    <input type="checkbox" name="consoles[]" value="3DS" class="formulaire-helper"> Nintendo 3DS</br>
+                    <input type="checkbox" name="consoles[]" value="Wii" class="formulaire-helper"> Nintendo Wii</br>
+                    <input type="checkbox" name="consoles[]" value="Wii-U" class="formulaire-helper"> Nintendo Wii U</br>
+                    <input type="checkbox" name="consoles[]" value="DSi" class="formulaire-helper"> Nintendo DSi</br>
+                </div>
+                <label style="margin-left: 2.3%;">Autre(s) (préciser) :</label>
+                <input name="Autres consoles (optionnel)" id="autres-rep">
+                <pre></pre>
+                <h4 style="margin-bottom: 5px; font-family: Unbounded, cusrive;"><i>REDIGEZ UN PARAGRAPHE DE MOTIVATION :</i></h4>
+                <textarea name="Arguments" style="width: 100%; height: 150px; margin-bottom: 15px;" id="motivation"></textarea>
+                </br>
+                <h4 style="margin-bottom: 5px; font-family: Unbounded, cusrive;"><i>INDIQUEZ LES SERVEURS SUR LESQUELS VOUS AIDEZ DEJA :</i></h4>
+                <div class="checkbox-container">
+                    <input type="checkbox" name="serveurs[]" value="Nintendo-Homebrew" class="formulaire-helper"> Nintendo-Homebrew<br>
+                    <input type="checkbox" name="serveurs[]" value="LS-Atelier" class="formulaire-helper"> LS-Atelier<br>
+                    <input type="checkbox" name="serveurs[]" value="SigHya" class="formulaire-helper"> SigHya<br>
+                    <input type="checkbox" name="serveurs[]" value="MikeGamers" class="formulaire-helper"> MikeGamers<br>
+                    <input type="checkbox" name="serveurs[]" value="Jihel" class="formulaire-helper"> Jihel Jay<br>
+                    <input type="checkbox" name="serveurs[]" value="DSiModeHacking" class="formulaire-helper"> DS(i) Mode Hacking!<br>
+                    <input type="checkbox" name="serveurs[]" value="PlayStation-Homebrew" class="formulaire-helper"> PlayStation-Homebrew<br>
+                </div>
+                <label style="margin-left: 2.3%;">Autre(s) (préciser) :</label>
+                <input type="text" name="Autres serveurs (optionnel)" id="autres-rep2">
+                <pre></pre>
+                <h4 style="margin-bottom: 5px; font-family: Unbounded, cusrive;"><i>DATE DE NAISSANCE :</i></h4>
+                <input id="date-naissance" type="date" name="Date de naissance" >
+                <pre></pre>
+                <h4 style="margin-bottom: 5px; font-family: Unbounded, cusrive;"><i>DISPONIBILITES GENERALES :</i></h4>
+                <p>Semaine (L/M/M/J/V) :</p>
+                <p>De <input class="time" type="time" name="Disponibilités (L/M/M/J/V) (heure début)"> à <input class="time" type="time" name="Disponibilités (L/M/M/J/V) (heure fin)"></p>
+                <p>Week-end (S/D) :</p>
+                <p>De <input class="time" type="time" name="Disponibilités (S/D) (heure début)""> à <input class="time" type="time" name="Disponibilités (S/D) (heure fin)"></p>
+                <input type="checkbox" name="Règlement lu" value="Oui" class="formulaire-helper"> Je confirme avoir pris connaissance du règlement de la communauté</br>
+                <button type="submit" class="formulaire-helper-btn" style="margin-left: 0;">Envoyer</button>
+            </form>
+        </div>
+    </body>
+	<span id="footerGen"></span>
+	<script src="../scripts/navbar__f.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</html>
