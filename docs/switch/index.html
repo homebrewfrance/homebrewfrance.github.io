@@ -1,6 +1,6 @@
 <script src="../../scripts/cookies.js"></script>
 <!-- CONTRIBUTE TO THIS WEBSITE ON OUR GITHUB https://github.com/homebrewfrance/homebrewfrance.github.io/ -->
-<!-- LAST-EDITED : 01/01/2024 by Dhalian -->
+<!-- LAST-EDITED : 24/01/2024 by Dhalian -->
 <!DOCTYPE html>
 <span style="display: none;" id="page_name">docs</span>
 <span style="display: none;" id="footer_type">3</span>
@@ -168,8 +168,93 @@
 					<pre></pre>
 					<h2 id="creer-emunand"><strong>II. Créer une emuNAND par partition sous Hekate</strong></h2>
 					<hr color="white">
-					<p>Pour cette étape, il est important d'utiliser une carte SD de bonne qualité. On recommande en général les marques Sandisk, Samsung, Kingston, PNY, Verbatim, Lexar, etc.</p>
-					<center><a href="https://docs.google.com/document/d/1A1gRl-W52LLNXe8XygiIM0bZgiPxjI0RVbtpA_IoKmk/edit"><button class="forms-btn-hover">Tutoriel écrit disponible ici.</button></a></center>
+					<div class="indic">
+						<p class="indic-text">Pour rappel, une emuNAND est une copie de la NAND stockée dans une carte micro SD. Elle peut-être stockée de deux manières différentes : par fichier ou par partition. La méthode recommandée est la méthode par partition.</p>
+					</div>
+					<div class="disclaimer">
+						<p class="indic-text">Il est nécessaire de posséder une carte micro SD de minimum 128Go (256Go recommandés) avec un pack Atmosphère sécurisé copié sur la carte micro SD.</p>
+					</div>
+					<h3>Prérequis</h3>
+					<ul>
+						<li><p>Un câble USB-C vers USB-A ou un câble USB-C vers USB-C permettant le transfert de données.</p>
+						<i>Note: si vous ne possédez pas de câble, continuez vers l'<a href="#switch_step0bis">étape 0-bis</a>.</i></li>
+					</ul>
+					<div class="indic">
+						<p class="indic-text">Avant la création de la partition, il est recommandé (via démarrage en CFW SysNAND) d'activer le mode avion et des faire une copie de vos sauvegardes SysNAND avec l'Homebrew DBI afin de pouvoir les restaurer plus tard sur l'EmuNAND. La procédure à suivre se trouve dans la <a href="#saves-dbi">partie V</a>.</p>
+					</div>
+					<p><strong>0.</strong> Copie des sauvegardes du dossier "Nintendo" sur PC</p>
+					<ul>
+						<li>Démarrez en CFW SysNAND en mode avion et rendez-vous dans "Album" pour lancer DBI.</li>
+						<li>Reliez la Switch à votre ordinateur par câble. Faites "Run MTP Responder". Plusieurs disques vont apparaître dans l'explorateur de fichiers.</li>
+						<li>Créez un dossier "DataSwitch" sur votre ordinateur, puis à l'intérieur de ce dossier, créez un dossier "Saves".</li>
+						<li>Allez dans le disque n°7 : "Saves" et copiez-collez son contenu dans le dossier "DataSwitch/Saves" précédemment créé.</li>
+						<li>Allez dans le disque "External SD Card" et copiez-collez le dossier "Nintendo" dans le dossier "DataSwitch/Saves".</li>
+					</ul>
+					<p id="switch_step0bis"><strong>0-bis.</strong> Sauvegarde du dossier "Nintendo" sur ordinateur</p>
+					<ul>
+						<li>Créez un dossier "DataSwitch" sur votre ordinateur.</li>
+						<li>Eteignez votre console, retirez la carte micro SD puis insérez là dans votre ordinateur. S'il ne possède pas de port micro USB, utlisez un adaptateur selon vos besoins.</li>
+						<li>Copiez-collez le dossier "Nintendo" dans le dossier "DataSwitch" précédemment créé.</li>
+					</ul>
+					<p><strong>1.</strong> Création de la partition</p>
+					<ul>
+						<li>Passez en mode RCM et injectez le payload Hekate si la console est éteinte ou redémarrez sur Hekate via "Reboot-to-payload.nro" si la console est déjà en CFW SysNAND.</li>
+						<li>Sélectionnez le menu "Tools" d'Hekate.</li>
+					</ul>
+					<center><img src="../../IMAGES/docs/switch/hekate_1.png" style="margin-bottom: 10px;" width="797" height="339"></center>
+					<ul>
+						<li>Sélectionnez "eMMC / SD Partitions / USB" puis "Partition SD Card" puis "OK"</li>
+					</ul>
+					<center><img src="../../IMAGES/docs/switch/hekate_2.png" style="margin-bottom: 10px;" width="797" height="339"></center>
+					<center><img src="../../IMAGES/docs/switch/hekate_3.png" style="margin-bottom: 10px;" width="797" height="339"></center>
+					<ul>
+						<li>Faites glisser le curseur de la ligne rouge de l'option "emuMMC RAW" jusque "29 FULL" puis appuyez sur "Next Step".</li>
+					</ul>
+					<center><img src="../../IMAGES/docs/switch/hekate_4.png" style="margin-bottom: 10px;" width="797" height="339"></center>
+					<p>Hekate vous avertira, faites "START" pour créer la partition; la carte micro SD est alors formatée en FAT32, un système de fichiers qui, contrairement à l'exFAT n'est pas sujet aux corruptions de données pouvant empêcher le bon fonctionnement des jeux. Les "gros" dossiers de la carte micro SD seront effacés, ce qui justifie la sauvegarde du dossier "Nintendo" effectuée précédemment.</p>
+					<p><strong>2.</strong> Vérification de la carte micro SD</p>
+					<div class="indic">
+						<p class="indic-text">Il est possible, lors du partitionnement que certains fichiers du pack ainsi que le dossier "Nintendo" ne soient manquants à la racine de la carte micro SD, ce qui bloquera le démarrage d'Atmosphère.</p>
+					</div>
+					<ul>
+						<li>Reliez la console à votre ordinateur.</li>
+						<li>Dans Hekate, faites "Tools -> USB Tools -> SD Card".
+						</br><i>Note: Windows demandera un formatage, cliquez sur <strong>"Annuler"</strong>.</i>
+						</li>
+						<li>Vérifiez la présence de tous les fichiers du pack sur la micro SD, si besoin, complétez-les.</li>
+						<li>S'il a disparu, copiez-collez à la racine de la carte micro SD le dossier "Nintendo" de l'<a href="#switch_step0bis">étape 0-bis ou 0</a> situé dans le dossier "DataSwitch" de votre ordinateur.</li>
+					</ul>
+					<p><strong>3.</strong> Création de l'emuNAND</p>
+					<ul>
+						<li>Retournez dans l'onglet "Home" de Hekate, puis allez dans la section "emuMMC".</li>
+					</ul>
+					<center><img src="../../IMAGES/docs/switch/hekate_5.png" style="margin-bottom: 10px;" width="797" height="339"></center>
+					<ul>
+						<li>Appuyez sur "Create emuMMC" puis "SD Partition" et enfin sur "Part1"</li>
+					</ul>
+					<div class="disclaimer">
+						<p class="indic-text"><strong>Attention :</strong> Ne sélectionnez pas "SD Files".</p>
+					</div>
+					<center><img src="../../IMAGES/docs/switch/hekate_6.png" style="margin-bottom: 10px;" width="797" height="339"></center>
+					<center><img src="../../IMAGES/docs/switch/hekate_7.png" style="margin-bottom: 10px;" width="797" height="339"></center>
+					<center><img src="../../IMAGES/docs/switch/hekate_8.png" style="margin-bottom: 10px;" width="797" height="339"></center>
+					<ul>
+						<li>La création de l'emuNAND prendra entre 10 et 30 minutes selon la vitesse d'écriture de votre carte micro SD, une fois terminé, appuyez sur "Close" après avoir bien vérifié qu'il est bien écrit "Enabled!" dans l'onglet "emuMMC Info & Selection".</br>
+						Note: si ce n'est pas le cas; appuyez sur "Change emuMMC" puis "SD RAW1".</li>
+					</ul>
+					<center><img src="../../IMAGES/docs/switch/hekate_9.png" style="margin-bottom: 10px;" width="797" height="339"></center>
+					<ul>
+						<li>Pour démarrer en emuNAND, apuyez sur "Close" et allez dans "Launch" puis "CFW (emuMMC)" ou "Switch V1" ou "Atmosphere-nx" (l'emuNAND sera automatiquement détectée) en cas de configuration "fusee.bin" ou "Atmosphere emuNAND" pour le pack LS-AIO.</li>
+					</ul>
+					<center><img src="../../IMAGES/docs/switch/hekate_10.png" style="margin-bottom: 10px;" width="797" height="339"></center>
+					<center><img src="../../IMAGES/docs/switch/hekate_11.png" style="margin-bottom: 10px;" width="797" height="339"></center>
+					<ul>
+						<li>Allez dans les paramètres de la console pour vérifier la présence d'un <strong>E</strong> après "AMS" dans l'onglet "Console" qui confirme le démarrage correct en emuNAND.</li>
+					</ul>
+					<center><img src="https://hbf-files.github.io/ns_1.png" style="margin-bottom: 10px;" width="797" height="339"></center>
+					<ul>
+						<li>Pour bien différencier <strong>E</strong>muNAND et <strong>S</strong>ysNAND, appliquez un thème différent pour l'emuNAND et la SysNAND.</li>
+					</ul>
 					<pre></pre>
 					<h2 id="maj-daybreak"><strong>III. Mise à jour via Daybreak</strong></h2>
 					<hr color="white">
