@@ -1,1 +1,111 @@
+<script src="../../scripts/cookies.js"></script>
+<!-- CONTRIBUTE TO THIS WEBSITE ON OUR GITHUB https://github.com/homebrewfrance/homebrewfrance.github.io/ -->
+<!-- LAST-EDITED : 04/02/2024 by Dhalian -->
+<!DOCTYPE html>
+<span style="display: none;" id="page_name">docs</span>
+<span style="display: none;" id="footer_type">3</span>
+<html lang="fr">
+	<head>
+		<a class="top-page-button" href="#"><div href="#" class="top-page-button" title="Remonter en haut de la page">
+			<center>&#9650;</center>
+		</div></a>
+
+		<!-- COOKIES MANAGEMENT -->
+		<span id="cookieBoxGen"></span>
+		
+		<!-- META -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<meta content="PSVita | Docs" property="og:title"/>
+		<meta content="Documentation complète sur la PSVita." property="og:description"/>
+		<meta content="https://homebrewfrance.github.io/docs/psvita" property="og:url"/>
+		<meta content="../../IMAGES/favicon.png" property="og:image"/>
+	
+        <title>PSVita | Docs</title>
+
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9864634157908409" crossorigin="anonymous"></script>
+
+        <!-- LINKS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="../../css/guide.css">
+        <link rel="icon" type="image/png" href="../../IMAGES/favicon.png">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	</head>
+    <span id="navGen"></span>
+		<body>
+			<div class="indicator">
+				<small class="indicatortxt"><i>&#10095;&#10095; DOCUMENTATION</i></small>
+			</div>
+			<div class="docu-container">
+				<div class="nav-menu-horiz">
+					<h4><strong>Navigation</strong></h4>
+					<p><a href="#maj-360">➤&nbsp;I. Mise à niveau de la console</a></br>
+					<a href="#exploit-lancement">➤&nbsp;II. Lancement de l'exploit</a></br>
+				</div>
+				<div class="nav-menu-vert">
+					<h4><strong>Navigation</strong></h4>
+					<p><a href="#maj-360">➤&nbsp;I. Mise à niveau de la console</a></br>
+						<a href="#exploit-lancement">➤&nbsp;II. Lancement de l'exploit</a></br>
+				</div>
+				<div class="page-docu">
+                    <h1 class="top">PlayStation Vita - Homebrew France Docs</h1>
+					<div class="indic">
+						<p class="indic-text">Rejoignez <a href="../../discord">Le Homebrew France</a> pour obtenir de l'assistance ou nous aider à développer le guide.</p>
+					</div>
+                    <p>Ce guide permettera de jailbreaker votre PlayStation Vita en basculant vers la version 3.60 du firmware. Suivez les étapes de ce guide afin de mettre à jour votre PlayStation Vita vers le firmware 3.60.</p>
+					<h2 id="maj-360"><strong>I. Mise à niveau de la console en 3.60</strong></h2>
+					<hr color="white">
+					<p><strong>1.</strong> Ouvrez les paramètres de votre console.</p>
+					<p><strong>2.</strong> Rendez-vous dans "Réseau ➜ Paramètres Wi-Fi".</p>
+					<p><strong>3.</strong> Connectez-vous à votre point d'accès Wi-Fi.</p>
+					<p><strong>4.</strong> Rendez-vous dans "Paramètres avancés puis "Paramètres DNS".</p>
+					<p><strong>5.</strong> Réglez en "Manuelle" et non "Automatique". Deux paramètres apparaissent : "DNS primaire" et "DNS secondaire".</p>
+					<p><strong>6.</strong> Renseignez l'adresse IP <code>212.47.229.76</code> dans le champ "DNS primaire". Laissez le champ vide pour "DNS secondaire".</p>
+					<p><strong>7.</strong> Vérifiez également que le paramètre "Serveur Proxy" soit configuré sur "Ne pas utiliser". N'oubliez pas d'enregistrer vos configurations puis retournez à la page principale des paramètres.</p>
+					<p><strong>8.</strong> Rendez-vous dans "Mise à jour système ➜ Mise à jour via Wi-Fi". Votre console fonctionne désormais sous le firmware 3.60.</p>
+					<pre></pre>
+					<h2 id="exploit-lancement"><strong>II. Lancement de l'exploit</strong></h2>
+					<hr color="white">
+					<h3>Prérequis</h3>
+                    <ul class="ul-home">
+                        <li class="li-home">Une connexion Wi-FI/WLAN.</a></li>
+						<li class="li-home"><a href="https://github.com/henkaku/enso/releases/latest/download/enso.vpk">La dernière version de Enso</a>&nbsp;<img src="https://hbf-files.github.io/download.gif" width="18" height="18"></li>
+						<li class="li-home"><a href="https://github.com/TheOfficialFloW/VitaShell/releases/latest/download/VitaShell.vpk">La dernière version de VitaShell</a>&nbsp;<img src="https://hbf-files.github.io/download.gif" width="18" height="18"></li>
+						<li class="li-home"><a href="https://filezilla-project.org/download.php?type=client">La dernière verison de FileZilla Client</a>&nbsp;<img src="https://hbf-files.github.io/download.gif" width="18" height="18"></br>
+						<i>Note: FileZilla est le Client FTP que nous recommandons mais cela fonctionnera avec n'importe quel autre Client FTP.</i></li>
+                    </ul>
+					<p><strong>1.</strong> Ouvrez le navigateur Internet de la console. Puis tapez l'adresse suivante : <a href="henkaku.xyz">henkaku.xyz</a>. Une fois la page chargée, appuyez sur le bouton orange "Install".</p>
+					<p><strong>2.</strong> Au moment où le menu apparaît, maintenez le bouton <img src="../../IMAGES/buttons/psvita_R.png" width="28" height="28"> enfoncé pendant que les manipulations s'effectuent à l'écran. Cela permet l'installation de Molecular Shell en même temps que HENkaku.</p>
+					<p><strong>3.</strong> Une fois que les manipulations sont terminées et que vous êtes redirigé sur le LiveArea (le menu principal), vérifiez que tout s'est bien passé dans les Paramètres, vous devriez voir apparaître "Paramètres de HENkaku".</p>
+					<p><strong>4.</strong> Dans ce menu, cochez les options suivantes : "Activer le spoof du PSN", "Autoriser l'installation de Homebrew non-sécurisés", "Activer le spoof de version". En-dessous de "Version spoofée", écrivez le dernier firmware en date. Le firmware actuel est "3.74".</p>
+					<p><strong>5.</strong> Retournez sur le LiveArea et lancez "Molecular Shell".</p>
+					<p>Nous allons maintenant installer Enso et VitaShell sur la console. Pour procéder nous aurons besoin de FileZilla.</p>
+					<p><strong>6.</strong> Installez FileZilla avec le programme d'installation précédemment téléchargé.</p>
+					<p><strong>7.</strong> Connectez votre console et votre ordinateur au même réseau.</p>
+					<p><strong>8.</strong> Sur votre console, ouvrez "Molecular Shell". Appuyez sur la touche SELECT, un message apparaît vous indiquant l'adresse IP de votre console. Ne touchez plus à rien.</p>
+					<img class="img-border" src="../../IMAGES/docs/psvita/molecular_1.png">
+					<pre></pre>
+					<p><strong>9.</strong> Vous allez devoir à présent rentrer les différentes informations de connexion dans le logiciel FileZilla.</p>
+					<p><strong>10.</strong> Entrez dans "Hôte", l'adresse IP de votre console, elle est généralement de cette forme : <code>192.168.X.XX</code>.</p>
+					<p><strong>11.</strong> Entrez dans "Port", le chiffre <code>1227</code>. Une fois cela fait, cliquez sur "Connexion rapide". Si par la suite FileZilla affiche un message, cliquez simplement sur "OK".</p>
+					<p><strong>12.</strong> Une fois la connexion établie, sur la partie droite de la fenêtre, vous aurez le contenu de votre PSVita avec toutes les partitions qu'elle possède. Ouvrez <code>ux0:</code> et glissez-déposez les fichiers VPK de Enso et VitaShell téléchargés précédemment.</p>
+					<p><strong>13.</strong> Une fois le transfert terminé, revenez sur votre console. Fermez la connexion en appuyant sur <img src="https://hbf-files.github.io/cercle.png" width="18" height="18"></p>
+					<p><strong>14.</strong> Nous allons à présent installer les deux fichiers VPK que nous venons d'envoyer sur la console. en théorie, si ce guide a bien été suivi, vous devrez aller dans <code>ux0:</code> pour les retrouver.</p>
+					<p><strong>15.</strong> Pour chacun des fichiers VPK, appuyez sur <img src="https://hbf-files.github.io/croix.png" width="18" height="18"> pour les installer. Vous pouvez à présent lancer "Enso", appuyez sur <img src="https://hbf-files.github.io/cercle.png" width="18" height="18"> pour accepter les termes puis <img src="https://hbf-files.github.io/croix.png" width="18" height="18"> pour installer Enso. La console devrait alors démarrer en affichant le logo "Molecule", ce qui montre que l'opération est réussie et que votre console est sous Enso.</p>
+					<img class="img-border" src="../../IMAGES/docs/psvita/molecule.png">
+					<div class="indic">
+						<p class="indic-text">Maintenant que votre console est hackée, "Molecular Shell" vous sera inutile. Pour un aspect plus rapide et pratique, utilisez à présent VitaShell, de préférence via USB.</p>
+					</div>
+				</div>
+			</div>
+			</body>
+		<span id="footerGen"></span>
+		<script src="../../scripts/navbar__f.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	</html>
+						
 
