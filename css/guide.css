@@ -65,6 +65,53 @@
 	}
 
 }
+
+.cookie-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(115,115,115);
+    background: linear-gradient(135deg, rgba(115,115,115,1) 0%, rgba(85,85,85,1) 17%, rgba(54,54,54,1) 50%, rgba(18,18,18,1) 175%);
+    color: #fff;
+    z-index: 9999;
+    width: auto;
+    border: none;
+    margin: 5px;
+    border-radius: 9px;
+    padding: 10px;
+}
+
+.cookie-banner p {
+    font-size: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+
+.cookie-banner-button {
+    border: none;
+    background-color: #005020;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 7px;
+    padding: 2px;
+    margin-left: 6px;
+    transition: 0.4s;
+    text-align: center;
+}
+
+.cookie-banner-button:hover {
+    box-shadow: 0px 2px 5px #ffffff;
+    background: #005020;
+    background: linear-gradient(324deg, #005020 0%, #007f33 58%, #3a9e62 100%);
+}
+    
 .warning {
 	color: black;
 	padding-top: 10px;
