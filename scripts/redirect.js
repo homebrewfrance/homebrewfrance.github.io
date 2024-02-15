@@ -4,7 +4,7 @@
 DiscordLink = 'https://discord.gg/le-homebrew-france-883623179979984896';
 NHLink = 'https://discord.gg/C29hYvh';
 DisboardLink = 'https://disboard.org/fr/server/883623179979984896';
-FormulaireHelperLink = 'https://docs.google.com/forms/d/e/1FAIpQLSdJU768w8SPF459GyieS6plnWkbxLyJ1BBEMcclDSz6xI8Ykw/viewform?usp=pp_url';
+FormulaireHelperLink = 'https://homebrewfrance.github.io/devenir-helper/';
 WebsiteLink = 'https://homebrewfrance.github.io/'
 FRDomainSRC = ['https://homebrewfrance.fr/', 'http://homebrewfrance.fr/'];
 
@@ -39,6 +39,5 @@ function redirection() {
 		window.location.href = WebsiteLink;
 		redirectLink.href = WebsiteLink;
 	}
-
 }
 	
