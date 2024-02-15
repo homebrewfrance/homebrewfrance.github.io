@@ -11,6 +11,7 @@ Il s'agit d'un site minimaliste pour la communauté francophone "Le Homebrew Fra
 *Docs*
 > - [Nintendo Switch](https://homebrewfrance.github.io/docs/switch/)
 > - [Nintendo DSi](https://homebrewfrance.github.io/docs/dsi/)
+> - [PlayStation Vita](https://homebrewfrance.github.io/docs/psvita)
 > - [PlayStation 2](https://homebrewfrance.github.io/docs/ps2/)
   
 *Multi-Checker*
