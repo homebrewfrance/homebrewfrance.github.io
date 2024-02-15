@@ -1,5 +1,5 @@
 /* CONTRIBUTE TO THIS WEBSITE ON OUR GITHUB https://github.com/homebrewfrance/homebrewfrance.github.io */
-/* LAST-EDITED : 15/01/2024 by Dhalian */
+/* LAST-EDITED : 15/02/2024 by Dhalian */
 
 /* ------------------------------------------------------------------------------------ */
 
@@ -14,7 +14,7 @@ prixSwitchLiteModif = '99'; // LAISSER LES GUILLEMETS, NE PAS METTRE LE SYMBOLE 
 // https://www.fixurphone.fr/nos-tarifs/installation-de-picofly-sur-switch-lite
 
 /* PRIX MODIFICATION NINTENDO SWITCH OLED : */
-prixSwitchOLEDModif = '139'; // LAISSER LES GUILLEMETS, NE PAS METTRE LE SYMBOLE EURO
+prixSwitchOLEDModif = '149'; // LAISSER LES GUILLEMETS, NE PAS METTRE LE SYMBOLE EURO
 // https://www.fixurphone.fr/nos-tarifs/installation-de-picofly-sur-switch-oled
 
 /* ------------------------------------------------------------------------------------ */
