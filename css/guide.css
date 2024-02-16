@@ -1,5 +1,5 @@
 /* CONTRIBUTE TO THIS WEBSITE ON OUR GITHUB : https://github.com/homebrewfrance/homebrewfrance.github.io */
-/* LAST-EDITED : 04/02/2024 by Dhalian */
+/* LAST-EDITED : 16/02/2024 by Dhalian */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap&family=Unbounded:wght@800&display=swap&family=Montserrat:wght@700&display=swap&family=Gabarito&display=swap');
 
 @media only screen and (max-width: 1041px) {
@@ -27,6 +27,74 @@
 	.warning {
 		padding-left: 10px;
 		padding-right: 10px;
+	}
+	.input {
+		color:white;
+		background-color: #1b1b1b;
+		height: 33px;
+		width: 100px;
+		font-size: 12px;
+		box-shadow: 0px 2px 5px #000;
+		border-radius: 10px;
+	}
+	
+	.inputPS3 {
+		color:white;
+		background-color: #1b1b1b;
+		height: 33px;
+		width: 63px;
+		border-radius: 10px;
+		font-size: 12px;
+		box-shadow: 0px 2px 5px #000;
+	}
+	
+	.submit {
+		background-color: #1b1b1b;
+		border: 1px solid #3f3f3f;
+		color: white;
+		height: 33px;
+		width: 30px;
+		text-align: center;
+		border-radius: 10px;
+		transition: 0.3s;
+		font-size: 12px;
+		box-shadow: 0px 2px 5px #000;
+	}
+	
+	.xawselect {
+		background-color: #1b1b1b;
+		border: 1px solid #3f3f3f;
+		height: 33px;
+		width: 53px;
+		color: white;
+		text-align: center;
+		border-radius: 10px;
+		font-size: 12px;
+		box-shadow: 0px 2px 5px #000;
+	}
+	
+	.CECHSelect {
+		background-color: #1b1b1b;
+		border: 1px solid #3f3f3f;
+		height: 33px;
+		width: 70px;
+		color: white;
+		text-align: center;
+		border-radius: 10px;
+		font-size: 12px;
+		box-shadow: 0px 2px 5px #000;
+	}
+	
+	.LETTERSelect {
+		background-color: #1b1b1b;
+		border: 1px solid #3f3f3f;
+		color: white;
+		height: 33px;
+		width: 30px;
+		text-align: center;
+		font-size: 12px;
+		box-shadow: 0px 2px 5px #000;
+		border-radius: 10px;
 	}
 }
 
@@ -62,6 +130,74 @@
 	}
 	.warning {
 		padding-left: 70px;
+	}
+	.input {
+		color:white;
+		background-color: #1b1b1b;
+		height: 50px;
+		width: 150px;
+		font-size: 19px;
+		box-shadow: 0px 2px 5px #000;
+		border-radius: 10px;
+	}
+	
+	.inputPS3 {
+		color:white;
+		background-color: #1b1b1b;
+		height: 50px;
+		width: 95px;
+		border-radius: 10px;
+		font-size: 19px;
+		box-shadow: 0px 2px 5px #000;
+	}
+	
+	.submit {
+		background-color: #1b1b1b;
+		border: 1px solid #3f3f3f;
+		color: white;
+		height: 50px;
+		width: 45px;
+		text-align: center;
+		border-radius: 10px;
+		transition: 0.3s;
+		font-size: 19px;
+		box-shadow: 0px 2px 5px #000;
+	}
+	
+	.xawselect {
+		background-color: #1b1b1b;
+		border: 1px solid #3f3f3f;
+		height: 50px;
+		width: 80px;
+		color: white;
+		text-align: center;
+		border-radius: 10px;
+		font-size: 19px;
+		box-shadow: 0px 2px 5px #000;
+	}
+	
+	.CECHSelect {
+		background-color: #1b1b1b;
+		border: 1px solid #3f3f3f;
+		height: 50px;
+		width: 105px;
+		color: white;
+		text-align: center;
+		border-radius: 10px;
+		font-size: 19px;
+		box-shadow: 0px 2px 5px #000;
+	}
+	
+	.LETTERSelect {
+		background-color: #1b1b1b;
+		border: 1px solid #3f3f3f;
+		color: white;
+		height: 50px;
+		width: 45px;
+		text-align: center;
+		font-size: 19px;
+		box-shadow: 0px 2px 5px #000;
+		border-radius: 10px;
 	}
 
 }
@@ -625,79 +761,11 @@ form {
 	padding-right: 5%;
 }
 
-.input {
-	color:white;
-	background-color: #1b1b1b;
-	height: 58.5px;
-	width: 150px;
-	font-size: 19px;
-	box-shadow: 0px 2px 5px #000;
-}
-
-.inputPS3 {
-	color:white;
-	background-color: #1b1b1b;
-	height: 58.5px;
-	width: 95px;
-	font-size: 19px;
-	box-shadow: 0px 2px 5px #000;
-}
-
-.submit {
-	background-color: #1b1b1b;
-	border: 1px solid #3f3f3f;
-	color: white;
-	height: 58.5px;
-	width: 45px;
-	text-align: center;
-	border-top-right-radius: 45px;
-	border-bottom-right-radius: 45px;
-	transition: 0.3s;
-	font-size: 19px;
-	box-shadow: 0px 2px 5px #000;
-}
 
 .submit:hover {
 	filter: invert(1);
 }
 
-
-.xawselect {
-	background-color: #1b1b1b;
-	border: 1px solid #3f3f3f;
-	height: 58.7px;
-	width: 80px;
-	color: white;
-	text-align: center;
-	border-top-left-radius: 45px;
-	border-bottom-left-radius: 45px;
-	font-size: 19px;
-	box-shadow: 0px 2px 5px #000;
-}
-
-.CECHSelect {
-	background-color: #1b1b1b;
-	border: 1px solid #3f3f3f;
-	height: 58.5px;
-	width: 105px;
-	color: white;
-	text-align: center;
-	border-top-left-radius: 45px;
-	border-bottom-left-radius: 45px;
-	font-size: 19px;
-	box-shadow: 0px 2px 5px #000;
-}
-
-.LETTERSelect {
-	background-color: #1b1b1b;
-	border: 1px solid #3f3f3f;
-	color: white;
-	height: 58.5px;
-	width: 45px;
-	text-align: center;
-	font-size: 19px;
-	box-shadow: 0px 2px 5px #000;
-}
 
 .head_ps2 {
 	padding-left: 20%;
