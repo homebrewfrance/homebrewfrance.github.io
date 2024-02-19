@@ -52,3 +52,6 @@ Le contenu de ce site est soumis à des droits d'auteur.\
 
 # Légal
 L'intégralité du contenu de ce site respecte la loi française et le Code de la Propriété Intelectuelle.
+
+# Nos partenaires
+![SigHya](https://homebrewfrance.github.io/IMAGES/partner/sighya_partner.png) ![FIXurPHONE](https://homebrewfrance.github.io/IMAGES/partner/fixurphone_partner.png)
