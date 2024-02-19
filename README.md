@@ -55,6 +55,6 @@ L'intégralité du contenu de ce site respecte la loi française et le Code de l
 
 # Nos partenaires
 <p float="left">
-  <img src="https://homebrewfrance.github.io/IMAGES/partner/sighya_partner" width="120" />
+  <img src="https://homebrewfrance.github.io/IMAGES/partner/sighya_partner.png" width="120" />
   <img src="https://homebrewfrance.github.io/IMAGES/partner/fixurphone_partner.png" width="120" /> 
 </p>
