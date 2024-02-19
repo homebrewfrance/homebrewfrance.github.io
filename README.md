@@ -38,6 +38,10 @@ Il s'agit d'un site minimaliste pour la communauté francophone "Le Homebrew Fra
 #### PlayStation 2 : 
 - [Dhalian](https://github.com/Dhalian) : Rédaction de la documentation.
 
+#### PlayStation Vita : 
+- [SBK]() : Rédaction de la documentation.
+- [Dhalian](https://github.com/Dhalian) : Portage de la documentation en version web.
+
 ### Multi-Checker : 
 - [Dhalian](https://github.com/Dhalian) : Développement du Multi-Checker.
 
