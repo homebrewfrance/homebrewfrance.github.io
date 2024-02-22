@@ -15,7 +15,7 @@ Il s'agit d'un site minimaliste pour la communauté francophone "Le Homebrew Fra
 > - [PlayStation 2](https://homebrewfrance.github.io/docs/ps2/)
   
 *Multi-Checker*
-> - [Nintendo Switch](https://homebrewfrance.github.io/mutli-checker/switch/)
+> - [Nintendo Switch](https://homebrewfrance.github.io/multi-checker/switch/)
 > - [PlayStation 3](https://homebrewfrance.github.io/multi-checker/ps3/)
 
 - [A propos](https://homebrewfrance.github.io/a-propos/)
