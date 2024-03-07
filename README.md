@@ -63,6 +63,6 @@ L'intégralité du contenu de ce site respecte la loi française et le Code de l
 
 # Nos partenaires
 <p float="left">
-  <img src="https://homebrewfrance.github.io/IMAGES/partner/sighya_partner.png" width="120" />
-  <img src="https://homebrewfrance.github.io/IMAGES/partner/fixurphone_partner.png" width="120" /> 
+  <a href="https://discord.gg/sighya-454099185416011776"><img src="https://homebrewfrance.github.io/IMAGES/partner/sighya_partner.png" width="120" /></a>
+  <a href="https://fixurphone.fr/"><img src="https://homebrewfrance.github.io/IMAGES/partner/fixurphone_partner.png" width="120" /></a>
 </p>
