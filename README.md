@@ -1,4 +1,4 @@
-![Discord](https://img.shields.io/discord/883623179979984896) ![GitHub Repo stars](https://img.shields.io/github/stars/homebrewfrance/homebrewfrance.github.io)
+![Discord](![Discord](https://img.shields.io/discord/883623179979984896?logo=discord&label=Le%20Homebrew%20France) ![GitHub Repo stars](https://img.shields.io/github/stars/homebrewfrance/homebrewfrance.github.io)
 
 # Le Homebrew France - Web Service
 Un site internet pour la communauté francophone "Le Homebrew France".
