@@ -1,6 +1,6 @@
 <script src="../scripts/cookies.js"></script>
 <!-- CONTRIBUTE TO THIS WEBSITE ON OUR GITHUB https://github.com/homebrewfrance/homebrewfrance.github.io/ -->
-<!-- LAST-EDITED : 26/02/2024 by Dhalian -->
+<!-- LAST-EDITED : 08/03/2024 by Dhalian -->
 <!DOCTYPE html>
 <span style="display: none;" id="page_name">packs</span>
 <span style="display: none;" id="footer_type">1</span>
@@ -27,6 +27,7 @@
 	    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/homebrewfrance/homebrewfrance.github.io/main/IMAGES/favicon.png">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	</head>
 	<span id="navGen"></span>
 	<body>
@@ -34,28 +35,19 @@
 			<small class="indicatortxt"><i>&#10095;&#10095; TÉLÉCHARGEMENTS</i></small>
 		</div>
 		<div class="warning">
-			<small><i><i class="fa fa-exclamation-triangle" aria-hidden="true"></i>&nbsp;EN RAISON D'UN AVIS DE RETRAIT DMCA SUR LE ATMOPACK SUR GITHUB, IL N'EST DÉSORMAIS MAINTENU QUE SUR GITLAB. LE LIEN DE TÉLÉCHARGEMENT SE TROUVE SUR GITLAB.</i></small>
+			<small><i><i class="fa fa-exclamation-triangle" aria-hidden="true"></i>&nbsp;L'ATMOPACK AYANT RECU UN DMCA TAKEDOWN SUR GITHUB, SEUL LE LIEN GITLAB EST DISPONIBLE POUR L'INSTANT.</i></small>
 		</div>
 		<div class="page">
 			<pre></pre>
 			<h3 class="titles" id="packs"><i>PACKS ALL-IN-ONE &#10095;&#10095;</i></h3>
+			<p>Des packs prêts à l'emploi pour faciliter la configuration de vos consoles.</p>
 			<div class="container-packs">
-				<div class="grid-packs" id="3DSMSET9">
-					<pre></pre>
-					<center><h3 class="grid-title">Nintendo 3DS</h3></center>
-					<center><h4 class="grid-title">MSET9</h4></center>
-					<center><small class="grid-small"><strong>Compatibilité : </strong>11.17</small></center>
-					<pre></pre>
-					<div class="packs-btn-container">
-						<center><a href="https://github.com/Le-Homebrew-France/Packs-Homebrew-France/releases/latest/download/PACK_NINTENDO_3DS_MSET9.zip"><button class="packs-dl-btn-disabled">Bientôt disponible</button></a></center>
-					</div>
-					<pre></pre>
-				</div>
 				<div class="grid-packs" id="3DSKART">
 					<pre></pre>
 					<center><h3 class="grid-title">Nintendo 3DS</h3></center>
 					<center><h4 class="grid-title">KartMiner7</h4></center>
 					<center><small class="grid-small"><strong>Compatibilité : </strong>11.17</small></center>
+					<center><small class="grid-small"><strong>Auteur : </strong><a href="https://github.com/homebrewfrance">Le Homebrew France</a></small></center>
 					<pre></pre>
 					<div class="packs-btn-container">
 						<center><a href="https://github.com/Le-Homebrew-France/Packs-Homebrew-France/releases/latest/download/PACK_NINTENDO_3DS_KARTMINER.zip"><button class="packs-dl-btn"><i class="fa fa-download" aria-hidden="true"></i>&nbsp;Télécharger</button></a><a href="https://github.com/homebrewfrance/Packs-Homebrew-France"><button class="packs-github-btn"><i class="fa fa-github"></i>&nbsp;GitHub</button></a></center>
@@ -67,6 +59,7 @@
 					<center><h3 class="grid-title">New Nintendo 3DS</h3></center>
 					<center><h4 class="grid-title">Browserhax</h4></center>
 					<center><small class="grid-small"><strong>Compatibilité : </strong>11.15, 11.16 et 11.17</small></center>
+					<center><small class="grid-small"><strong>Auteur : </strong><a href="https://github.com/homebrewfrance">Le Homebrew France</a></small></center>
 					<pre></pre>
 					<div class="packs-btn-container">
 						<center><a href="https://github.com/Le-Homebrew-France/Packs-Homebrew-France/releases/latest/download/PACK_NINTENDO_3DS_SUPERSKATERHAX.zip"><button class="packs-dl-btn"><i class="fa fa-download" aria-hidden="true"></i>&nbsp;Télécharger</button></a><a href="https://github.com/homebrewfrance/Packs-Homebrew-France"><button class="packs-github-btn"><i class="fa fa-github"></i>&nbsp;GitHub</button></a></center>
@@ -78,6 +71,7 @@
 					<center><h3 class="grid-title">Nintendo 3DS</h3></center>
 					<center><h4 class="grid-title">NTRBOOTHAX</h4></center>
 					<center><small class="grid-small"><strong>Compatibilité : </strong>Toutes les versions</small></center>
+					<center><small class="grid-small"><strong>Auteur : </strong><a href="https://github.com/homebrewfrance">Le Homebrew France</a></small></center>
 					<pre></pre>
 					<div class="packs-btn-container">
 						<center><a href="https://github.com/Le-Homebrew-France/Packs-Homebrew-France/releases/latest/download/PACK_NINTENDO_3DS_NTRBOOTHAX.zip"><button class="packs-dl-btn"><i class="fa fa-download" aria-hidden="true"></i>&nbsp;Télécharger</button></a><a href="https://github.com/homebrewfrance/Packs-Homebrew-France"><button class="packs-github-btn"><i class="fa fa-github"></i>&nbsp;GitHub</button></a></center>
@@ -88,18 +82,20 @@
 					<pre></pre>
 					<center><h3 class="grid-title"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i>&nbsp;Nintendo Switch</h3></center>
 					<center><h4 class="grid-title">Atmopack-Vanilla</h4></center>
-					<center><small class="grid-small"><strong>Compatibilité : </strong>17.0.1</small></center>
+					<center><small class="grid-small"><strong>Compatibilité : </strong><span class="switchVer">X.X.X</span></small></center>
+					<center><small class="grid-small"><strong>Auteur : </strong><a href="https://github.com/THZoria">THZoria</a></small></center>
 					<pre></pre>
-					<center><!--a href="https://github.com/THZoria/AtmoPack-Vanilla/releases/latest/download/AtmoPack-Vanilla_Latest.zip"--><button class="packs-dl-btn-disabled"><i class="fa fa-download" aria-hidden="true"></i>&nbsp;Télécharger</button><!--/a--><a href="https://gitlab.com/THZoria/AtmoPack-Vanilla/"><button class="packs-github-btn"><i class="fa fa-gitlab"></i>&nbsp;GitLab</button></a></center>
+					<center><!--a href="https://github.com/THZoria/AtmoPack-Vanilla/releases/latest/download/AtmoPack-Vanilla_Latest.zip"--><button class="packs-dl-btn-disabled"><i class="fa fa-download" aria-hidden="true"></i>&nbsp;Télécharger</button><!--/a--><a href="https://gitlab.com/THZoria/AtmoPack-Vanilla/-/releases"><button class="packs-github-btn"><i class="fa fa-gitlab"></i>&nbsp;GitLab</button></a></center>
 					<pre></pre>
 				</div>
 				<div class="grid-packs" id="SWITCHLSAIO">
 					<pre></pre>
 					<center><h3 class="grid-title">Nintendo Switch</h3></center>
 					<center><h4 class="grid-title">LS-AIO</h4></center>
-					<center><small class="grid-small"><strong>Compatibilité : </strong>17.0.1</small></center>
+					<center><small class="grid-small"><strong>Compatibilité : </strong><span class="switchVer">X.X.X</span></small></center>
+					<center><small class="grid-small"><strong>Auteur : </strong><a href="https://github.com/shadow2560">shadow2560</a></small></center>
 					<pre></pre>
-					<center><a href="https://github.com/Le-Homebrew-France/Packs-Homebrew-France/releases/latest/download/"><button class="packs-dl-btn-disabled">Bientôt disponible</button></a></center>					
+					<center><a href="https://github.com/shadow2560/switch_AIO_LS_pack/releases/download/AIO_LS_pack_Updater.nro"><button class="packs-dl-btn"><i class="fa fa-download" aria-hidden="true"></i>&nbsp;Télécharger</button></a><a href="https://github.com/shadow2560/switch_AIO_LS_pack"><button class="packs-github-btn"><i class="fa fa-github"></i>&nbsp;GitHub</button></a></center>					
 					<pre></pre>
 				</div>
 				<div class="grid-packs" id="DSIMPIT">
@@ -107,6 +103,7 @@
 					<center><h3 class="grid-title">Pack Nintendo DSi</h3></center>
 					<center><h4 class="grid-title">Memory Pit</h4></center>
 					<center><small class="grid-small"><strong>Compatibilité : </strong>Toutes les versions</small></center>
+					<center><small class="grid-small"><strong>Auteur : </strong><a href="https://github.com/homebrewfrance">Le Homebrew France</a></small></center>
 					<pre></pre>
 					<center><a href="https://github.com/Le-Homebrew-France/Packs-Homebrew-France/releases/latest/download/PACK_NINTENDO_DSI_MEMORY_PIT.zip"><button class="packs-dl-btn"><i class="fa fa-download" aria-hidden="true"></i>&nbsp;Télécharger</button></a><a href="https://github.com/homebrewfrance/Packs-Homebrew-France"><button class="packs-github-btn"><i class="fa fa-github"></i>&nbsp;GitHub</button></a></center>
 					<pre></pre>
@@ -114,11 +111,13 @@
 			</div>
 			<pre></pre>
 			<h3 class="titles" id="manuels"><i>MANUELS D'UTILISATION &#10095;&#10095;</i></h3>
+			<p>Des manuels d'utilisation qui vous apprenent le b. a.-ba du jailbreak de consoles.</p>
 			<div class="container-packs">
 				<div class="grid-packs">
 					<pre></pre>
 					<center><h3 class="grid-title">Nintendo 3DS</h3></center>
 					<center><h4 class="grid-title">Luma3DS + boot9strap</h4></center>
+					<center><small class="grid-small"><strong>Auteur : </strong><a href="https://github.com/homebrewfrance">Le Homebrew France</a></small></center>
 					<div class="packs-btn-container">
 						<center>
 							<select class="man-version" id="ThreedsManVersion">
@@ -133,7 +132,8 @@
 				<div class="grid-packs">
 					<pre></pre>
 					<center><h3 class="grid-title">Nintendo Switch</h3></center>
-					<center><h4 class="grid-title">Atmosphere</h4></center>
+					<center><h4 class="grid-title">Atmosphère</h4></center>
+					<center><small class="grid-small"><strong>Auteur : </strong><a href="https://github.com/homebrewfrance">Le Homebrew France</a></small></center>
 					<div class="packs-btn-container">
 						<center><a href="https://github.com/Le-Homebrew-France/Packs-Homebrew-France/releases/latest/download/"><button class="packs-dl-btn-disabled">Bientôt disponible</button></a></center>					
 					</div>
@@ -144,7 +144,7 @@
 	<span id="footerGen"></span>
 	<script src="../scripts/navbar__f.js"></script>
 	<script src="../scripts/manuel.js"></script>
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="../scripts/console-ver.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </html>

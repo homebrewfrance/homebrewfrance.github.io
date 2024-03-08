@@ -1,5 +1,5 @@
 /* CONTRIBUTE TO THIS WEBSITE ON OUR GITHUB : https://github.com/homebrewfrance/homebrewfrance.github.io */
-/* LAST-EDITED : 22/01/2024 by Dhalian */
+/* LAST-EDITED : 08/03/2024 by Dhalian */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap&family=Unbounded:wght@800&display=swap&family=Montserrat:wght@700&display=swap&family=Gabarito&display=swap');
 
 @media only screen and (max-width: 800px) {
@@ -32,7 +32,7 @@
 	}
 	.grid-presta {
 		width:100%;
-		margin: 5px;
+		margin: 7px;
 	}
 	.warning {
 		padding-left: 10px;
@@ -41,12 +41,14 @@
 }
 @media only screen and (min-width: 800px) {
 	.grid-packs {
-		margin: 10px auto;
+		margin: 10px;
 		width:auto;
+		flex-grow: 1;
 	}
 	.grid-presta {
 		width:300px;
-		margin: 5px auto;
+		margin: 8px;
+		flex-grow: 1;
 	}
 	.footer-0 {
 		bottom: 0;
@@ -59,9 +61,24 @@
 			transform: scale(1.05);
 		}
 	.grid-packs:hover {
-			transform: scale(1.02); 
-		}
+			transform: scale(1.05); 
+	}
+	.add-infos-shop:hover {
+		transform: scale(1.02);
+		cursor: pointer;
+	}
 }		
+		.add-infos-shop {
+			background: rgb(32,40,55); 
+			background: linear-gradient(324deg, rgba(32,40,55,1) 0%, rgba(47,56,74,1) 58%, rgba(80,89,107,1) 100%); 
+			border: none; 
+			border-radius: 10px; 
+			flex-grow: 1; 
+			padding: 10px; 
+			font-family: 'Unbounded', sans-serif; 
+			color: white; font-size: 19px;
+			transition: 0.3s;
+		}
 		.time {
 			border-radius: 5px;
 			border: none;
@@ -474,7 +491,6 @@
 		.container-presta {
 			display: flex;
 			flex-direction: row;
-			flex-wrap: wrap;
 			align-items: center;
 			margin-bottom: 10px;
 		}
