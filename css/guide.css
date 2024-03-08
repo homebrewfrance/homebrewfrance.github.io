@@ -202,6 +202,12 @@
 
 }
 
+@media (prefers-color-scheme: light) {
+	#favicon {
+		filter: invert(1);
+	}
+}
+
 .cookie-container {
     display: flex;
     flex-direction: row;
