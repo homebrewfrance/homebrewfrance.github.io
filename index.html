@@ -1,6 +1,6 @@
 <script src="scripts/cookies.js"></script>
 <!-- CONTRIBUTE TO THIS WEBSITE ON OUR GITHUB https://github.com/homebrewfrance/homebrewfrance.github.io/ -->
-<!-- LAST-EDITED : 09/03/2024 by Dhalian -->
+<!-- LAST-EDITED : 10/03/2024 by Dhalian -->
 <!DOCTYPE html>
 <span style="display: none;" id="page_name">accueil</span>
 <span style="display: none;" id="footer_type">1</span>
@@ -73,25 +73,86 @@
 	<body>
 		<div class="page">
 			<pre></pre>
-			<h3 class="titles"><strong><i>PRESENTATION &#10095;&#10095;</i></strong></h3>
-			<p>Le Homebrew France est une communauté créée le 4 septembre 2021. Le but premier était d'apporter un support français pour le jailbreak de consoles. Depuis cette date nous aidons des milliers de personnes dans tous les problèmes liés au jailbreak, tout en assurant une mise à disposition des guides intégralement traduits en français. Notre communauté a vu le jour sur Discord, notre objectif est aujourd'hui de s'étendre et proposer nos propres guides de jailbreak ainsi que des outils pour simplifier la procédure du hack d'une console qui peut parfois s'averer difficile pour les personnes ne prédisposant pas des connaissances basiques en informatique.</p>
-			<pre></pre>
-			<h3 class="titles"><strong><i>CONTENU DU SITE &#10095;&#10095;</i></strong></h3>
-			<p>Sur ce site web, vous trouverez des guides de jailbreak (Switch, PS2..), des "Serial-Checker" permettant de vérifier la compatibilité de vos consoles avec certaines failles par simple vérification du numéro de série ou numéro de modèle. Vous trouverez aussi des packs AIO pour la Nintendo 3DS, DSi, Switch.. </p>
-			<pre></pre>
-			<h3 class="titles"><strong><i>INFORMATIONS &#10095;&#10095;</i></strong></h3>
-			<p>Nous condamnons le piratage de contenus protégés par droits d'auteurs tels que des jeux, des logiciels développeurs (SDK), leaks de jeux, etc, nous aidons uniquement
-			pour le hack de vos consoles, pour savoir la différence entre "hacking" et "piratage", vous référer à <a href="https://discord.com/channels/883623179979984896/1104029654823731230">cet article</a>.</p>
-			<p>Ce serveur a pour but premier l'entraide, cependant si vos connaissances sont jugées insuffisantes pour aider les autres, nous pouvons vous demander de laisser 
-			faire les personnes qualifiées.</p>
-			<pre></pre>
-			<h3 class="titles"><strong><i>REJOINDRE LE SERVEUR DISCORD &#10095;&#10095;</i></strong></h3>
-			<div class="discord-server-link">
-				<div class="discord-server-text">
-					<p>Rejoignez le serveur Discord Le Homebrew France dès maintenant en scannant le QR code ou en cliquant sur le lien d'invitation. Veillez à bien lire le règlement avant de commencer à discuter.</p>
+			<h3 class="titles"><strong><i>VOUS CHERCHEZ PEUT-ETRE... &#10095;&#10095;</i></strong></h3>
+			<div class="accueil-container">
+				<div class="pres" onclick="window.location='https://homebrewfrance.github.io/docs/';">
+					<img src="IMAGES/hbf-docs-pres.png" style="max-width: 100px; max-height: 100px; margin-right: 6px;">
+					<div style="display: flex; flex-direction: column;">
+						<h3 style="font-family: 'Unbounded', sans-serif;"><i>HBF-DOCS</i></h3>
+						<p>Des documentations complètes pour le jailbreak de vos consoles préférées : PSVita, Switch, DSi ou encore PS2. </p>
+					</div>
+				</div>
+				<div class="pres" onclick="window.location='https://homebrewfrance.github.io/telechargements/';">
+					<img src="IMAGES/download-pres.png" style="max-width: 100px; max-height: 100px; margin-right: 6px;">
+					<div style="display: flex; flex-direction: column;">
+						<h3 style="font-family: 'Unbounded', sans-serif;"><i>TELECHARGEMENTS</i></h3>
+						<p>Du contenu téléchargeable en libre service. Des packs, des manuels d'utilisation pour le jailbreak de vos consoles.</p>
+					</div>
 				</div>
 			</div>
-			<center><a href="https://homebrewfrance.github.io/IMAGES/server_qr.jpg" title="Scannez ce QR code pour rejoindre Le Homebrew France !"><img class="qr-code" src="https://homebrewfrance.github.io/IMAGES/server_qr.jpg" width="76" height="76"></a><a href="https://homebrewfrance.github.io/discord" title="Rejoignez Le Homebrew France !"><img class="discord-server-image" src="https://discordapp.com/api/guilds/883623179979984896/widget.png?style=banner2" width="320" height="76"></a></center>					
+			<pre></pre>
+			<div class="row-basic">
+				<div style="border: none; border-radius: 15px; background: rgba(32,39,54,255); margin: 5px; padding: 10px;">
+					<h3 class="titles"><strong><i>PRESENTATION &#10095;&#10095;</i></strong></h3>
+					<p>Le Homebrew France est une communauté créée le 4 septembre 2021. Le but premier était d'apporter un support français pour le jailbreak de consoles. Depuis cette date nous aidons des milliers de personnes dans tous les problèmes liés au jailbreak, tout en assurant une mise à disposition des guides intégralement traduits en français. Notre communauté a vu le jour sur Discord, notre objectif est aujourd'hui de s'étendre et proposer nos propres guides de jailbreak ainsi que des outils pour simplifier la procédure du hack d'une console qui peut parfois s'averer difficile pour les personnes ne prédisposant pas des connaissances basiques en informatique.</p>
+				</div>
+				<div style="border: none; border-radius: 15px; background: rgba(32,39,54,255); margin: 5px; padding: 10px;">
+					<h3 class="titles"><strong><i>CONTENU DU SITE &#10095;&#10095;</i></strong></h3>
+					<p>Sur ce site web, vous trouverez des guides de jailbreak (Switch, PS2..), des "Serial-Checker" permettant de vérifier la compatibilité de vos consoles avec certaines failles par simple vérification du numéro de série ou numéro de modèle. Vous trouverez aussi des packs AIO pour la Nintendo 3DS, DSi, Switch.. </p>
+				</div>
+			</div>
+			<div class="row-basic">
+				<iframe id="dis-widget" src="https://discord.com/widget?id=883623179979984896&theme=dark" style="border: none; border-radius: 15px; margin: 5px;" height="auto" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+				<div style="border: none; border-radius: 15px; background: rgba(32,39,54,255); margin: 5px; padding: 10px;">
+					<h3 class="titles"><strong><i>INFORMATIONS &#10095;&#10095;</i></strong></h3>
+					<p>Nous condamnons le piratage de contenus protégés par droits d'auteurs tels que des jeux, des logiciels développeurs (SDK), leaks de jeux, etc, nous aidons uniquement
+					pour le hack de vos consoles, pour savoir la différence entre "hacking" et "piratage", vous référer à <a href="https://discord.com/channels/883623179979984896/1104029654823731230">cet article</a>.</br>
+					</br>Vous pouvez rejoindre notre serveur Discord dès à présent ! Venez vous faire aider pour vos différents systèmes, dans une bonne ambiance. Venez discuter avec notre communauté dans les salons de discussion.</br>
+					Participez également à de nombreuses activités !</p>	
+				</div>
+			</div>
+			<pre></pre>
+			<h3 class="titles"><strong><i>NOS PARTENAIRES &#10095;&#10095;</i></strong></h3>
+			<div class="accueil-container">
+				<div class="pres" onclick="window.location='https://homebrewfrance.github.io/docs/';">
+					<img src="IMAGES/partner/sighya_partner.png" style="max-width: 100px; max-height: 100px; margin-right: 10px;">
+					<div style="display: flex; flex-direction: column;">
+						<h3 style="font-family: 'Unbounded', sans-serif;"><i>SigHya</i></h3>
+						<p>Serveur Discord d'assistance en jailbreak de consoles. Spécialisé particulièrement en Nintendo Switch. </p>
+					</div>
+				</div>
+				<div class="pres" onclick="window.location='https://homebrewfrance.github.io/telechargements/';">
+					<img src="IMAGES/partner/fixurphone_partner.png" style="max-width: 100px; max-height: 100px; margin-right: 10px;">
+					<div style="display: flex; flex-direction: column;">
+						<h3 style="font-family: 'Unbounded', sans-serif;"><i>FIXurPHONE</i></h3>
+						<p>Atelier de réparation et de modifications d'appareils (Nintendo Switch, PlayStation, mobiles, tablettes, etc..)</p>
+					</div>
+				</div>
+			</div>
+			<pre></pre>
+			<div id="nobuyoshi-grid">
+				<h3 class="titles"><strong><i>NOBUYOSHI NEWS x SIGHYA &#10095;&#10095;</i></strong></h3>
+				<div id="rss-feed"></div>
+				<script>
+				fetch('https://api.rss2json.com/v1/api.json?rss_url=https://news.nobuyoshi.red/rss.xml')
+					.then(response => response.json())
+					.then(data => {
+					const items = data.items.slice(0, 5);
+					let html = '';
+					items.forEach(item => {
+						html += `<div class="nobuyoshi-item" onclick="window.location='${item.link}'">`;
+						html += `<div style="display: flex; flex-direction: column">`;
+						html += `<h2><a href="${item.link}">${item.title}</a></h2>`;
+						html += `<p>${item.description}</p>`;
+						html += `</div>`;
+						html += `</div>`;
+					});
+					document.getElementById('rss-feed').innerHTML = html;
+					})
+					.catch(err => console.error('Erreur de récupération du flux RSS : ', err));
+				</script>
+			</div>
+			<pre></pre>
 		</div>
 	</body>			
 	<span id="footerGen"></span>
