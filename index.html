@@ -134,22 +134,28 @@
 				<h3 class="titles"><strong><i>NOBUYOSHI NEWS x SIGHYA &#10095;&#10095;</i></strong></h3>
 				<div id="rss-feed"></div>
 				<script>
-				fetch('https://api.rss2json.com/v1/api.json?rss_url=https://news.nobuyoshi.red/rss.xml')
-					.then(response => response.json())
-					.then(data => {
-					const items = data.items.slice(0, 5);
-					let html = '';
-					items.forEach(item => {
-						html += `<div class="nobuyoshi-item" onclick="window.location='${item.link}'">`;
-						html += `<div style="display: flex; flex-direction: column">`;
-						html += `<h2><a href="${item.link}">${item.title}</a></h2>`;
-						html += `<p>${item.description}</p>`;
-						html += `</div>`;
-						html += `</div>`;
-					});
-					document.getElementById('rss-feed').innerHTML = html;
-					})
-					.catch(err => console.error('Erreur de récupération du flux RSS : ', err));
+					fetch('https://api.rss2json.com/v1/api.json?rss_url=https://news.nobuyoshi.red/rss.xml')
+						.then(response => response.json())
+						.then(data => {
+							const items = data.items.slice(0, 5);
+							let html = '';
+							items.forEach(item => {
+								html += `<div class="nobuyoshi-item" onclick="window.location='${item.link}'">`;
+								html += `<div style="display: flex; flex-direction: column">`;
+								html += `<h2><a href="${item.link}">${decodeHTML(item.title)}</a></h2>`;
+								html += `<p>${decodeHTML(item.description)}</p>`;
+								html += `</div>`;
+								html += `</div>`;
+							});
+							document.getElementById('rss-feed').innerHTML = html;
+						})
+						.catch(err => console.error('Erreur de récupération du flux RSS : ', err));
+
+					function decodeHTML(html) {
+						var txt = document.createElement('textarea');
+						txt.innerHTML = html;
+						return txt.value;
+					}
 				</script>
 			</div>
 			<pre></pre>
