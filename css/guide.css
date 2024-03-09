@@ -1,5 +1,5 @@
 /* CONTRIBUTE TO THIS WEBSITE ON OUR GITHUB : https://github.com/homebrewfrance/homebrewfrance.github.io */
-/* LAST-EDITED : 16/02/2024 by Dhalian */
+/* LAST-EDITED : 09/03/2024 by Dhalian */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap&family=Unbounded:wght@800&display=swap&family=Montserrat:wght@700&display=swap&family=Gabarito&display=swap');
 
 @media only screen and (max-width: 1041px) {
@@ -202,12 +202,6 @@
 
 }
 
-@media (prefers-color-scheme: light) {
-	#favicon {
-		filter: invert(1);
-	}
-}
-
 .cookie-container {
     display: flex;
     flex-direction: row;
@@ -271,33 +265,56 @@
 #page_tag {
 	display: none;
 }
-.nav-link {
+.nav-link:hover {
+	text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.5);
 	color: white;
 }
+
+.nav-link.active {
+    text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.5);
+}
+
 .indicator {
 	color: white;
 	padding-left: 70px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	background: rgb(115,115,115);
-	background: linear-gradient(151deg, rgba(115,115,115,1) 0%, rgba(85,85,85,1) 17%, rgba(54,54,54,1) 50%, rgba(18,18,18,1) 175%);
+	background: rgb(78, 78, 78);
 	border-radius: 9px;
 	margin: 5px;
 	font-size: 19px;
 	font-family: 'Unbounded', sans-serif;
+	box-shadow: 0px 2px 3px #212121;
 }
 
 .nav-link {
 	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-size: 17px;
 }
 nav {
 	color: white;
 	border-radius: 9px;
 	border: 0px;
 	margin: 5px;
-	background: rgb(115,115,115);
-	background: linear-gradient(135deg, rgba(115,115,115,1) 0%, rgba(85,85,85,1) 17%, rgba(54,54,54,1) 50%, rgba(18,18,18,1) 175%);
+	background: rgba(84, 84, 84, 0.6);
+	backdrop-filter: blur(10px);
+	height: 70px auto;
+	box-shadow: 0px 2px 3px #212121;
 }
+
+#navSpace {
+    height: 70px;
+}
+
+#navbarIconSRC {
+	transition: 0.3s;
+}
+
+#navbarIconSRC:hover {
+    transform: scale(1.05);
+}
+
 #author {
 	font-family: 'Unbounded', cursive;
 }
@@ -598,7 +615,8 @@ html {
 }
 
 .dropdown-menu {
-	background-color: #302c2c;
+	background: rgba(84, 84, 84, 0.6);
+	backdrop-filter: blur(10px);
 	border-radius: 10px;
 	border: none;
 	transition: 0.3s;
@@ -724,15 +742,6 @@ footer {
 .indicatortxt {
 	font-family: 'Unbounded', cursive;
 	color: white;
-}
-
-.indicator {
-	color: white;
-	padding-left: 70px;
-	padding-right: 11px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	background-color: #3b3b3b;
 }
 
 code {
@@ -867,12 +876,6 @@ div.desc {
 
 .page a:hover {
 	color: #b3b3b3
-}
-
-nav {
-	font-family: 'Gabarito', sans-serif;
-	font-size: 17px;
-	text-decoration: none;
 }
 
 .guide-btn {

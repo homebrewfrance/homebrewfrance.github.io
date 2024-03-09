@@ -15,7 +15,7 @@
 	}
 	.container-presta {
 		flex-direction: column;
-  display: flex;
+  		display: flex;
 	}
 	.partner-container {
 		display: flex;
@@ -38,6 +38,12 @@
 	}
 }
 @media only screen and (min-width: 800px) {
+	.container-presta {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		margin-bottom: 10px;
+	}
 	.grid-packs {
 		margin: 10px;
 		width:auto;
@@ -66,6 +72,12 @@
 		cursor: pointer;
 	}
 }	
+		a:hover {
+			text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.5);
+			color: white;
+			text-decoration: none;
+		}
+		
 		.add-infos-shop {
 			background: rgb(32,40,55); 
 			background: linear-gradient(324deg, rgba(32,40,55,1) 0%, rgba(47,56,74,1) 58%, rgba(80,89,107,1) 100%); 
@@ -165,13 +177,7 @@
 		.nav-link {
 			font-family: 'Montserrat', sans-serif;
 		}
-		nav {
-			border-radius: 9px;
-			border: 0px;
-			margin: 5px;
-			background: rgb(32,40,55);
-			background: linear-gradient(324deg, rgba(32,40,55,1) 0%, rgba(47,56,74,1) 58%, rgba(80,89,107,1) 100%);
-		}
+
 		.modern-a {
 			font-family: 'Montserrat', sans-serif;
 		}
@@ -289,11 +295,12 @@
 			padding-left: 70px;
 			padding-top: 10px;
 			padding-bottom: 10px;
-			background: linear-gradient(350deg, rgba(32,40,55,1) 0%, rgba(47,56,74,1) 75%, rgba(94,103,120,1) 120%);
+			background: rgba(32,39,54,255);
 			border-radius: 9px;
 			margin: 5px;
 			font-size: 19px;
 			font-family: 'Unbounded', sans-serif;
+			box-shadow: 0px 2px 3px #00051b;
 		}
 		div.gallery {
 			border-radius: 15px;
@@ -486,12 +493,7 @@
 			box-shadow: 0px 2px 5px #fff;
 		}
 		/*///////////////////////////*/
-		.container-presta {
-			display: flex;
-			flex-direction: row;
-			align-items: center;
-			margin-bottom: 10px;
-		}
+
 		.map-container {
 			width: 100%;
 			height: 20%;
@@ -711,18 +713,17 @@
 		.gallery-container {
 			display: flex;
 			flex-direction: row;
-			
 		}
 
 	.banner-container {
-	width: 100%;
-	display: flex;
-	flex-direction: row;
-	margin: 0;
-	border-radius: 9px;
-	border: 0px;
-	padding-left: 5px;
-	padding-right: 5px;
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		margin: 0;
+		border-radius: 9px;
+		border: 0px;
+		padding-left: 5px;
+		padding-right: 5px;
 	}
 
 	.slideshow {
@@ -733,11 +734,6 @@
 	.slideshow:hover {
 		cursor: default;
 	}
-
-	/*.slide {
-	flex-shrink: 0;
-	width: 100%;
-	}*/
 
 	.slide img {
 	width: 100%;
@@ -791,8 +787,7 @@
 	.prev {
 		border-top-left-radius: 10px;
 		border-bottom-left-radius: 10px;
-		background: rgb(32,40,55);
-		background: linear-gradient(324deg, rgba(32,40,55,1) 0%, rgba(47,56,74,1) 58%, rgba(80,89,107,1) 100%);
+		background-color: #202837;
 	}
 	.next {
 		border-top-right-radius: 10px;
