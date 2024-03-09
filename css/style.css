@@ -15,6 +15,7 @@
 	}
 	.container-presta {
 		flex-direction: column;
+  display: flex;
 	}
 	.partner-container {
 		display: flex;
