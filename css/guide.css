@@ -456,8 +456,7 @@ a:hover {
 
 .top-page-button {
 	border-radius: 50%;
-	background: rgba(84, 84, 84, 0.6);
-	backdrop-filter: blur(10px);
+	background: rgba(84, 84, 84, 0.7);
 	width: 48px;
 	height: 48px;
 	padding: 8px;
