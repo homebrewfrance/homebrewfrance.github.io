@@ -17,7 +17,9 @@ var navContent = '<nav class="navbar navbar-expand-lg fixed-top"><a class="navba
 var footerContent1 = '<footer><p class="footer-p">&copy; 2021 - <span id="year">2021</span>&nbsp;<a class="footerhbfl" href="https://github.com/homebrewfrance">Le Homebrew France</a></br><a href="https://homebrewfrance.github.io/nav.html">Navigation</a> - <a href="https://homebrewfrance.github.io/legal.html">Mentions légales</a></p></footer>';
 var footerContent0 = '<footer class="footer-0"><p class="footer-p">&copy; 2021 - <span id="year">2021</span>&nbsp;<a class="footerhbfl" href="https://github.com/homebrewfrance">Le Homebrew France</a></br><a href="https://homebrewfrance.github.io/nav.html">Navigation</a> - <a href="https://homebrewfrance.github.io/legal.html">Mentions légales</a></p></footer>';
 var footerContent2 = '<footer><p class="footer-p">Lumia Multi Checker &copy <span id="year">2021</span> - <a class="white-a" href="https://github.com/homebrewfrance">Le Homebrew France</a></p></footer>';
+var footerContent20 = '<footer class="footer0"><p class="footer-p">Lumia Multi Checker &copy <span id="year">2021</span> - <a class="white-a" href="https://github.com/homebrewfrance">Le Homebrew France</a></p></footer>';
 var footerContent3 = '<footer><p class="footer-p">HBF Docs &copy <span id="year">2021</span> - <a class="white-a" href="https://github.com/homebrewfrance">Le Homebrew France</a></p></footer>';
+var footerContent30 = '<footer class="footer-0"><p class="footer-p">HBF Docs &copy <span id="year">2021</span> - <a class="white-a" href="https://github.com/homebrewfrance">Le Homebrew France</a></p></footer>';
 
 function pageGeneration() {
 	navGen.innerHTML = navContent;
@@ -32,15 +34,13 @@ function pageGeneration() {
 		footerGen.innerHTML = footerContent2; 
 	}
 	else if (footerType.innerHTML == "2.0") { // Lumia Multi-Checker (footer with bottom:0 attribute)
-		footerGen.innerHTML = footerContent2;
-		footerTag.className = 'footer-0';
+		footerGen.innerHTML = footerContent20;
 	}
 	else if (footerType.innerHTML == "3") { // HBF Docs
 		footerGen.innerHTML = footerContent3;
 	}
 	else if (footerType.innerHTML == "3.0") { // HBF Docs (footer with bottom:0 attribute)
-		footerGen.innerHTML = footerContent3;
-		footerTag.className = 'footer-0';
+		footerGen.innerHTML = footerContent30;
 	}
 	document.getElementById("year").innerHTML = new Date().getFullYear();
 	activeLinks();
