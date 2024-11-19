@@ -2,5 +2,6 @@
 
 ![HBF-Web](https://cdn.homebrew-france.site/github/hbf-web.png)
 
-# Le Homebrew France - Web Service
+# Homebrew France - Web Service
 Le site internet a été déplacé à https://homebrew-france.fr/
+Le dépôt GitHub a été déplacé à https://github.com/homebrewfrance/homebrew-france.fr/
