@@ -1,6 +1,6 @@
 [![Discord](https://img.shields.io/discord/883623179979984896?logo=discord&label=Le%20Homebrew%20France)](https://discord.gg/le-homebrew-france-883623179979984896) ![GitHub Repo stars](https://img.shields.io/github/stars/homebrewfrance/homebrewfrance.github.io)
 
-![HBF-Web](https://cdn.homebrew-france.fun/github/hbf-web.png)
+![HBF-Web](https://cdn.homebrew-france.fun/generic/hbf-web.png)
 
 # Homebrew France - Web Service
 Le site internet a été déplacé à https://homebrewfrance.fr/  
