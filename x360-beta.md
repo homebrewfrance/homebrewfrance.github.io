@@ -24,3 +24,4 @@ Par exemple si vous avez "E:\Homebrew\Aurora.xex", remplacez le "E" par "Usb", c
 16. Ouvrez le fichier ``.zip`` de ABadAvatar. 
 17. Sélectionnez les dossiers "BadUpdatePayload" et "Content" et placez-les à la racine de la clé USB. Windows vous demandera si vous voulez remplacer les fichiers déjà existants, faites "Oui".
 
+Il ne vous reste plus qu'à allumer votre console, appuyer sur Back sur l'écran de XeUnshackle et vous arriverez sur Aurora.
